@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: http://calculator.asamaru.net/sitemap.xml
+
