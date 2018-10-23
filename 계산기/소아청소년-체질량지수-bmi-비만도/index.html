@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/4d379ac494b4830104b6ea3e43a09094.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/ea5dfed4ae62110ec4bc78d02fd3262e.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -141,25 +141,31 @@
 			</div>
 			<div class="row">
 				<div class="column height">
-					<label for="height">신장</label>
-					<input type="number" id="height" v-model="height"/>
+					<label>
+						<span>신장</span>
+						<input type="number" v-model="height"/>
+					</label>
 				</div>
 
 				<div class="column weight">
-					<label for="weight">체중</label>
-					<input type="number" id="weight" v-model="weight"/>
+					<label>
+						<span>체중</span>
+						<input type="number" v-model="weight"/>
+					</label>
 				</div>
 
 				<div class="column age">
-					<label for="age">나이</label>
-					
-					<select id="age" v-model="age">
-						<optgroup v-for="(group, year) in ages" :label="year+'세'">
-							<option v-for="(option, month) in group" :value="month">
-								{{month}}개월
-							</option>
-						</optgroup>
-					</select>
+					<label>
+						<span>나이</span>
+						
+						<select v-model="age">
+							<optgroup v-for="(group, year) in ages" :label="year+'세'">
+								<option v-for="(option, month) in group" :value="month">
+									{{month}}개월
+								</option>
+							</optgroup>
+						</select>
+					</label>
 				</div>
 			</div>
 
@@ -309,6 +315,6 @@
 </footer>
 
 
-<script src="/res/js/min/00c7f30b48732baa547862b34dae630f.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/ad7ff70de6ddc41991de60f34082f031.js" async="true" type="text/javascript"></script>
 </body>
 </html>
