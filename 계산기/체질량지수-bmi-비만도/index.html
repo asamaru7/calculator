@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/6bf68135e2b3710ea415e37cba292247.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/388989f248b59c248ef4fd68ef133814.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -130,45 +130,46 @@
 
 		<p class="help">만 18세 이하의 소아청소년의 경우 <a href="/계산기/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기</a>를 사용하세요.</p>
 	</div>
-	<form class="calc" v-on:submit.prevent="calc">
-		<fieldset class="container">
-			<div class="sex">
-				<label><input type="radio" name="sex" value="man" v-model="sex"/> 남자</label>
-				<label><input type="radio" name="sex" value="woman" v-model="sex"/> 여자</label>
-			</div>
-			<div class="row">
-				<div class="column height">
-					<label>
-						<span>신장</span>
-						<input type="number" v-model="height"/>
-					</label>
+	<div class="form-box">
+		<form class="calc" v-on:submit.prevent="calc">
+			<fieldset class="container">
+				<div class="sex">
+					<label><input type="radio" name="sex" value="man" v-model="sex"/> 남자</label>
+					<label><input type="radio" name="sex" value="woman" v-model="sex"/> 여자</label>
+				</div>
+				<div class="row">
+					<div class="column height">
+						<label>
+							<span>신장</span>
+							<input type="number" v-model="height"/>
+						</label>
+					</div>
+
+					<div class="column weight">
+						<label>
+							<span>체중</span>
+							<input type="number" v-model="weight"/>
+						</label>
+					</div>
+
+					<div class="column age">
+						<label>
+							<span>나이</span>
+							
+							<select v-model="age">
+								<option v-for="(option, index) in ages" v-bind:value="index">{{option}}</option>
+							</select>
+						</label>
+					</div>
 				</div>
 
-				<div class="column weight">
-					<label>
-						<span>체중</span>
-						<input type="number" v-model="weight"/>
-					</label>
+				<div class="buttons">
+					<input class="button button-primary" type="submit" value="계산">
+					<input class="button button-outline" type="button" value="초기화" v-on:click="reset">
 				</div>
-
-				<div class="column age">
-					<label>
-						<span>나이</span>
-						
-						<select v-model="age">
-							<option v-for="(option, index) in ages" v-bind:value="index">{{option}}</option>
-						</select>
-					</label>
-				</div>
-			</div>
-
-			<div class="buttons">
-				<input class="button button-primary" type="submit" value="계산">
-				<input class="button button-outline" type="button" value="초기화" v-on:click="reset">
-			</div>
-		</fieldset>
-	</form>
-
+			</fieldset>
+		</form>
+	</div>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
  style=""
@@ -315,6 +316,6 @@
 </footer>
 
 
-<script src="/res/js/min/b35d9a98102803a7e69d4e631fda2d5d.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/b43d9bee2051e11300d7f31062e50f0f.js" async="true" type="text/javascript"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/c5af86f69047028a8eb2c0848c6c2578.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/0e7cd8ab42aa2e90b7c4df673156b417.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -123,32 +123,34 @@
 		</p>
 		<p class="help">엉덩이둘레가 아닌 신장을 기준으로 계산하려는 경우 <a href="/계산기/허리둘레-신장-비율-WHtR/">허리둘레 / 신장 비율(WHtR) 계산기</a>를 사용하세요.</p>
 	</div>
-	<form class="calc" v-on:submit.prevent="calc">
-		<fieldset class="container">
-			<div class="sex">
-				<label><input type="radio" name="sex" value="man" v-model="sex"/> 남자</label>
-				<label><input type="radio" name="sex" value="woman" v-model="sex"/> 여자</label>
-			</div>
-			<div class="row">
-				<div class="column waist">
-					<label>
-						<span>허리둘레</span>
-						<input type="number" v-model="waist"/>
-					</label>
+	<div class="form-box">
+		<form class="calc" v-on:submit.prevent="calc">
+			<fieldset class="container">
+				<div class="sex">
+					<label><input type="radio" name="sex" value="man" v-model="sex"/> 남자</label>
+					<label><input type="radio" name="sex" value="woman" v-model="sex"/> 여자</label>
 				</div>
-				<div class="column hip">
-					<label>
-						<span>엉덩이둘레</span>
-						<input type="number" id="hip" v-model="hip"/>
-					</label>
+				<div class="row">
+					<div class="column waist">
+						<label>
+							<span>허리둘레</span>
+							<input type="number" v-model="waist"/>
+						</label>
+					</div>
+					<div class="column hip">
+						<label>
+							<span>엉덩이둘레</span>
+							<input type="number" id="hip" v-model="hip"/>
+						</label>
+					</div>
 				</div>
-			</div>
-			<div class="buttons">
-				<input class="button-primary" type="submit" value="계산">
-				<input class="button button-outline" type="button" value="초기화" v-on:click="reset">
-			</div>
-		</fieldset>
-	</form>
+				<div class="buttons">
+					<input class="button-primary" type="submit" value="계산">
+					<input class="button button-outline" type="button" value="초기화" v-on:click="reset">
+				</div>
+			</fieldset>
+		</form>
+	</div>
 
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
@@ -292,6 +294,6 @@
 </footer>
 
 
-<script src="/res/js/min/3a02684450adebb31e9d7929d88fead7.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/741aa339799bc03d32a75a1b73160c27.js" async="true" type="text/javascript"></script>
 </body>
 </html>
