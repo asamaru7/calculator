@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-<title>계산기</title><id>https://calculator.asamaru.net/</id><updated>2018-10-26T14:26:13+09:00</updated><subtitle>일상생활에 필요한 다양한 계산기</subtitle><link href="https://calculator.asamaru.net/" rel="alternate" type="text/html" /><link href="https://calculator.asamaru.net/atom.xml" rel="self" type="application/atom+xml" /><author><name>Asamaru</name><uri>https://calculator.asamaru.net/</uri><email>asamaru@asamaru.net</email></author>
+<title>계산기</title><id>https://calculator.asamaru.net/</id><updated>2018-10-26T14:41:46+09:00</updated><subtitle>일상생활에 필요한 다양한 계산기</subtitle><link href="https://calculator.asamaru.net/" rel="alternate" type="text/html" /><link href="https://calculator.asamaru.net/atom.xml" rel="self" type="application/atom+xml" /><author><name>Asamaru</name><uri>https://calculator.asamaru.net/</uri><email>asamaru@asamaru.net</email></author>
 <entry><id>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98-bmi/</id><title type="html">체질량지수 - BMI(Body Mass Index)</title><link rel="alternate" type="text/html" href="https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98-bmi/"/><published>2018-10-22T10:14:14+09:00</published><updated>2018-10-22T10:14:15+09:00</updated><author><name>Asamaru</name><uri>https://calculator.asamaru.net/</uri><email>asamaru@asamaru.net</email></author><category term="건강" label="건강" /><summary><![CDATA[체질량지수(體質量指數, Body Mass Index, BMI, 카우프지수) 체질량지수는 인간의 비만도를 나타내는 지수 중 하나로 체중과 키의 관계로 지방의 양을 추정한 것으로 체지방률 및 건강 위험도를 간접적으로 나타낸다. 이 체질량지수는 1895년 미국 메트로폴리탄(현 메트라이프)이라는 보험업체가 고객의 키, 나이, 체중 등을 작성한 신장체중표에서 유래되었다. 비만 판정의 올바른 지표는 체중이 아니라 체지방량이므로 몸의 지방량을 직접 측정하는 것이 이상적이나 이것은 기술적인 어려움이 있기 때문에 일반적으로 체지방량을 간접적으로 측정하는 표준체중, 체질량지수, 허리둘레/신장 비율, 허리둘레/엉덩이둘레 비율 등의 방법을 주로 사용한다. 그 중에서도 체질량지수는 표준체중 보다는 체지방을 비교적 정확하게 반영할 수 있으면서도 매우 간단히 계산할 수 있기 때문에 널리 사용된다. 체질량지수의 측정 키가 t 미터, 체중이 w 킬로그램일 때, BMI는 다음과 같다. 체질량지수 - BMI(비만도) 계산기 소아청소년 체질량지수 - BMI(비만도) 계산기 비만의 진단 대한비만학회의 비만치료지침(2018)에 따르면 아래의 기준 조건으로 비만을 판정한다. 성인 비만의 기준은 체질량지수 25 kg/㎡ 이상으로 한다. 비만은 체질량지수 25.0~29.9 kg/㎡를 1단계 비만, 30.0~34.9 kg/㎡를 2단계 비만 그리고 35.0 kg/㎡ 이상을 3단계 비만(고도 비만)으로 구분한다. 허리둘레로 측정한 복부 비만의 기준은 성인 남자에서는 90 cm 이상, 여자에서는 85 cm 이상으로 한다. 체질량지수 - BMI(비만도) 계산기 바로가기 체질량지수에 따른 비만 단계 18.5 kg/㎡ 미만 : 저체중 18.5~22.9 kg/㎡ : 정상 23.0~24.9 kg/㎡ : 비만전단계 25.0~29.9 kg/㎡ : 1단계 비만 30.0~34.9 kg/㎡ : 2단계 비만 35 kg/㎡ 이상 : 3단계 비만  소아청소년 비만의 진단 소아청소년(만 2세 ~ 18세)의 경우 체질량지수의 한계로 성인과 동일한 기준으로 비만을 판단할 수 없다. 따라서 대한비만학회의 비만치료지침(2018)에 따르면 소아청소년의 경우 아래의 기준 조건으로 비만을 판정한다. 만2세 이상의 소아청소년 비만을 진단할 때는 2017년 소아청소년 성장도표를 기준으로 연령별, 성별 체질량지수 백분위수를 사용한다. 체질량지수 95 백분위수 이상을 비만으로 진단하고 85~94 백분위수는 과체중으로 판정한다. 또한, 비만에 해당하는 체질량지수 95 백분위수의 120~139%를 2단계 비만으로 140% 이상을 3단계 비만으로 판정할 수 있다. 소아청소년 체질량지수 - BMI(비만도) 계산기 바로가기 체질량지수에 따른 소아청소년 비만 단계 2017년 소아청소년 성장도표 연령별, 성별 체질량지수 백분위수 기준 5 백분위수 미만 : 저체중 5 백분위수 이상 ~ 85 백분위수 미만 : 정상 85 백분위수 이상 ~ 95 백분위수 미만 : 과체중 95 백분위수 이상 ~ 119% : 비만 95 백분위수의 120~139% : 2단계 비만 95 백분위수의 140% 이상 : 3단계 비만 체질량지수의 한계 체질량지수는 체지방률을 기준으로 비만을 판단하는것이 아닌, 순전히 키와 몸무게만 가지고 판단하는 것이기 때문에 과체중 또는 비만을 판정하기에 부정확한 방법이라는 지적도 많다. 근육은 같은 부피의 지방보다 무겁기 때문에, 지방은 적고 근육이 많은 사람과 근육은 없고 지방이 많은 사람을 비교하면 전자의 BMI가 높게 나온다. 예를들어 지방은 적고 근육이 많은 남성이 근육이 없고 지방이 많은 여자보다 훨씬 미용적으로 날씬함에도 불구하고 BMI는 더 높게 나온다. 참고문헌 대한비만학회 - 비만치료지침(2018) 위키백과 - 체질량지수 나무위키 - BMI 아산시보건소 - 비만도 계산 마라톤온라인 - 체질량지수(BMI)는 무엇이며 어떻게 산출하나]]></summary><content type="html"><![CDATA[<h3>체질량지수(體質量指數, Body Mass Index, BMI, 카우프지수)</h3>
 <p>체질량지수는 인간의 비만도를 나타내는 지수 중 하나로 체중과 키의 관계로 지방의 양을 추정한 것으로 체지방률 및 건강 위험도를 간접적으로 나타낸다.
 이 체질량지수는 1895년 미국 메트로폴리탄(현 메트라이프)이라는 보험업체가 고객의 키, 나이, 체중 등을 작성한 신장체중표에서 유래되었다.
 비만 판정의 올바른 지표는 체중이 아니라 체지방량이므로 몸의 지방량을 직접 측정하는 것이 이상적이나 이것은 기술적인 어려움이 있기 때문에 일반적으로
-체지방량을 간접적으로 측정하는 <a href="https://calculator.asamaru.net/계산기/표준체중/">표준체중</a>, <a href="https://calculator.asamaru.net/계산기/체질량지수-bmi-비만도/">체질량지수</a>, <a href="https://calculator.asamaru.net/계산기/허리둘레-신장-비율-WHtR/">허리둘레/신장 비율</a>, <a href="https://calculator.asamaru.net/계산기/허리둘레-엉덩이둘레-비율-WHtR/">허리둘레/엉덩이둘레 비율</a> 등의 방법을 주로 사용한다.
-그 중에서도 체질량지수는 <a href="https://calculator.asamaru.net/계산기/표준체중/">표준체중</a> 보다는 체지방을 비교적 정확하게 반영할 수 있으면서도 매우 간단히 계산할 수 있기 때문에 널리 사용된다.</p>
+체지방량을 간접적으로 측정하는 <a href="https://calculator.asamaru.net/계산기/건강/표준체중/">표준체중</a>, <a href="https://calculator.asamaru.net/계산기/건강/체질량지수-bmi-비만도/">체질량지수</a>, <a href="https://calculator.asamaru.net/계산기/건강/허리둘레-신장-비율-WHtR/">허리둘레/신장 비율</a>, <a href="https://calculator.asamaru.net/계산기/건강/허리둘레-엉덩이둘레-비율-WHR/">허리둘레/엉덩이둘레 비율</a> 등의 방법을 주로 사용한다.
+그 중에서도 체질량지수는 <a href="https://calculator.asamaru.net/계산기/건강/표준체중/">표준체중</a> 보다는 체지방을 비교적 정확하게 반영할 수 있으면서도 매우 간단히 계산할 수 있기 때문에 널리 사용된다.</p>
 <hr />
 <h3>체질량지수의 측정</h3>
 <blockquote>
@@ -15,8 +15,8 @@
 <p><img src="https://calculator.asamaru.net/res/img/bmi/bmi.png" alt="bmi 계산식" width="170" height="78" /></p>
 </blockquote>
 <ul>
-<li><a href="https://calculator.asamaru.net/계산기/체질량지수-bmi-비만도/">체질량지수 - BMI(비만도) 계산기</a></li>
-<li><a href="https://calculator.asamaru.net/계산기/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기</a> </li>
+<li><a href="https://calculator.asamaru.net/계산기/건강/체질량지수-bmi-비만도/">체질량지수 - BMI(비만도) 계산기</a></li>
+<li><a href="https://calculator.asamaru.net/계산기/건강/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기</a> </li>
 </ul>
 <hr />
 <h3>비만의 진단</h3>
@@ -26,7 +26,7 @@
 <li>비만은 체질량지수 25.0~29.9 kg/㎡를 1단계 비만, 30.0~34.9 kg/㎡를 2단계 비만 그리고 35.0 kg/㎡ 이상을 3단계 비만(고도 비만)으로 구분한다.</li>
 <li>허리둘레로 측정한 복부 비만의 기준은 성인 남자에서는 90 cm 이상, 여자에서는 85 cm 이상으로 한다.</li>
 </ol>
-<p><strong><a href="https://calculator.asamaru.net/계산기/체질량지수-bmi-비만도/">체질량지수 - BMI(비만도) 계산기 바로가기</a></strong></p>
+<p><strong><a href="https://calculator.asamaru.net/계산기/건강/체질량지수-bmi-비만도/">체질량지수 - BMI(비만도) 계산기 바로가기</a></strong></p>
 <h4>체질량지수에 따른 비만 단계</h4>
 <ul>
 <li>18.5 kg/㎡ 미만 : 저체중 </li>
@@ -42,13 +42,13 @@
 <p>소아청소년(만 2세 ~ 18세)의 경우 체질량지수의 한계로 성인과 동일한 기준으로 비만을 판단할 수 없다.
 따라서 <a href="http://www.kosso.or.kr/">대한비만학회</a>의 비만치료지침(2018)에 따르면 소아청소년의 경우 아래의 기준 조건으로 비만을 판정한다.</p>
 <ol>
-<li>만2세 이상의 소아청소년 비만을 진단할 때는 <a href="https://calculator.asamaru.net/용어해설/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a>를 기준으로 연령별, 성별 체질량지수 백분위수를 사용한다. </li>
+<li>만2세 이상의 소아청소년 비만을 진단할 때는 <a href="https://calculator.asamaru.net/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a>를 기준으로 연령별, 성별 체질량지수 백분위수를 사용한다. </li>
 <li>체질량지수 95 백분위수 이상을 비만으로 진단하고 85~94 백분위수는 과체중으로 판정한다. </li>
 <li>또한, 비만에 해당하는 체질량지수 95 백분위수의 120~139%를 2단계 비만으로 140% 이상을 3단계 비만으로 판정할 수 있다.</li>
 </ol>
-<p><strong><a href="https://calculator.asamaru.net/계산기/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기 바로가기</a></strong> </p>
+<p><strong><a href="https://calculator.asamaru.net/계산기/건강/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기 바로가기</a></strong> </p>
 <h4>체질량지수에 따른 소아청소년 비만 단계</h4>
-<p><a href="https://calculator.asamaru.net/용어해설/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a> 연령별, 성별 체질량지수 백분위수 기준</p>
+<p><a href="https://calculator.asamaru.net/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a> 연령별, 성별 체질량지수 백분위수 기준</p>
 <ul>
 <li>5 백분위수 미만 : 저체중 </li>
 <li>5 백분위수 이상 ~ 85 백분위수 미만 : 정상</li>
