@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/5d1d6118e0055d3e1f2ecbf3691c6b98.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/0c1108a21d8481040b36d58b69fab0bf.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -132,16 +132,16 @@
 	<ul id="units">
 		<li data-exp="10" title="밀리미터" data-unit="mm">
 			<dl>
-				<dt id="unit-mm">mm (밀리미터)</dt>
+				<dt id="unit-mm">mm (밀리미터 : millimeter)</dt>
 				<dd>
 					<a href="/용어해설/단위/도량형/#units-si" title="국제단위계">국제단위계</a>의 길이 단위로
 					1<a href="#unit-m">미터</a>의 1,000분의 1 (1/1000)에 해당하는 길이 단위이다.
 				</dd>
 			</dl>
 		</li>
-		<li data-exp="1" title="센티미터" data-unit="cm">
+		<li data-exp="1" title="센티미터" data-unit="cm" data-pos="from">
 			<dl>
-				<dt id="unit-cm">cm (센티미터)</dt>
+				<dt id="unit-cm">cm (센티미터 : centimeter)</dt>
 				<dd>
 					<a href="/용어해설/단위/도량형/#units-cgs" title="CGS 단위계">CGS 단위계</a>의 기본 단위로
 					1<a href="#unit-m">미터</a>의 100분의 1 (1/100)에 해당하는 길이 단위이다.
@@ -150,7 +150,7 @@
 		</li>
 		<li data-exp=".01" title="미터" data-unit="m">
 			<dl>
-				<dt id="unit-m">m (미터)</dt>
+				<dt id="unit-m">m (미터 : meter)</dt>
 				<dd>
 					길이나 거리의 <a href="/용어해설/단위/도량형/#units-si" title="SI 단위">국제단위</a>로
 					진공에서 빛이 299,792,458분의 1 (1/299792458)초 동안 진행한 거리로 정의되어 있다.
@@ -161,16 +161,16 @@
 		</li>
 		<li data-exp="1e-5" title="킬로미터" data-unit="km">
 			<dl>
-				<dt id="unit-km">km (킬로미터)</dt>
+				<dt id="unit-km">km (킬로미터 : kilometer)</dt>
 				<dd>
 					<a href="/용어해설/단위/도량형/#units-meter" title="미터법">미터법</a>에서 길이의 단위로
 					1,000<a href="#unit-m">미터</a>와 같다.
 				</dd>
 			</dl>
 		</li>
-		<li data-exp="1 / 2.54" title="인치" data-unit="in">
+		<li data-exp="1 / 2.54" title="인치" data-unit="in" data-pos="to">
 			<dl>
-				<dt id="unit-inch">in (인치)</dt>
+				<dt id="unit-inch">in (인치 : inch)</dt>
 				<dd>
 					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
 					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
@@ -181,7 +181,7 @@
 		</li>
 		<li data-exp="1 / 30.48" title="피트" data-unit="ft">
 			<dl>
-				<dt id="unit-ft">ft (피트)</dt>
+				<dt id="unit-ft">ft (피트 : feet)</dt>
 				<dd>
 					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
 					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
@@ -195,28 +195,64 @@
 		</li>
 		<li data-exp="1 / 91.44" title="야드" data-unit="yd">
 			<dl>
-				<dt id="unit-yd">yd (야드)</dt>
+				<dt id="unit-yd">yd (야드 : yard)</dt>
 				<dd>
 					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
 					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
-					1야드는 3<a href="#unit-ft" title="피트">피트</a>, 91.44<a href="#unit-cm" title="센티미터">센티미터</a>에 해당한다.  줄여서 yd라고 표기한다.
+					1야드는
+					3<a href="#unit-ft" title="피트">피트</a>,
+					91.44<a href="#unit-cm" title="센티미터">센티미터</a>에 해당한다.
+				</dd>
+			</dl>
+		</li>
+		<li data-exp="1 / 2011.68" title="체인" data-unit="chain">
+			<dl>
+				<dt id="unit-chain">ch (체인 : chain)</dt>
+				<dd>
+					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
+					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
+
+					1체인은
+					20.1168<a href="#unit-m" title="미터">미터</a>이고,
+					66<a href="#unit-ft" title="피트">피트</a>,
+					22<a href="#unit-yd" title="야드">야드</a>,
+					100링크,
+					4로드,
+					1<a href="#unit-fur" title="펄롱">펄롱</a>의 10분의 1 (1/10)이다.
+				</dd>
+			</dl>
+		</li>
+		<li data-exp="1 / 20116.8" title="펄롱" data-unit="furlong">
+			<dl>
+				<dt id="unit-fur">fur (펄롱 : furlong)</dt>
+				<dd>
+					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
+					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
+
+					1펄롱은
+					10<a href="#unit-chain">체인</a>에 해당하며,
+					201.168<a href="#unit-m" title="미터">미터</a>이고,
+					1<a href="#unit-mile" title="마일">마일</a>의 8분의 1 (1/8)이다.
+
+					영어권 내에서도 정확한 길이는 조금씩 다르다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp="1 / 160934.4" title="마일" data-unit="mile">
 			<dl>
-				<dt id="unit-mile">mile (마일)</dt>
+				<dt id="unit-mile">mile (마일 : mile)</dt>
 				<dd>
 					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
 					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
-					1마일은 1.609344<a href="#unit-km" title="킬로미터">킬로미터</a>이고
+					1마일은
+					1.609344<a href="#unit-km" title="킬로미터">킬로미터</a>이고
 					5,280<a href="#unit-ft" title="피트">피트</a>이다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp=".0033" title="치" data-unit="寸">
 			<dl>
-				<dt>치 (寸)</dt>
+				<dt id="unit-chi">치 (寸)</dt>
 				<dd>
 					동아시아의
 					<a href="/용어해설/단위/도량형/" title="도량형">도량형</a>인
@@ -234,13 +270,13 @@
 					동아시아의
 					<a href="/용어해설/단위/도량형/" title="도량형">도량형</a>인
 					<a href="/용어해설/단위/도량형/#units-chuk" title="척근법">척근법</a>에서 쓰는 길이의 단위로
-					10<a href="https://ko.wikipedia.org/wiki/%EC%B9%98_(%EB%8B%A8%EC%9C%84)" title="치 (단위)">치</a>에 해당하며 한자어로 척(尺)으로도 쓴다.
+					10<a href="#unit-chi" title="치 (단위)">치</a>에 해당하며 한자어로 척(尺)으로도 쓴다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp=".033 / 6" title="간" data-unit="間">
 			<dl>
-				<dt>間 (간)</dt>
+				<dt id="unit-gan">間 (간)</dt>
 				<dd>
 					동아시아의
 					<a href="/용어해설/단위/도량형/" title="도량형">도량형</a>인
@@ -264,7 +300,7 @@
 				<dt>里 (리)</dt>
 				<dd>
 					한국, 중국, 일본 등 동아시아에서 사용하는 길이를 나타내는 단위이다.
-					360 <a href="https://ko.wikipedia.org/wiki/%EB%B3%B4_(%EB%8B%A8%EC%9C%84)" title="보 (단위)">보(步)</a>에 해당한다.
+					360 <a href="#unit-gan" title="간 (단위)">間(간)</a>에 해당한다.
 				</dd>
 			</dl>
 		</li>
@@ -304,6 +340,9 @@
 													<li>
 																																	<a href="https://calculator.asamaru.net/계산기/단위변환/길이-단위변환/" title="길이 단위변환" class="button-default">길이 단위변환</a>
 							</li>
+													<li>
+																																	<a href="https://calculator.asamaru.net/계산기/단위변환/넓이-단위변환/" title="넓이(면적) 단위변환" class="button-default">넓이(면적) 단위변환</a>
+							</li>
 											</ul>
 										</div>
 		
@@ -329,7 +368,7 @@
 							</dd>
 													<dd>
 								<a href="https://calculator.asamaru.net/계산기/분야/단위변환/" title="단위변환 목록보기">
-									단위변환<span>(1)</span>
+									단위변환<span>(2)</span>
 								</a>
 							</dd>
 											</dl>
@@ -404,6 +443,6 @@
 </footer>
 
 
-<script src="/res/js/min/7d23c1939abaea85f30d416ec8067e7d.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/bc9ca684d7ce27331f397a97a85d0017.js" async="true" type="text/javascript"></script>
 </body>
 </html>
