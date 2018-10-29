@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 		<title>길이 단위변환 - 계산기</title>
 	<meta name="author" content="Asamaru">
-	<meta name="keywords" content="단위변환,길이,밀리미터,센티미터,미터,킬로미터,인치,피트,야드,마일,자,간,정,리,해리">
-	<meta name="description" content="길이 단위변환을 하실 수 있습니다. 밀리미터,센티미터,미터,킬로미터,인치,피트,야드,마일,자,간,정,리,해리에 대한 변환이 가능합니다.">
+	<meta name="keywords" content="단위변환,길이,밀리미터,mm,센티미터,cm,킬로미터,km,인치,inch,피트,feet,야드,yard,마일,mile,치,寸,자,尺,간,間,정,町,해리,海里">
+	<meta name="description" content="길이 단위변환기. 밀리미터,센티미터,미터,킬로미터,인치,피트,야드,마일,치,자,간,정,리,해리에 대한 변환이 가능">
 	<meta name="referrer" content="always">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="shortcut icon" type="image/x-icon" href="https://calculator.asamaru.net/favicon.ico"/>
@@ -34,7 +34,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:site_name" content="계산기">
 	<meta property="og:title" content="길이 단위변환">
-	<meta property="og:description" content="길이 단위변환을 하실 수 있습니다. 밀리미터,센티미터,미터,킬로미터,인치,피트,야드,마일,자,간,정,리,해리에 대한 변환이 가능합니다.">
+	<meta property="og:description" content="길이 단위변환기. 밀리미터,센티미터,미터,킬로미터,인치,피트,야드,마일,치,자,간,정,리,해리에 대한 변환이 가능">
 	<meta property="og:url" content="https://calculator.asamaru.net/계산기/단위변환/길이-단위변환/"/>
 	<meta property="og:image" content="https://calculator.asamaru.net/res/img/icon/icon.png">
 	
@@ -43,7 +43,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@">
 	<meta name="twitter:title" content="길이 단위변환">
-	<meta name="twitter:description" content="길이 단위변환을 하실 수 있습니다. 밀리미터,센티미터,미터,킬로미터,인치,피트,야드,마일,자,간,정,리,해리에 대한 변환이 가능합니다.">
+	<meta name="twitter:description" content="길이 단위변환기. 밀리미터,센티미터,미터,킬로미터,인치,피트,야드,마일,치,자,간,정,리,해리에 대한 변환이 가능">
 	<meta property="twitter:image" content="https://calculator.asamaru.net/res/img/icon/icon.png">
 	
 
@@ -132,89 +132,109 @@
 	<ul id="units">
 		<li data-exp="10" title="밀리미터" data-unit="mm">
 			<dl>
-				<dt>mm (밀리미터)</dt>
+				<dt id="unit-mm">mm (밀리미터)</dt>
 				<dd>
-					<a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C%EB%8B%A8%EC%9C%84%EA%B3%84" title="SI 단위계" target="_blank">SI 단위계</a>의 길이의 단위로, 1/1000 미터이다.
+					<a href="/용어해설/단위/도량형/#units-si" title="국제단위계">국제단위계</a>의 길이 단위로
+					1<a href="#unit-m">미터</a>의 1,000분의 1 (1/1000)에 해당하는 길이 단위이다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp="1" title="센티미터" data-unit="cm">
 			<dl>
-				<dt>cm (센티미터)</dt>
+				<dt id="unit-cm">cm (센티미터)</dt>
 				<dd>
-					1 미터의 100분의 1에 해당하는 길이의 단위이다.
-					<a href="https://ko.wikipedia.org/wiki/CGS_%EB%8B%A8%EC%9C%84%EA%B3%84" title="CGS 단위계" target="_blank">CGS 단위계</a>의 기본 단위이다.
+					<a href="/용어해설/단위/도량형/#units-cgs" title="CGS 단위계">CGS 단위계</a>의 기본 단위로
+					1<a href="#unit-m">미터</a>의 100분의 1 (1/100)에 해당하는 길이 단위이다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp=".01" title="미터" data-unit="m">
 			<dl>
-				<dt>m (미터) :</dt>
+				<dt id="unit-m">m (미터)</dt>
 				<dd>
-					길이나 거리의 <a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C%EB%8B%A8%EC%9C%84%EA%B3%84" title="SI 단위" target="_blank">SI 단위</a>이다.
-					이 단위는 현재 진공에서 빛이 1/299,792,458초 동안 진행한 거리로 정의되어 있다.
-					이러한 정의는 최근에 측정 기술이 길이와 단위를 매우 높은 정확도로 재현할 수 있게 되면서 제안된 것으로, 시간의 경우에는 10<sup>13</sup>의 정확도로 재현할 수 있다.
+					길이나 거리의 <a href="/용어해설/단위/도량형/#units-si" title="SI 단위">국제단위</a>로
+					진공에서 빛이 299,792,458분의 1 (1/299792458)초 동안 진행한 거리로 정의되어 있다.
+					이러한 정의는 최근에 측정 기술이 길이와 단위를 매우 높은 정확도로 재현할 수 있게 되면서 제안된 것으로,
+					시간의 경우에는 10<sup>13</sup>의 정확도로 재현할 수 있다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp="1e-5" title="킬로미터" data-unit="km">
 			<dl>
-				<dt>km (킬로미터)</dt>
+				<dt id="unit-km">km (킬로미터)</dt>
 				<dd>
-					<a href="https://ko.wikipedia.org/wiki/%EB%AF%B8%ED%84%B0%EB%B2%95" title="미터법" target="_blank">미터법</a>에서 길이의 단위로, 일 천(1,000) 미터와 같다.
+					<a href="/용어해설/단위/도량형/#units-meter" title="미터법">미터법</a>에서 길이의 단위로
+					1,000<a href="#unit-m">미터</a>와 같다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp="1 / 2.54" title="인치" data-unit="in">
 			<dl>
-				<dt>in (인치)</dt>
+				<dt id="unit-inch">in (인치)</dt>
 				<dd>
-					<a href="https://ko.wikipedia.org/wiki/%EC%95%BC%EB%93%9C%ED%8C%8C%EC%9A%B4%EB%93%9C%EB%B2%95" title="야드파운드법" target="_blank">야드파운드법</a>과
-					<a href="https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD_%EB%8B%A8%EC%9C%84%EA%B3%84" title="미국 단위계" target="_blank">미국 단위계</a>의 길이 단위이다.
-					세계적으로 통용되는 표준 1 인치는 정확히 2.54 센티미터이고 1 <a href="https://ko.wikipedia.org/wiki/%ED%94%BC%ED%8A%B8" title="피트" target="_blank">피트</a>의 1/12로 정의된다.
+					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
+					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
+					세계적으로 통용되는 표준 1 인치는 정확히 2.54<a href="#unit-cm" title="센티미터">센티미터</a>이고
+					1<a href="#unit-ft" title="피트">피트</a>의 12분의 1 (1/12)로 정의된다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp="1 / 30.48" title="피트" data-unit="ft">
 			<dl>
-				<dt>ft (피트)</dt>
+				<dt id="unit-ft">ft (피트)</dt>
 				<dd>
-					<a href="https://ko.wikipedia.org/wiki/%EC%95%BC%EB%93%9C%ED%8C%8C%EC%9A%B4%EB%93%9C%EB%B2%95" title="야드파운드법" target="_blank">야드파운드법</a>과
-					<a href="https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD_%EB%8B%A8%EC%9C%84%EA%B3%84" title="미국 단위계" target="_blank">미국 단위계</a>의 길이 단위이다.
+					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
+					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
 					원래 피트의 기준은 성인 남자의 발 사이즈를 기준으로 하였으나 편의상 인치와 조율하여 12인치를 1피트로 규정되었다.
-					1 피트는 30.48 센티미터이고 12 인치이며 1 <a href="https://ko.wikipedia.org/wiki/%EC%95%BC%EB%93%9C" title="야드" target="_blank">야드</a>의 1/3이다.
+					1<a href="#unit-ft" title="피트">피트</a>는
+					30.48<a href="#unit-cm" title="센티미터">센티미터</a>이고
+					12<a href="#unit-inch">인치</a>이며
+					1<a href="#unit-yd" title="야드">야드</a>의 3분의 1 (1/3)이다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp="1 / 91.44" title="야드" data-unit="yd">
 			<dl>
-				<dt>yd (야드)</dt>
+				<dt id="unit-yd">yd (야드)</dt>
 				<dd>
-					<a href="https://ko.wikipedia.org/wiki/%EC%95%BC%EB%93%9C%ED%8C%8C%EC%9A%B4%EB%93%9C%EB%B2%95" title="야드파운드법" target="_blank">야드파운드법</a>과
-					<a href="https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD_%EB%8B%A8%EC%9C%84%EA%B3%84" title="미국 단위계" target="_blank">미국 단위계</a>의 길이 단위이다. 줄여서 yd라고 표기한다.
+					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
+					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
+					1야드는 3<a href="#unit-ft" title="피트">피트</a>, 91.44<a href="#unit-cm" title="센티미터">센티미터</a>에 해당한다.  줄여서 yd라고 표기한다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp="1 / 160934.4" title="마일" data-unit="mile">
 			<dl>
-				<dt>mile (마일)</dt>
+				<dt id="unit-mile">mile (마일)</dt>
 				<dd>
-					<a href="https://ko.wikipedia.org/wiki/%EC%95%BC%EB%93%9C%ED%8C%8C%EC%9A%B4%EB%93%9C%EB%B2%95" title="야드파운드법" target="_blank">야드파운드법</a>과
-					<a href="https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD_%EB%8B%A8%EC%9C%84%EA%B3%84" title="미국 단위계" target="_blank">미국 단위계</a>의 길이 단위이다.
-					1 마일은 1.609344 <a href="https://ko.wikipedia.org/wiki/%ED%82%AC%EB%A1%9C%EB%AF%B8%ED%84%B0" title="킬로미터" target="_blank">킬로미터</a>이고
-					5,280 <a href="https://ko.wikipedia.org/wiki/%ED%94%BC%ED%8A%B8" title="피트" target="_blank">피트</a>이다.
+					<a href="/용어해설/단위/도량형/#units-yard" title="야드파운드법">야드파운드법</a>과
+					<a href="/용어해설/단위/도량형/#units-usa" title="미국 단위계">미국 단위계</a>의 길이 단위이다.
+					1마일은 1.609344<a href="#unit-km" title="킬로미터">킬로미터</a>이고
+					5,280<a href="#unit-ft" title="피트">피트</a>이다.
+				</dd>
+			</dl>
+		</li>
+		<li data-exp=".0033" title="치" data-unit="寸">
+			<dl>
+				<dt>치 (寸)</dt>
+				<dd>
+					동아시아의
+					<a href="/용어해설/단위/도량형/" title="도량형">도량형</a>인
+					<a href="/용어해설/단위/도량형/#units-chuk" title="척근법">척근법</a>에서 쓰는 길이의 단위로
+					한 치는 한 <a href="#unit-ja">자</a>의 10분의 1 (1/10)을 뜻하며,
+					<a href="/용어해설/단위/도량형/#units-meter" title="미터법">미터법</a>으로 약 3.03<a href="#unit-cm" title="센티미터">센티미터</a>에 해당한다.
+					촌(寸)이라고도 한다. 곡식인 기장의 10배 길이라고 한다.
 				</dd>
 			</dl>
 		</li>
 		<li data-exp=".033" title="자" data-unit="尺">
 			<dl>
-				<dt>尺 (자)</dt>
+				<dt id="unit-ja">尺 (자)</dt>
 				<dd>
-					<a href="https://ko.wikipedia.org/wiki/%EB%8F%99%EC%95%84%EC%8B%9C%EC%95%84" title="동아시아" target="_blank">동아시아</a>의
-					<a href="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%9F%89%ED%98%95" title="도량형" target="_blank">도량형</a>인
-					<a href="https://ko.wikipedia.org/wiki/%EC%B2%99%EA%B7%BC%EB%B2%95" title="척근법" target="_blank">척근법</a>에서 쓰는
-					<a href="https://ko.wikipedia.org/wiki/%EA%B8%B8%EC%9D%B4" title="길이" target="_blank">길이</a>의 단위로
-					10 <a href="https://ko.wikipedia.org/wiki/%EC%B9%98_(%EB%8B%A8%EC%9C%84)" title="치 (단위)" target="_blank">치</a>에 해당하며 한자어로 척(尺)으로도 쓴다.
+					동아시아의
+					<a href="/용어해설/단위/도량형/" title="도량형">도량형</a>인
+					<a href="/용어해설/단위/도량형/#units-chuk" title="척근법">척근법</a>에서 쓰는 길이의 단위로
+					10<a href="https://ko.wikipedia.org/wiki/%EC%B9%98_(%EB%8B%A8%EC%9C%84)" title="치 (단위)">치</a>에 해당하며 한자어로 척(尺)으로도 쓴다.
 				</dd>
 			</dl>
 		</li>
@@ -222,9 +242,9 @@
 			<dl>
 				<dt>間 (간)</dt>
 				<dd>
-					<a href="https://ko.wikipedia.org/wiki/%EB%8F%99%EC%95%84%EC%8B%9C%EC%95%84" title="동아시아" target="_blank">동아시아</a>의
-					<a href="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%9F%89%ED%98%95" title="도량형" target="_blank">도량형</a>인
-					<a href="https://ko.wikipedia.org/wiki/%EC%B2%99%EA%B7%BC%EB%B2%95" title="척근법" target="_blank">척근법</a>에서 쓰는 단위이다. 보(步)로도 쓴다.
+					동아시아의
+					<a href="/용어해설/단위/도량형/" title="도량형">도량형</a>인
+					<a href="/용어해설/단위/도량형/#units-chuk" title="척근법">척근법</a>에서 쓰는 단위이다. 보(步)로도 쓴다.
 				</dd>
 			</dl>
 		</li>
@@ -232,10 +252,9 @@
 			<dl>
 				<dt>町 (정)</dt>
 				<dd>
-					<a href="https://ko.wikipedia.org/wiki/%EB%8F%99%EC%95%84%EC%8B%9C%EC%95%84" title="동아시아" target="_blank">동아시아</a>의
-					<a href="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%9F%89%ED%98%95" title="도량형" target="_blank">도량형</a>인
-					<a href="https://ko.wikipedia.org/wiki/%EC%B2%99%EA%B7%BC%EB%B2%95" title="척근법" target="_blank">척근법</a>에서 쓰는
-					<a href="https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9C%84" title="단위" target="_blank">단위</a>이다.
+					동아시아의
+					<a href="/용어해설/단위/도량형/" title="도량형">도량형</a>인
+					<a href="/용어해설/단위/도량형/#units-chuk" title="척근법">척근법</a>에서 쓰는 단위이다.
 					정보(町步)라고도 한다.
 				</dd>
 			</dl>
@@ -245,7 +264,7 @@
 				<dt>里 (리)</dt>
 				<dd>
 					한국, 중국, 일본 등 동아시아에서 사용하는 길이를 나타내는 단위이다.
-					360 <a href="https://ko.wikipedia.org/wiki/%EB%B3%B4_(%EB%8B%A8%EC%9C%84)" title="보 (단위)" target="_blank">보(步)</a>에 해당한다.
+					360 <a href="https://ko.wikipedia.org/wiki/%EB%B3%B4_(%EB%8B%A8%EC%9C%84)" title="보 (단위)">보(步)</a>에 해당한다.
 				</dd>
 			</dl>
 		</li>
@@ -254,13 +273,14 @@
 				<dt>海里 (해리)</dt>
 				<dd>
 					해리(海里, nautical mile)는 길이의 단위로,
-					<a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C%EB%8B%A8%EC%9C%84%EA%B3%84" title="국제단위계" target="_blank">국제단위계</a>에는 속하지 않지만 함께 사용할 수 있다.
+					<a href="/용어해설/단위/도량형/#units-si" title="국제단위계">국제단위계</a>에는 속하지 않지만 함께 사용할 수 있다.
 					이 단위는 해양 및 항공 분야에서 사용되며, 국제법과 조약, 특히 영해를 정하는 데 자주 사용된다.
-					<a href="https://ko.wikipedia.org/wiki/1929%EB%85%84" title="1929년" target="_blank">1929년</a>에
-					<a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EC%88%98%EB%A1%9C_%EA%B8%B0%EA%B5%AC" title="국제 수로 기구" target="_blank">국제수로국</a>에서
-					정의한 1 해리의 길이는 위도 1' (1'은 1°의 60분의 1에 해당하는 각도이다)에 해당하는 길이로 1,852 m, 6076.12
-					<a href="https://ko.wikipedia.org/wiki/%ED%94%BC%ED%8A%B8" title="피트" target="_blank">피트</a>와 같다. 단위는 nautical mile을 줄여 nmile로 사용한다.
-					1 노트(knot)는 1 해리/시간에 해당하므로 두 단위는 유사(quasi) <a href="https://ko.wikipedia.org/wiki/SI_%EB%8B%A8%EC%9C%84%EA%B3%84" title="SI 단위계" target="_blank">SI 단위계</a>에 속한다.
+					1929년에 <a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EC%88%98%EB%A1%9C_%EA%B8%B0%EA%B5%AC" title="국제 수로 기구">국제수로국</a>에서
+					정의한 1 해리의 길이는 위도 1' (1'은 1°의 60분의 1에 해당하는 각도이다)에 해당하는 길이로
+					1,852<a href="#unit-m">미터</a>,
+					6076.12<a href="#unit-ft" title="피트">피트</a>와 같다.
+					단위는 nautical mile을 줄여 nmile로 사용한다.
+					1 노트(knot)는 1 해리/시간에 해당하므로 두 단위는 유사(quasi) <a href="/용어해설/단위/도량형/#units-si" title="국제단위계">국제단위계</a>에 속한다.
 					(1kn = 1nmile/h)
 				</dd>
 			</dl>
@@ -328,6 +348,11 @@
 									건강<span>(2)</span>
 								</a>
 							</dd>
+													<dd>
+								<a href="https://calculator.asamaru.net/용어해설/분야/단위/" title="단위 목록보기">
+									단위<span>(1)</span>
+								</a>
+							</dd>
 											</dl>
 							
 			
@@ -379,6 +404,6 @@
 </footer>
 
 
-<script src="/res/js/min/fb0b56b3a0cfc78405c96c9267fb5b4b.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/7d23c1939abaea85f30d416ec8067e7d.js" async="true" type="text/javascript"></script>
 </body>
 </html>
