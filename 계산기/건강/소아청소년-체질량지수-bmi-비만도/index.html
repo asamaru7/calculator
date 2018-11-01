@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/84952ae33174c709a62eb49728dbda16.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/4a2be0e4f87822465d5bcd219e168b4b.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -126,23 +126,8 @@
 
 		<div class="entry-content">
 			<section class="calculator">
-	<div class="description">
-		<p>
-			<a href="/용어해설/건강/체질량지수-bmi/">체질량지수</a>는 인간의 비만도를 나타내는 지수 중 하나로 체중과 키의 관계로 지방의 양을 추정한 것으로 체지방률 및 건강 위험도를 간접적으로 나타낸다.
-		</p>
-		<p>
-			소아청소년(만 2세 ~ 18세)의 경우 체질량지수의 한계로 성인과 동일한 기준으로 비만을 판단할 수 없다.
-			따라서 <a href="http://www.kosso.or.kr/" target="_blank">대한비만학회</a>의 비만치료지침(2018)에 따르면 소아청소년의 경우 아래의 기준 조건으로 비만을 판정한다.
-		</p>
+	<p class="help">성인의 경우 <a href="/계산기/건강/체질량지수-bmi-비만도/">체질량지수 - BMI(비만도) 계산기</a>를 사용</p>
 
-		<ol>
-			<li>만2세 이상의 소아청소년 비만을 진단할 때는 <a href="/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a>를 기준으로 연령별, 성별 체질량지수 백분위수를 사용한다.</li>
-			<li>체질량지수 95 백분위수 이상을 비만으로 진단하고 85~94 백분위수는 과체중으로 판정한다.</li>
-			<li>또한, 비만에 해당하는 체질량지수 95 백분위수의 120~139%를 2단계 비만으로 140% 이상을 3단계 비만으로 판정할 수 있다.</li>
-		</ol>
-
-		<p class="help">성인의 경우 <a href="/계산기/건강/체질량지수-bmi-비만도/">체질량지수 - BMI(비만도) 계산기</a>를 사용</p>
-	</div>
 	<div class="form-box">
 		<form class="calc" v-on:submit.prevent="calc">
 			<fieldset class="container">
@@ -186,6 +171,40 @@
 				</div>
 			</fieldset>
 		</form>
+
+		<div class="results" v-cloak v-show="value > 0">
+			<!--suppress HtmlUnknownTag -->
+			<health-calculator-results
+					title="BMI"
+					:value="value"
+					:data="gaugeData"
+					guide-title="비만"
+					v-on:update:grade="updateGrade"></health-calculator-results>
+			<div class="notice">
+				<span>{{sexName}}</span>({{ageName}}) 상위 <span>{{bmiPercent}}%</span> ({{grade}})
+				<p>* 상위 {{bmiPercent}}%란, 동일 연령대 100명을 기준으로 작은 순을 1번으로 하였을 때 {{bmiPercent}}번째를 의미</p>
+			</div>
+			<div class="offer">
+				<span><a href="http://www.kosso.or.kr/">대한비만학회</a> 비만치료지침(2018),</span>
+				<span><a href="/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="description">
+		<p>
+			<a href="/용어해설/건강/체질량지수-bmi/">체질량지수</a>는 인간의 비만도를 나타내는 지수 중 하나로 체중과 키의 관계로 지방의 양을 추정한 것으로 체지방률 및 건강 위험도를 간접적으로 나타낸다.
+		</p>
+		<p>
+			소아청소년(만 2세 ~ 18세)의 경우 체질량지수의 한계로 성인과 동일한 기준으로 비만을 판단할 수 없다.
+			따라서 <a href="http://www.kosso.or.kr/" target="_blank">대한비만학회</a>의 비만치료지침(2018)에 따르면 소아청소년의 경우 아래의 기준 조건으로 비만을 판정한다.
+		</p>
+
+		<ol>
+			<li>만2세 이상의 소아청소년 비만을 진단할 때는 <a href="/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a>를 기준으로 연령별, 성별 체질량지수 백분위수를 사용한다.</li>
+			<li>체질량지수 95 백분위수 이상을 비만으로 진단하고 85~94 백분위수는 과체중으로 판정한다.</li>
+			<li>또한, 비만에 해당하는 체질량지수 95 백분위수의 120~139%를 2단계 비만으로 140% 이상을 3단계 비만으로 판정할 수 있다.</li>
+		</ol>
 	</div>
 
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -197,27 +216,12 @@
 <script>
 	(adsbygoogle = window.adsbygoogle || []).push({}); 
 </script>
-
-	<div class="results" v-cloak v-show="value > 0">
-		<!--suppress HtmlUnknownTag -->
-		<health-calculator-results
-				title="BMI"
-				:value="value"
-				:data="gaugeData"
-				guide-title="비만"
-				v-on:update:grade="updateGrade"></health-calculator-results>
-		<div class="notice">
-			<span>{{sexName}}</span>({{ageName}}) 상위 <span>{{bmiPercent}}%</span> ({{grade}})
-			<p>* 상위 {{bmiPercent}}%란, 동일 연령대 100명을 기준으로 작은 순을 1번으로 하였을 때 {{bmiPercent}}번째를 의미</p>
-		</div>
-		<div class="offer">
-			<span><a href="http://www.kosso.or.kr/">대한비만학회</a> 비만치료지침(2018),</span>
-			<span><a href="/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a></span>
-		</div>
-	</div>
 </section>
 
 
+
+			
+			<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 
 			
 												<h4 class="relate-calc">건강 관련 계산기</h4>
@@ -241,9 +245,6 @@
 										</div>
 		
 		
-
-		
-		<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 	</article>
 	</section>
 </div>
@@ -337,6 +338,6 @@
 </footer>
 
 
-<script src="/res/js/min/89efb8748ff5da04d792e6ec809db6bc.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/d2802b689328794bbf45d11134e17ed0.js" async="true" type="text/javascript"></script>
 </body>
 </html>

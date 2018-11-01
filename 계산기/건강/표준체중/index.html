@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/579279a4d33eb408e9638fee0620437f.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/cf6231c65cbc94ac362622624ecb1d7e.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -126,31 +126,6 @@
 
 		<div class="entry-content">
 			<section class="calculator">
-	<div class="description">
-		<p>
-			일상생활에서 건강을 유지하는 가장 알맞은 체중을 표준체중이라고 한다.
-			일반적으로 각 개인의 신장 대비 적당한 체중을 말하며 정상체중 또는 표준체중, 이상체중(바람직한 체중)은 거의 비슷한 의미를 지니며 혼용되고 있다.
-		</p>
-		<p>표준체중을 산정하는 방법은 여러가지가 있으나 그중 가장 대표적인 방법들은 아래와 같다.</p>
-
-		<h4>체중 대비 백분율 (PIBW, Percent of Ideal Body Weight) : 체질량지수를 이용</h4>
-		<dl class="pibw clearfix">
-			<dt>남자</dt>
-			<dd>신장(m)×신장(m)×22</dd>
-			<dt>여자</dt>
-			<dd>신장(m)×신장(m)×21</dd>
-		</dl>
-
-		<h4>브로카 변법 (Broca's method)</h4>
-		<dl class="broca clearfix">
-			<dt>신장이 150cm 미만인 경우</dt>
-			<dd>신장(cm) - 100</dd>
-			<dt>신장이 150cm 이상 - 160cm 미만인 경우</dt>
-			<dd>(신장(cm) - 150) ÷ 2 + 50</dd>
-			<dt>신장이 160cm 이상인 경우</dt>
-			<dd>(신장(cm) - 100) × 0.9</dd>
-		</dl>
-	</div>
 	<div class="form-box">
 		<form class="calc" v-on:submit.prevent="calc">
 			<fieldset class="container">
@@ -180,6 +155,49 @@
 				</div>
 			</fieldset>
 		</form>
+
+		<div class="results" v-cloak v-show="value > 0">
+			<!--suppress HtmlUnknownTag -->
+			<health-calculator-results
+					title="표준체중 대비 백분율"
+					:value="value"
+					:data="gaugeData"
+					guide-title="비만"
+					v-on:update:grade="updateGrade"></health-calculator-results>
+			<div class="notice">
+				<span>{{sexName}}</span> 신장 {{height}}cm의 표준체중(<span>{{ibw}}kg</span>) 대비 백분율은
+				<span>{{value}}%</span>로 <span>{{grade}}</span>에 해당
+			</div>
+			<div class="offer">
+				<a href="http://blog.samsunghospital.com/%EA%B3%BC%EC%B2%B4%EC%A4%91%EA%B3%BC-%EB%B9%84%EB%A7%8C%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8B%A4%EB%A5%B8%EA%B0%80%EC%9A%94-%EA%B0%84%EB%8B%A8%ED%95%9C-%EB%B9%84%EB%A7%8C-%EC%A7%84%EB%8B%A8/">삼성서울병원 공식 블로그</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="description">
+		<p>
+			일상생활에서 건강을 유지하는 가장 알맞은 체중을 표준체중이라고 한다.
+			일반적으로 각 개인의 신장 대비 적당한 체중을 말하며 정상체중 또는 표준체중, 이상체중(바람직한 체중)은 거의 비슷한 의미를 지니며 혼용되고 있다.
+		</p>
+		<p>표준체중을 산정하는 방법은 여러가지가 있으나 그중 가장 대표적인 방법들은 아래와 같다.</p>
+
+		<h4>체중 대비 백분율 (PIBW, Percent of Ideal Body Weight) : 체질량지수를 이용</h4>
+		<dl class="pibw clearfix">
+			<dt>남자</dt>
+			<dd>신장(m)×신장(m)×22</dd>
+			<dt>여자</dt>
+			<dd>신장(m)×신장(m)×21</dd>
+		</dl>
+
+		<h4>브로카 변법 (Broca's method)</h4>
+		<dl class="broca clearfix">
+			<dt>신장이 150cm 미만인 경우</dt>
+			<dd>신장(cm) - 100</dd>
+			<dt>신장이 150cm 이상 - 160cm 미만인 경우</dt>
+			<dd>(신장(cm) - 150) ÷ 2 + 50</dd>
+			<dt>신장이 160cm 이상인 경우</dt>
+			<dd>(신장(cm) - 100) × 0.9</dd>
+		</dl>
 	</div>
 
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -192,25 +210,12 @@
 	(adsbygoogle = window.adsbygoogle || []).push({}); 
 </script>
 
-	<div class="results" v-cloak v-show="value > 0">
-		<!--suppress HtmlUnknownTag -->
-		<health-calculator-results
-				title="표준체중 대비 백분율"
-				:value="value"
-				:data="gaugeData"
-				guide-title="비만"
-				v-on:update:grade="updateGrade"></health-calculator-results>
-		<div class="notice">
-			<span>{{sexName}}</span> 신장 {{height}}cm의 표준체중(<span>{{ibw}}kg</span>) 대비 백분율은
-			<span>{{value}}%</span>로 <span>{{grade}}</span>에 해당
-		</div>
-		<div class="offer">
-			<a href="http://blog.samsunghospital.com/%EA%B3%BC%EC%B2%B4%EC%A4%91%EA%B3%BC-%EB%B9%84%EB%A7%8C%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8B%A4%EB%A5%B8%EA%B0%80%EC%9A%94-%EA%B0%84%EB%8B%A8%ED%95%9C-%EB%B9%84%EB%A7%8C-%EC%A7%84%EB%8B%A8/">삼성서울병원 공식 블로그</a>
-		</div>
-	</div>
 </section>
 
 
+
+			
+			<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 
 			
 												<h4 class="relate-calc">건강 관련 계산기</h4>
@@ -234,9 +239,6 @@
 										</div>
 		
 		
-
-		
-		<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 	</article>
 	</section>
 </div>
@@ -330,6 +332,6 @@
 </footer>
 
 
-<script src="/res/js/min/f592af89c28c919c7c9bb51f1155c219.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/9c427c6cd657185655fe0cd9e11687bc.js" async="true" type="text/javascript"></script>
 </body>
 </html>

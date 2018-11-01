@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/e6dcdcbd296679ccdcf350dc41f5989e.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/9dbb8426d5a565b340e71dc7f46aefcb.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -126,16 +126,6 @@
 
 		<div class="entry-content">
 			<section class="calculator">
-	<div class="description">
-		<p>
-			허리둘레 / 신장 비율(WHtR : Waist-to-height ratio)은 체지방 분포를 측정하는 지표로 허리둘레를 신장으로 나눈 값이다.
-			복부비만과 이와 연관된 건강 위험도를 측정하기 위한 WHtR의 사용은 1990년대 중반경에 제안된 이후로 특히,
-			아시아인들을 대상으로 한 연구에서 다른 비만지표들보다 심혈관 대사질환과 더 밀접한 연관성이 있다는 결과들이 많이 있다.
-		</p>
-		<p>WHtR 수치가 0.43미만이면 저체중, 0.43~0.53이면 정상, 0.53~0.58은 과체중, 0.58 이상이면 비만으로 분류할 수 있다.</p>
-
-		<p class="help">신장이 아닌 엉덩이둘레를 기준으로 계산하려는 경우 <a href="/계산기/건강/허리둘레-엉덩이둘레-비율-WHR/">허리둘레 / 엉덩이둘레 비율(WHR) 계산기</a>를 사용</p>
-	</div>
 	<div class="form-box">
 		<form class="calc" v-on:submit.prevent="calc">
 			<fieldset class="container">
@@ -163,6 +153,32 @@
 				</div>
 			</fieldset>
 		</form>
+
+		<p class="help">신장이 아닌 엉덩이둘레를 기준으로 계산하려는 경우 <a href="/계산기/건강/허리둘레-엉덩이둘레-비율-WHR/">허리둘레 / 엉덩이둘레 비율(WHR) 계산기</a>를 사용</p>
+
+		<div class="results" v-cloak v-show="value > 0">
+			<!--suppress HtmlUnknownTag -->
+			<health-calculator-results
+					title="허리/엉덩이둘레 비율"
+					:value="value"
+					:data="gaugeData"
+					v-on:update:grade="updateGrade"></health-calculator-results>
+			<div class="notice">
+				<span>{{sexName}}</span> 신장 {{height}}cm의 대비 백분율은 <span>{{value}}%</span>로 <span>{{grade}}</span>에 해당
+			</div>
+			<div class="offer">
+				<a href="https://en.wikipedia.org/wiki/Waist-to-height_ratio">위키피디아 Waist-to-height ratio</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="description">
+		<p>
+			허리둘레 / 신장 비율(WHtR : Waist-to-height ratio)은 체지방 분포를 측정하는 지표로 허리둘레를 신장으로 나눈 값이다.
+			복부비만과 이와 연관된 건강 위험도를 측정하기 위한 WHtR의 사용은 1990년대 중반경에 제안된 이후로 특히,
+			아시아인들을 대상으로 한 연구에서 다른 비만지표들보다 심혈관 대사질환과 더 밀접한 연관성이 있다는 결과들이 많이 있다.
+		</p>
+		<p>WHtR 수치가 0.43미만이면 저체중, 0.43~0.53이면 정상, 0.53~0.58은 과체중, 0.58 이상이면 비만으로 분류할 수 있다.</p>
 	</div>
 
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -174,24 +190,12 @@
 <script>
 	(adsbygoogle = window.adsbygoogle || []).push({}); 
 </script>
-
-	<div class="results" v-cloak v-show="value > 0">
-		<!--suppress HtmlUnknownTag -->
-		<health-calculator-results
-				title="허리/엉덩이둘레 비율"
-				:value="value"
-				:data="gaugeData"
-				v-on:update:grade="updateGrade"></health-calculator-results>
-		<div class="notice">
-			<span>{{sexName}}</span> 신장 {{height}}cm의 대비 백분율은 <span>{{value}}%</span>로 <span>{{grade}}</span>에 해당
-		</div>
-		<div class="offer">
-			<a href="https://en.wikipedia.org/wiki/Waist-to-height_ratio">위키피디아 Waist-to-height ratio</a>
-		</div>
-	</div>
 </section>
 
 
+
+			
+			<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 
 			
 												<h4 class="relate-calc">건강 관련 계산기</h4>
@@ -215,9 +219,6 @@
 										</div>
 		
 		
-
-		
-		<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 	</article>
 	</section>
 </div>
@@ -311,6 +312,6 @@
 </footer>
 
 
-<script src="/res/js/min/3214f0bd669aba6928191ba6d7820147.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/62c54eea479559aba27d2a3d14d51468.js" async="true" type="text/javascript"></script>
 </body>
 </html>

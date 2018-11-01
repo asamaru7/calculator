@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/a8c4cfa42bf862cefde37acef1c97328.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/650187e1db8fbfb585b072287e31997f.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -126,20 +126,8 @@
 
 		<div class="entry-content">
 			<section class="calculator">
-	<div class="description">
-		<p>
-			<a href="/용어해설/건강/체질량지수-bmi/">체질량지수</a>는 인간의 비만도를 나타내는 지수 중 하나로 체중과 키의 관계로 지방의 양을 추정한 것으로 체지방률 및 건강 위험도를 간접적으로 나타낸다.
-			<a href="http://www.kosso.or.kr/" target="_blank">대한비만학회</a>의 비만치료지침(2018)에 따르면 아래의 기준 조건으로 비만을 판정한다.
-		</p>
+	<p class="help">만 18세 이하의 소아청소년의 경우 <a href="/계산기/건강/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기</a>를 사용</p>
 
-		<ol>
-			<li>성인 비만의 기준은 체질량지수 25 kg/㎡ 이상으로 한다.</li>
-			<li>비만은 체질량지수 25.0~29.9 kg/㎡를 1단계 비만, 30.0~34.9 kg/㎡를 2단계 비만 그리고 35.0 kg/㎡ 이상을 3단계 비만(고도 비만)으로 구분한다.</li>
-			<li>허리둘레로 측정한 복부 비만의 기준은 성인 남자에서는 90 cm 이상, 여자에서는 85 cm 이상으로 한다.</li>
-		</ol>
-
-		<p class="help">만 18세 이하의 소아청소년의 경우 <a href="/계산기/건강/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기</a>를 사용</p>
-	</div>
 	<div class="form-box">
 		<form class="calc" v-on:submit.prevent="calc">
 			<fieldset class="container">
@@ -179,7 +167,40 @@
 				</div>
 			</fieldset>
 		</form>
+
+		<div class="results" v-cloak v-show="value > 0">
+			<!--suppress HtmlUnknownTag -->
+			<health-calculator-results
+					title="BMI"
+					:value="value"
+					:data="gaugeData"
+					guide-title="비만"
+					v-on:update:grade="updateGrade"></health-calculator-results>
+			<div class="notice">
+				<span>{{sexName}}</span>({{ageName}}, 평균 : {{bmiAverage}}) 상위 <span>{{bmiPercent}}%</span> ({{grade}})
+				<p>* 상위 {{bmiPercent}}%란, 동일 연령대 100명을 기준으로 작은 순을 1번으로 하였을 때 {{bmiPercent}}번째를 의미</p>
+			</div>
+			<div class="offer">
+				<span><a href="http://www.kosso.or.kr/" target="_blank">대한비만학회</a> - 비만치료지침(2018),</span>
+				<span><a href="http://www.srd.re.kr" target="_blank">국가참조표준센터</a> -
+				<a href="http://www.srd.re.kr/db/srdDataInfoView.do?scid=S10008001001&sdid=17" target="_blank">지역별 한국인 남녀 20세 이상 체질량지수[전국]</a></span>
+			</div>
+		</div>
 	</div>
+
+	<div class="description">
+		<p>
+			<a href="/용어해설/건강/체질량지수-bmi/">체질량지수</a>는 인간의 비만도를 나타내는 지수 중 하나로 체중과 키의 관계로 지방의 양을 추정한 것으로 체지방률 및 건강 위험도를 간접적으로 나타낸다.
+			<a href="http://www.kosso.or.kr/" target="_blank">대한비만학회</a>의 비만치료지침(2018)에 따르면 아래의 기준 조건으로 비만을 판정한다.
+		</p>
+
+		<ol>
+			<li>성인 비만의 기준은 체질량지수 25 kg/㎡ 이상으로 한다.</li>
+			<li>비만은 체질량지수 25.0~29.9 kg/㎡를 1단계 비만, 30.0~34.9 kg/㎡를 2단계 비만 그리고 35.0 kg/㎡ 이상을 3단계 비만(고도 비만)으로 구분한다.</li>
+			<li>허리둘레로 측정한 복부 비만의 기준은 성인 남자에서는 90 cm 이상, 여자에서는 85 cm 이상으로 한다.</li>
+		</ol>
+	</div>
+
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
  style=""
@@ -189,28 +210,12 @@
 <script>
 	(adsbygoogle = window.adsbygoogle || []).push({}); 
 </script>
-
-	<div class="results" v-cloak v-show="value > 0">
-		<!--suppress HtmlUnknownTag -->
-		<health-calculator-results
-				title="BMI"
-				:value="value"
-				:data="gaugeData"
-				guide-title="비만"
-				v-on:update:grade="updateGrade"></health-calculator-results>
-		<div class="notice">
-			<span>{{sexName}}</span>({{ageName}}, 평균 : {{bmiAverage}}) 상위 <span>{{bmiPercent}}%</span> ({{grade}})
-			<p>* 상위 {{bmiPercent}}%란, 동일 연령대 100명을 기준으로 작은 순을 1번으로 하였을 때 {{bmiPercent}}번째를 의미</p>
-		</div>
-		<div class="offer">
-			<span><a href="http://www.kosso.or.kr/" target="_blank">대한비만학회</a> - 비만치료지침(2018),</span>
-			<span><a href="http://www.srd.re.kr" target="_blank">국가참조표준센터</a> -
-				<a href="http://www.srd.re.kr/db/srdDataInfoView.do?scid=S10008001001&sdid=17" target="_blank">지역별 한국인 남녀 20세 이상 체질량지수[전국]</a></span>
-		</div>
-	</div>
 </section>
 
 
+
+			
+			<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 
 			
 												<h4 class="relate-calc">건강 관련 계산기</h4>
@@ -234,9 +239,6 @@
 										</div>
 		
 		
-
-		
-		<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 	</article>
 	</section>
 </div>
@@ -330,6 +332,6 @@
 </footer>
 
 
-<script src="/res/js/min/b43d9bee2051e11300d7f31062e50f0f.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/56a08a85577b0bb353dddd61811d18c0.js" async="true" type="text/javascript"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/bff81f951205c27a78c36d0d1af5ab85.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/585d93fd7aade6ce9f069f7c748c9cd7.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -126,13 +126,6 @@
 
 		<div class="entry-content">
 			<section class="calculator">
-	<div class="description">
-		<p>
-			허리둘레 / 엉덩이둘레 비율(WHR)은 허리둘레와 엉덩이둘레의 비율에 의해 복부비만을 판정하는 지표로 사용된다.
-			허리둘레는 배꼽 위치 혹은 가장 가는 부위, 엉덩이둘레는 대전자(greater trochanter) 위치 혹은 가장 넓은 부위의 둘레를 줄자를 이용하여 측정한다.
-		</p>
-		<p class="help">엉덩이둘레가 아닌 신장을 기준으로 계산하려는 경우 <a href="/계산기/건강/허리둘레-신장-비율-WHtR/">허리둘레 / 신장 비율(WHtR) 계산기</a>를 사용</p>
-	</div>
 	<div class="form-box">
 		<form class="calc" v-on:submit.prevent="calc">
 			<fieldset class="container">
@@ -160,6 +153,30 @@
 				</div>
 			</fieldset>
 		</form>
+
+		<p class="help">엉덩이둘레가 아닌 신장을 기준으로 계산하려는 경우 <a href="/계산기/건강/허리둘레-신장-비율-WHtR/">허리둘레 / 신장 비율(WHtR) 계산기</a>를 사용</p>
+
+		<div class="results" v-cloak v-show="value > 0">
+			<!--suppress HtmlUnknownTag -->
+			<health-calculator-results
+					title="허리/엉덩이둘레 비율"
+					:value="value"
+					:data="gaugeData"
+					v-on:update:grade="updateGrade"></health-calculator-results>
+			<div class="notice">
+				<span>{{sexName}}</span> 신장 {{hip}}cm의 대비 백분율은 <span>{{value}}%</span>로 <span>{{grade}}</span>에 해당
+			</div>
+			<div class="offer">
+				<a href="http://www.hypertension.or.kr/viewC.php?vCode=303003">국민고혈압사업단</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="description">
+		<p>
+			허리둘레 / 엉덩이둘레 비율(WHR)은 허리둘레와 엉덩이둘레의 비율에 의해 복부비만을 판정하는 지표로 사용된다.
+			허리둘레는 배꼽 위치 혹은 가장 가는 부위, 엉덩이둘레는 대전자(greater trochanter) 위치 혹은 가장 넓은 부위의 둘레를 줄자를 이용하여 측정한다.
+		</p>
 	</div>
 
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -171,24 +188,12 @@
 <script>
 	(adsbygoogle = window.adsbygoogle || []).push({}); 
 </script>
-
-	<div class="results" v-cloak v-show="value > 0">
-		<!--suppress HtmlUnknownTag -->
-		<health-calculator-results
-				title="허리/엉덩이둘레 비율"
-				:value="value"
-				:data="gaugeData"
-				v-on:update:grade="updateGrade"></health-calculator-results>
-		<div class="notice">
-			<span>{{sexName}}</span> 신장 {{hip}}cm의 대비 백분율은 <span>{{value}}%</span>로 <span>{{grade}}</span>에 해당
-		</div>
-		<div class="offer">
-			<a href="http://www.hypertension.or.kr/viewC.php?vCode=303003">국민고혈압사업단</a>
-		</div>
-	</div>
 </section>
 
 
+
+			
+			<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 
 			
 												<h4 class="relate-calc">건강 관련 계산기</h4>
@@ -212,9 +217,6 @@
 										</div>
 		
 		
-
-		
-		<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
 	</article>
 	</section>
 </div>
@@ -308,6 +310,6 @@
 </footer>
 
 
-<script src="/res/js/min/741aa339799bc03d32a75a1b73160c27.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/35a9edff7a59a9cc9421a8b0c8f844d7.js" async="true" type="text/javascript"></script>
 </body>
 </html>
