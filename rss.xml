@@ -1,129 +1,286 @@
-<!doctype html>
-<html lang="ko">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1.0">
-		<title>2017년 소아청소년 성장도표 - 연령별 체질량지수 - 계산기</title>
-	<meta name="author" content="아사마루">
-	<meta name="keywords" content="비만도,신체질량지수,bmi,Body Mass Index,소아청소년 성장도표,표준성장도표">
-	<meta name="description" content="성장도표는 소아청소년의 신장, 체중 등 신체계측치의 분포가 제시된 곡선(또는 표)으로 저신장, 저체중, 비만 등 소아청소년의 성장상태를 평가하는 기준으로 활용되고 있다. 보건복지부 질병관리본부와 대한소아과학회는 공동으로 1967년부터 약 10년마다 성장도표를 제정·발표하고 있으며, 2017년 12월 「2017 소아청소년 성장도표」를 제정하였습니다..">
-	<meta name="referrer" content="always">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="shortcut icon" type="image/x-icon" href="https://calculator.asamaru.net/favicon.ico"/>
-	<link rel="canonical" href="https://calculator.asamaru.net/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/"/>
-	<link rel="amphtml" href="https://calculator.asamaru.net/amp/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/">	<link href="//www.googletagmanager.com" rel="dns-prefetch"/>	
-		<link href="//pagead2.googlesyndication.com" rel="dns-prefetch"/>
-	<link href="//googleads.g.doubleclick.net" rel="dns-prefetch"/>
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-		(adsbygoogle = window.adsbygoogle || []).push({
-			google_ad_client: 'ca-pub-8163803188491150',
-			enable_page_level_ads: true
-		});
-	</script>
-		<!--[if lt IE 9]><script src="//cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
-
-	
-
-	
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-
-		
-	
-	<meta property="og:type" content="article">
-	<meta property="og:site_name" content="계산기">
-	<meta property="og:title" content="2017년 소아청소년 성장도표 - 연령별 체질량지수">
-	<meta property="og:description" content="성장도표는 소아청소년의 신장, 체중 등 신체계측치의 분포가 제시된 곡선(또는 표)으로 저신장, 저체중, 비만 등 소아청소년의 성장상태를 평가하는 기준으로 활용되고 있다. 보건복지부 질병관리본부와 대한소아과학회는 공동으로 1967년부터 약 10년마다 성장도표를 제정·발표하고 있으며, 2017년 12월 「2017 소아청소년 성장도표」를 제정하였습니다..">
-	<meta property="og:url" content="https://calculator.asamaru.net/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/"/>
-	<meta property="og:image" content="https://calculator.asamaru.net/res/img/icon/icon.png">
-	
-
-	
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@">
-	<meta name="twitter:title" content="2017년 소아청소년 성장도표 - 연령별 체질량지수">
-	<meta name="twitter:description" content="성장도표는 소아청소년의 신장, 체중 등 신체계측치의 분포가 제시된 곡선(또는 표)으로 저신장, 저체중, 비만 등 소아청소년의 성장상태를 평가하는 기준으로 활용되고 있다. 보건복지부 질병관리본부와 대한소아과학회는 공동으로 1967년부터 약 10년마다 성장도표를 제정·발표하고 있으며, 2017년 12월 「2017 소아청소년 성장도표」를 제정하였습니다..">
-	<meta property="twitter:image" content="https://calculator.asamaru.net/res/img/icon/icon.png">
-	
-
-										<link rel="apple-touch-icon" sizes="180x180" href="/res/img/icon/180.png">
-												<link rel="apple-touch-icon" sizes="76x76" href="/res/img/icon/76.png">
-												<link rel="apple-touch-icon" sizes="120x120" href="/res/img/icon/120.png">
-												<link rel="apple-touch-icon" sizes="152x152" href="/res/img/icon/152.png">
-						
-	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
-
-			<link href="/res/css/min/6717b926691a256988656b761a23e94a.css" type="text/css" rel="stylesheet" />
-
-	 <script type="application/ld+json">{
-    "@context": "http://schema.org",
-    "@type": "Article",
-    "headline": "2017년 소아청소년 성장도표 - 연령별 체질량지수",
-    "author": {
-        "@type": "Person",
-        "name": "아사마루"
-    },
-    "datePublished": "2018-10-8",
-    "dateModified": "2018-10-8",
-    "articleSection": "건강",
-    "url": "https://calculator.asamaru.net/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/",
-    "image": {
-        "@type": "ImageObject",
-        "url": "https://calculator.asamaru.net/res/img/icon/icon.696.png",
-        "width": 696,
-        "height": 696
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "아사마루",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://calculator.asamaru.net/res/img/icon/icon.60.png",
-            "width": 60,
-            "height": 60
-        }
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://calculator.asamaru.net/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/"
-    }
-}</script> 
-			
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65749108-21"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-65749108-21');
-		</script>
-	
-	</head>
-<body>
-<header class="top">
-	<div class="site-profile clearfix">
-		<a href="https://calculator.asamaru.net" title="계산기 홈페이지로 이동"><img src="/res/img/icon/icon.png" width="50" height="50" alt="계산기"></a>
-		<h1><a href="https://calculator.asamaru.net" title="계산기 홈페이지로 이동">계산기</a></h1>
-					<p>일상생활에 필요한 다양한 계산기</p>
-				<button type="button" id="btn-slide"></button>
-	</div>
-</header>
-<section class="main-body clearfix">
-<div class="main-box">
-	<section id="main-panel">
-			
-	<article id="article" class="article hentry terms">
-		<div class="title">
-			<h2 class="entry-title">2017년 소아청소년 성장도표 - 연령별 체질량지수</h2>
-												<a href="https://calculator.asamaru.net/용어해설/분야/건강/" rel="tag" title="건강 목록보기">건강</a>
-													<span></span>
-										<time class="published " datetime="2018-10-08 10:14:15">2018.10.08. 10:14</time>
-			<time class="updated hide" datetime="2018-10-08 10:14:15">2018.10.08. 10:14</time>
-			<span class="vcard author hide"><span class="fn">아사마루</span></span>
-		</div>
-		<div class="entry-content">
-			
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>계산기</title><link>https://calculator.asamaru.net</link><description>당신의 일상생활을 편하게 해줄 다양한 온라인 계산기들을 제공합니다.</description><image><title>계산기</title><url>https://calculator.asamaru.net/res/img/icon/icon.png</url><link>https://calculator.asamaru.net</link><description>당신의 일상생활을 편하게 해줄 다양한 온라인 계산기들을 제공합니다.</description></image><managingEditor>아사마루 (asamaru@asamaru.net)</managingEditor><pubDate>Thu, 24 Oct 2019 09:08:58 +0900</pubDate><item><title>도량형</title><pubDate>Fri, 26 Oct 2018 13:53:53 +0900</pubDate><link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%EB%8F%84%EB%9F%89%ED%98%95/</link><guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%EB%8F%84%EB%9F%89%ED%98%95/</guid><author>아사마루 (asamaru@asamaru.net)</author><category>단위</category><description><![CDATA[<p>도량형(度量衡)은 길이, 부피(들이), 무게 등을 재는 방법 및 그것을 재는 기구(器具)를 일컫는다.
+한자 의미로는 도(度)는 길이를 재는 자, 양(量)은 부피를 재는 되, 형(衡)은 무게를 재는 저울을 뜻하는데, 측정 기구로서의 도량형을 명확하게 하는 용어로서 도량형기가 있다.
+도량형을 표준화하여 적용할 목적으로 제작된 기준이 되는 도구를 도량형 원기(原器)라고 부른다.
+측정 방법으로서의 도량형에는 중국에서 시작된 척간법(또는 척관법)과 유럽에서 시작된 <a href="#units-yard">야드파운드법</a>, 그리고 1875년 프랑스에서 조약으로 체결된 <a href="#units-meter">미터법</a> 등이 있다.</p>
+<h3 id="units-si">국제단위계(國際單位系, SI 단위계)</h3>
+<p>도량형의 하나로, <a href="https://ko.wikipedia.org/wiki/MKS_%EB%8B%A8%EC%9C%84%EA%B3%84">MKS 단위계(Mètre-Kilogramme-Seconde)</a>이라고도 불린다.
+국제단위계는 각 국가별로 상이하게 적용하는 단위를 <a href="#units-meter">미터법</a>을 기준으로 현재 세계적으로 일상 생활뿐만 아니라 상업적으로나 과학적으로 널리 쓰이는 도량형이다.
+전 세계적으로 단일화된 국제 단위계를 만드려는 노력으로 1960년 10월 제 11차 국제 도량형 총회(Conférence générale des poids et mesures)에서 SI가 결정되었다.
+SI단위는 국제단위계를 의미하는 프랑스어(Le Système International d'Unités)의 약자이다.</p>
+<h3 id="units-sidu">SI 유도 단위</h3>
+<p>SI 유도 단위(derived unit)는 <a href="#units-si">국제단위계</a>의 일곱 개 기본 단위를 조합해 만들어진 단위이다.
+조립 단위 또는 도출 단위라고 부르기도 한다.</p>
+<h4>SI 기본 단위로부터 유도된 단위</h4>
+<table>
+<thead>
+<tr>
+<th>이름</th>
+<th>기호</th>
+<th>물리량</th>
+<th>다른 단위로 표시</th>
+<th>SI 기본 단위로 표시</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>헤르츠</td>
+<td>Hz</td>
+<td>진동수</td>
+<td>1/s</td>
+<td>s<sup>-1</sup></td>
+</tr>
+<tr>
+<td>라디안</td>
+<td>rad</td>
+<td>평면각</td>
+<td>m•m<sup>-1</sup></td>
+<td>무차원</td>
+</tr>
+<tr>
+<td>스테라디안</td>
+<td>sr</td>
+<td>입체각</td>
+<td>m<sup>2</sup>•m<sup>-2</sup></td>
+<td>무차원</td>
+</tr>
+<tr>
+<td>뉴턴</td>
+<td>N</td>
+<td>힘,무게</td>
+<td>kg•m/s<sup>2</sup></td>
+<td>kg•m•s<sup>-2</sup></td>
+</tr>
+<tr>
+<td>파스칼</td>
+<td>Pa</td>
+<td>압력,응력</td>
+<td>N/m<sup>2</sup></td>
+<td>m<sup>-1</sup>•kg•s<sup>-2</sup></td>
+</tr>
+<tr>
+<td>줄</td>
+<td>J</td>
+<td>에너지,일,열량</td>
+<td>N•m = C•V = W•s = VA•s</td>
+<td>m<sup>2</sup>•kg•s<sup>-2</sup></td>
+</tr>
+<tr>
+<td>와트</td>
+<td>W</td>
+<td>일률,전력,방사속</td>
+<td>J/s = V•A</td>
+<td>m<sup>2</sup>•kg•s<sup>-3</sup></td>
+</tr>
+<tr>
+<td>쿨롱</td>
+<td>C</td>
+<td>전하 또는 전하량</td>
+<td>A•s</td>
+<td>A•s</td>
+</tr>
+<tr>
+<td>볼트</td>
+<td>V</td>
+<td>전압,전위,기전력</td>
+<td>W/A = J/C</td>
+<td>m<sup>2</sup>•kg•s<sup>-3</sup>•A<sup>-1</sup></td>
+</tr>
+<tr>
+<td>패럿</td>
+<td>F</td>
+<td>전기 용량</td>
+<td>C/V</td>
+<td>m<sup>-2</sup>•kg<sup>-1</sup>•s<sup>4</sup>•A<sup>2</sup></td>
+</tr>
+<tr>
+<td>옴</td>
+<td>Ω</td>
+<td>전기 저항,임피던스,리액턴스</td>
+<td>V/A</td>
+<td>m<sup>2</sup>•kg•s<sup>-3</sup>•A<sup>-2</sup></td>
+</tr>
+<tr>
+<td>지멘스</td>
+<td>S</td>
+<td>전도율</td>
+<td>1/Ω = Ω<sup>-1</sup></td>
+<td>m<sup>-2</sup>•kg<sup>-1</sup>•s<sup>3</sup>•A<sup>2</sup></td>
+</tr>
+<tr>
+<td>웨버</td>
+<td>Wb</td>
+<td>자기 선속 (자기력 선속)</td>
+<td>J/A = J•A<sup>-1</sup> = V•s = N•m•A<sup>-1</sup></td>
+<td>m<sup>2</sup>•kg•s<sup>-2</sup>•A<sup>-1</sup></td>
+</tr>
+<tr>
+<td>테슬라</td>
+<td>T</td>
+<td>자기장세기,자기력선속밀도</td>
+<td>V•s/m<sup>2</sup> = Wb/m<sup>2</sup> = N/(A•m)</td>
+<td>kg•s<sup>-2</sup>•A<sup>-1</sup></td>
+</tr>
+<tr>
+<td>헨리</td>
+<td>H</td>
+<td>인덕턴스</td>
+<td>V•s/A = Wb/A</td>
+<td>m<sup>2</sup>•kg•s<sup>-2</sup>•A<sup>-2</sup></td>
+</tr>
+<tr>
+<td>섭씨</td>
+<td>°C</td>
+<td>섭씨 온도</td>
+<td>K - 273.15</td>
+<td>K - 273.15</td>
+</tr>
+<tr>
+<td>루멘</td>
+<td>lm</td>
+<td>광선속</td>
+<td>lx•m<sup>2</sup></td>
+<td>cd•sr</td>
+</tr>
+<tr>
+<td>럭스</td>
+<td>lx</td>
+<td>조도</td>
+<td>lm/m<sup>2</sup></td>
+<td>m<sup>-2</sup>•cd•sr</td>
+</tr>
+<tr>
+<td>베크렐</td>
+<td>Bq</td>
+<td>방사능</td>
+<td>1/s</td>
+<td>s<sup>-1</sup></td>
+</tr>
+<tr>
+<td>그레이</td>
+<td>Gy</td>
+<td>흡수선량</td>
+<td>J/kg</td>
+<td>m<sup>2</sup>•s<sup>-2</sup></td>
+</tr>
+<tr>
+<td>시버트</td>
+<td>Sv</td>
+<td>등가선량</td>
+<td>J/kg</td>
+<td>m<sup>2</sup>•s<sup>-2</sup></td>
+</tr>
+<tr>
+<td>캐탈</td>
+<td>kat</td>
+<td>촉매 활성도</td>
+<td>mol/s</td>
+<td>s<sup>-1</sup>•mol</td>
+</tr>
+</tbody>
+</table>
+<h3 id="units-cgs">CGS 단위계</h3>
+<p>CGS 단위계는 센티미터(cm), 그램(g), 초(s)를 기본 단위로 삼는 단위계로, 1832년 독일의 수학자 카를 프리드리히 가우스가 제안하였고, 1874년 제임스 클러크 맥스웰이 확장하였다.
+SI 단위계의 영향으로 일반적으로는 잘 쓰이지는 않지만, 전자기학이나 천문학에서는 아직도 널리 쓰이고 있다.</p>
+<h3 id="units-meter">미터법</h3>
+<p>미터법(프랑스어: Système métrique)은 미터(m)를 길이, 리터(ℓ)를 부피, 킬로그램(kg)을 무게의 기본 단위로 하는 십진법적 도량형 단위법으로,
+지구자오선 길이의 1/4,000만을 1m, 각 모서리의 길이가 1/10m인 정육면체와 같은 부피의 4℃ 물의 질량을 1kg, 그 부피를 1ℓ로 하고, 배량(倍量:곱하기 양)에는 그리스어, 분량(分量:나누기 양)에는 라틴어에서 따온 접두어 등을 각각 붙였다.
+1790년 프랑스의 정치가 탈레랑(C.M.Talleyrand)의 제안에 의해 파리과학아카데미가 정부의 위탁(委託)을 받고 만든 프랑스 기원의 국제적인 도량형단위계이다.
+지금은 3국가(미국, 미얀마, 라이베리아)를 제외하고 전 세계가 공식 단위계로 채택하여 사용하고 있다.</p>
+<h3 id="units-usa">미국 단위계</h3>
+<p>미국 단위계는 미국에서 사용하는 단위계로, 그 기원은 잉글랜드 단위계이다. <a href="#units-yard">야드파운드법</a>과 많은 부속단위를 공유하고 있지만 서로 다른 단위계이며, 주로 부피 단위에서 <a href="#units-yard">야드파운드법</a>과 상당한 차이를 보인다.
+미식축구 같은 스포츠에서는 <a href="#units-meter">미터법</a>을 전혀 사용하지 않고 미국 단위계만을 사용하는데, 미식축구의 10야드 라인 등이 좋은 예이다.</p>
+<h3 id="units-yard">야드파운드법</h3>
+<p>야드파운드법(—法, 영어: Imperial units)은 영국에서 사용되는 단위계이다. 길이는 야드, 질량은 파운드를 단위로 한다.</p>
+<h3 id="units-chuk">척근법</h3>
+<p>척근법(尺斤法)은 고대 중국에서 시작되어 동아시아권역에서 널리 사용된 도량형 단위계이다. 척근법의 척(尺)은 길이를 나타내는 단위 중 하나이며 근(斤)은 무게를 나타내는 단위 중 하나로서, 길이와 무게 그리고 길이로부터 유도될 수 있는 넓이와 부피 등을 재는 방법을 의미한다. 척간법(尺間法) 또는 척관법(尺貫法)으로도 불린다.</p>
+<p>길이 단위로 모(毛)와 리(厘), 푼(分), 치(寸), 자, 장(丈), 척(尺), 간(間), 정(町), 리(里)가 있으며, 넓이 단위로는 평(坪)와 보(步), 정(町)이 있다. 부피 단위로는 홉(합, 合), 되(승, 升, 또는 되승), 말(두, 斗), 섬(석, 石), 곡(斛)이 있으며, 무게 단위로는 돈, 냥(兩), 근(斤), 관(貫) 등이 있다. 척근법의 단위는 지역과 시대에 상관없이 널리 사용되고 있으나 그 기준은 지역과 시대에 따라 차이가 있다.</p>]]></description></item><item><title>킬로그램원기</title><pubDate>Fri, 26 Oct 2018 13:53:53 +0900</pubDate><link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%ED%82%AC%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9B%90%EA%B8%B0/</link><guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%ED%82%AC%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9B%90%EA%B8%B0/</guid><author>아사마루 (asamaru@asamaru.net)</author><category>단위</category><description><![CDATA[<p>국제킬로그램원기(國際kilogram原器, 영어: International Prototype of the Kilogram, 프랑스어: Prototype international du kilogramme)는
+질량의 크기를 결정하는 표준물체로 국제도량형총회에서 지정된 원통 모양의 분동으로 백금 90%와 이리듐 10%의 합금(질량 기준)으로 구성되며 밀도가 약 21.5 g/cm<sup>3</sup>,
+직경과 높이가 각각 39.17mm이다.</p>
+<p>킬로그램원기 원본과 6개의 복사본은 <a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EB%8F%84%EB%9F%89%ED%98%95%EA%B5%AD">국제도량형국</a>에 보관되어 있으며,
+공식 복제본이 여러 나라의 표준 연구소에 있다. 대한민국의 한국표준과학연구원에는 39번, 72번, 84번 원기가 있으며, 72번 원기가 국가 표준으로 사용되고 있다.</p>
+<hr />
+<p>킬로그램은 과거 1790년 파리과학학사원에 설치되었던 특별위원회에서
+모서리가 1/10<a href="https://calculator.asamaru.net/계산기/단위변환/길이-단위변환/#unit-m">미터</a>인 정육면체의 증류수의 질량을 기준으로 제안한 데서 비롯된 단위이며,
+1795년 4월 <a href="https://calculator.asamaru.net/용어해설/단위/도량형/#units-meter">미터법</a> 제정 당시에는
+각 모서리의 길이가 1/10<a href="https://calculator.asamaru.net/계산기/단위변환/길이-단위변환/#unit-m">미터</a>인
+정육면체와 같은 부피의 4℃ 물의 질량을 1킬로그램으로 정의하였으나
+1799년에 자오선 측량과 물의 최대밀도의 측정결과에 입각하여 킬로그램을 나타내는 원기(原器)가 만들어지고
+이 원기를 채택하는 법령이 1799년 12월 공포되었다.
+이후 1875년 5월 20일 미터조약이 성립하고 여러 개의 새로운 원기가 제작되었으며,
+그 중에서 kⅢ이라는 기호가 붙은 원기가
+1889년 제1차 <a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C%EB%8F%84%EB%9F%89%ED%98%95%EC%B4%9D%ED%9A%8C">국제도량형총회</a>에서 지정된 후
+<a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EB%8F%84%EB%9F%89%ED%98%95%EA%B5%AD">국제도량형국</a>에 보관되어 있다.</p>]]></description></item><item><title>체질량지수 - BMI(Body Mass Index)</title><pubDate>Mon, 22 Oct 2018 10:14:14 +0900</pubDate><link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98-bmi/</link><guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98-bmi/</guid><author>아사마루 (asamaru@asamaru.net)</author><category>건강</category><description><![CDATA[<h3>체질량지수(體質量指數, Body Mass Index, BMI, 카우프지수)</h3>
+<p>체질량지수는 인간의 비만도를 나타내는 지수 중 하나로 체중과 키의 관계로 지방의 양을 추정한 것으로 체지방률 및 건강 위험도를 간접적으로 나타낸다.
+이 체질량지수는 1895년 미국 메트로폴리탄(현 메트라이프)이라는 보험업체가 고객의 키, 나이, 체중 등을 작성한 신장체중표에서 유래되었다.
+비만 판정의 올바른 지표는 체중이 아니라 체지방량이므로 몸의 지방량을 직접 측정하는 것이 이상적이나 이것은 기술적인 어려움이 있기 때문에 일반적으로
+체지방량을 간접적으로 측정하는 <a href="https://calculator.asamaru.net/계산기/건강/표준체중/">표준체중</a>, <a href="https://calculator.asamaru.net/계산기/건강/체질량지수-bmi-비만도/">체질량지수</a>, <a href="https://calculator.asamaru.net/계산기/건강/허리둘레-신장-비율-WHtR/">허리둘레/신장 비율</a>, <a href="https://calculator.asamaru.net/계산기/건강/허리둘레-엉덩이둘레-비율-WHR/">허리둘레/엉덩이둘레 비율</a> 등의 방법을 주로 사용한다.
+그 중에서도 체질량지수는 <a href="https://calculator.asamaru.net/계산기/건강/표준체중/">표준체중</a> 보다는 체지방을 비교적 정확하게 반영할 수 있으면서도 매우 간단히 계산할 수 있기 때문에 널리 사용된다.</p>
+<hr />
+<h3>체질량지수의 측정</h3>
+<blockquote>
+<p>키가 t 미터, 체중이 w 킬로그램일 때, BMI는 다음과 같다.</p>
+<p><img src="https://calculator.asamaru.net/res/img/bmi/bmi.png" alt="bmi 계산식" width="170" height="78" /></p>
+</blockquote>
+<ul>
+<li><a href="https://calculator.asamaru.net/계산기/건강/체질량지수-bmi-비만도/">체질량지수 - BMI(비만도) 계산기</a></li>
+<li><a href="https://calculator.asamaru.net/계산기/건강/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기</a> </li>
+</ul>
+<hr />
+<h3>비만의 진단</h3>
+<p><a href="http://www.kosso.or.kr/">대한비만학회</a>의 비만치료지침(2018)에 따르면 아래의 기준 조건으로 비만을 판정한다.  </p>
+<ol>
+<li>성인 비만의 기준은 체질량지수 25 kg/㎡ 이상으로 한다.</li>
+<li>비만은 체질량지수 25.0~29.9 kg/㎡를 1단계 비만, 30.0~34.9 kg/㎡를 2단계 비만 그리고 35.0 kg/㎡ 이상을 3단계 비만(고도 비만)으로 구분한다.</li>
+<li>허리둘레로 측정한 복부 비만의 기준은 성인 남자에서는 90 cm 이상, 여자에서는 85 cm 이상으로 한다.</li>
+</ol>
+<p><strong><a href="https://calculator.asamaru.net/계산기/건강/체질량지수-bmi-비만도/">체질량지수 - BMI(비만도) 계산기 바로가기</a></strong></p>
+<h4>체질량지수에 따른 비만 단계</h4>
+<ul>
+<li>18.5 kg/㎡ 미만 : 저체중 </li>
+<li>18.5~22.9 kg/㎡ : 정상</li>
+<li>23.0~24.9 kg/㎡ : 비만전단계</li>
+<li>25.0~29.9 kg/㎡ : 1단계 비만</li>
+<li>30.0~34.9 kg/㎡ : 2단계 비만</li>
+<li>35 kg/㎡ 이상 : 3단계 비만</li>
+</ul>
+<hr />
+<p></p>
+<h3>소아청소년 비만의 진단</h3>
+<p>소아청소년(만 2세 ~ 18세)의 경우 체질량지수의 한계로 성인과 동일한 기준으로 비만을 판단할 수 없다.
+따라서 <a href="http://www.kosso.or.kr/">대한비만학회</a>의 비만치료지침(2018)에 따르면 소아청소년의 경우 아래의 기준 조건으로 비만을 판정한다.</p>
+<ol>
+<li>만2세 이상의 소아청소년 비만을 진단할 때는 <a href="https://calculator.asamaru.net/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a>를 기준으로 연령별, 성별 체질량지수 백분위수를 사용한다. </li>
+<li>체질량지수 95 백분위수 이상을 비만으로 진단하고 85~94 백분위수는 과체중으로 판정한다. </li>
+<li>또한, 비만에 해당하는 체질량지수 95 백분위수의 120~139%를 2단계 비만으로 140% 이상을 3단계 비만으로 판정할 수 있다.</li>
+</ol>
+<p><strong><a href="https://calculator.asamaru.net/계산기/건강/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기 바로가기</a></strong> </p>
+<h4>체질량지수에 따른 소아청소년 비만 단계</h4>
+<p><a href="https://calculator.asamaru.net/용어해설/건강/2017년-소아청소년-성장도표-연령별-체질량지수/">2017년 소아청소년 성장도표</a> 연령별, 성별 체질량지수 백분위수 기준</p>
+<ul>
+<li>5 백분위수 미만 : 저체중 </li>
+<li>5 백분위수 이상 ~ 85 백분위수 미만 : 정상</li>
+<li>85 백분위수 이상 ~ 95 백분위수 미만 : 과체중</li>
+<li>95 백분위수 이상 ~ 119% : 비만</li>
+<li>95 백분위수의 120~139% : 2단계 비만</li>
+<li>95 백분위수의 140% 이상 : 3단계 비만</li>
+</ul>
+<hr />
+<h3>체질량지수의 한계</h3>
+<p>체질량지수는 체지방률을 기준으로 비만을 판단하는것이 아닌, 순전히 키와 몸무게만 가지고 판단하는 것이기 때문에 과체중 또는 비만을 판정하기에 부정확한 방법이라는 지적도 많다.
+근육은 같은 부피의 지방보다 무겁기 때문에, 지방은 적고 근육이 많은 사람과 근육은 없고 지방이 많은 사람을 비교하면 전자의 BMI가 높게 나온다.
+예를들어 지방은 적고 근육이 많은 남성이 근육이 없고 지방이 많은 여자보다 훨씬 미용적으로 날씬함에도 불구하고 BMI는 더 높게 나온다.</p>
+<hr />
+<h3>참고문헌</h3>
+<ul>
+<li><a href="http://www.kosso.or.kr/">대한비만학회</a> - 비만치료지침(2018)</li>
+<li><a href="https://ko.wikipedia.org/wiki/%EC%B2%B4%EC%A7%88%EB%9F%89_%EC%A7%80%EC%88%98">위키백과 - 체질량지수</a></li>
+<li><a href="https://namu.wiki/w/BMI">나무위키 - BMI</a></li>
+<li><a href="https://www.asan.go.kr/health/main/index.php?m_cd=61">아산시보건소 - 비만도 계산</a></li>
+<li><a href="http://www.marathon.pe.kr/diet/bmi_cal.html">마라톤온라인 - 체질량지수(BMI)는 무엇이며 어떻게 산출하나</a></li>
+</ul>]]></description></item><item><title>2017년 소아청소년 성장도표 - 연령별 체질량지수</title><pubDate>Mon, 08 Oct 2018 10:14:15 +0900</pubDate><link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/2017%EB%85%84-%EC%86%8C%EC%95%84%EC%B2%AD%EC%86%8C%EB%85%84-%EC%84%B1%EC%9E%A5%EB%8F%84%ED%91%9C-%EC%97%B0%EB%A0%B9%EB%B3%84-%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98/</link><guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/2017%EB%85%84-%EC%86%8C%EC%95%84%EC%B2%AD%EC%86%8C%EB%85%84-%EC%84%B1%EC%9E%A5%EB%8F%84%ED%91%9C-%EC%97%B0%EB%A0%B9%EB%B3%84-%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98/</guid><author>아사마루 (asamaru@asamaru.net)</author><category>건강</category><description><![CDATA[
 <h3>소아청소년 성장도표</h3>
 <p>
 	성장도표는 소아청소년의 신장, 체중 등 신체계측치의 분포가 제시된 곡선(또는 표)으로 저신장, 저체중, 비만 등 소아청소년의 성장상태를 평가하는 기준으로 활용되고 있다.
@@ -398,16 +555,6 @@
 	</tbody>
 </table>
 
-<div class="gad-box">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
- style=""
- data-ad-client="ca-pub-8163803188491150"
- data-ad-slot="2371177971"
- data-ad-format="auto"></ins>
-<script>
-	(adsbygoogle = window.adsbygoogle || []).push({}); 
-</script></div>
 
 
 <table>
@@ -677,112 +824,6 @@
 <ul>
 	<li><a href="http://www.cdc.go.kr/CDC/contents/CdcKrContentView.jsp?cid=77683&menuIds=HOME001-MNU1130-MNU2743-MNU2748-MNU2744" target="_blank">질병관리본부(KCDC) - 성장도표 해설집</a></li>
 	<li><a href="http://www.cdc.go.kr/CDC/cms/content/mobile/91/121891_view.html" target="_blank">질병관리본부(KCDC) - 2017 소아청소년 성장도표 개발</a></li>
-</ul>
-		</div>
-		
-		
-		<div class="share-sns twitter facebook googleplus band line kakaostory kakaotalk" data-kakao-api="a5a449c01651dea0336cf0e0d1fdc54c" data-facebook-app-id="1874593759230150"></div>
-
-		
-		<div class="nv-openmain" data-title="계산기" data-url="https://calculator.asamaru.net" data-type="W2"></div>
-		<script async type="text/javascript" src="https://openmain.pstatic.net/js/openmain.js"></script>
-	</article>
-
-		</section>
-</div>
-<nav id="sidebar" class="slideout-menu">
-	<div class="box">
-														<h3>계산기</h3>
-			
-			
-																<dl class="tags">
-						<dt>분야</dt>
-													<dd>
-								<a href="https://calculator.asamaru.net/계산기/분야/가상화폐/" title="가상화폐 목록보기">
-									가상화폐<span>(1)</span>
-								</a>
-							</dd>
-													<dd>
-								<a href="https://calculator.asamaru.net/계산기/분야/건강/" title="건강 목록보기">
-									건강<span>(5)</span>
-								</a>
-							</dd>
-													<dd>
-								<a href="https://calculator.asamaru.net/계산기/분야/단위변환/" title="단위변환 목록보기">
-									단위변환<span>(9)</span>
-								</a>
-							</dd>
-											</dl>
-							
-			
-														
-			
-															<h3>용어 해설</h3>
-			
-			
-																<dl class="tags">
-						<dt>분야</dt>
-													<dd>
-								<a href="https://calculator.asamaru.net/용어해설/분야/건강/" title="건강 목록보기">
-									건강<span>(2)</span>
-								</a>
-							</dd>
-													<dd>
-								<a href="https://calculator.asamaru.net/용어해설/분야/단위/" title="단위 목록보기">
-									단위<span>(2)</span>
-								</a>
-							</dd>
-											</dl>
-							
-			
-														
-			
-					
-				
-		
-		<form action="https://www.google.com/search" method="get" target="_blank" class="form-search">
-			<fieldset>
-				<input type="hidden" name="sitesearch" value="https://calculator.asamaru.net">
-				<legend>검색하기 폼</legend>
-				<label>검색하기</label>
-				<input type="text" name="q" value="" placeholder="Search"/>
-			</fieldset>
-		</form>
-
-		
-					<ul class="links">
-									<li><a href="https://calculator.asamaru.net/archives/" class="text-inverse" title="전체글 보기">전체글 보기</a></li>
-					<li class="pipe"></li>
-								<li><a href="https://calculator.asamaru.net/atom.xml" class="text-inverse" target="_blank" title="RSS Feed">RSS</a></li>
-			</ul>
-			</div>
-</nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</section>
-<footer class="bottom">
-	hosted by <a href="https://github.com/" title="Github.com"><em>Github</em></a> / Posted by <a href="mailto:asamaru@asamaru.net" title="운영자에게 메일보내기"><em>아사마루</em></a>
-	&nbsp;&nbsp;&nbsp;<a href="/policy/privacy/" target="_blank" title="개인정보처리방침">개인정보처리방침</a>
-</footer>
-
-
-<script src="/res/js/min/87322cb11e36a09a18e8810411d366e6.js" async="true" type="text/javascript"></script>
-</body>
-</html>
+</ul>]]></description></item>
+</channel>
+</rss>
