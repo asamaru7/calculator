@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="계산기" href="https://calculator.asamaru.net/atom.xml"/>
 
-			<link href="/res/css/min/10eb0cd78523f3fded64829e0567f073.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/3b78467488dfe402226accb130f2add3.css" type="text/css" rel="stylesheet" />
 
 	 <script type="application/ld+json">{
     "@context": "http://schema.org",
@@ -138,6 +138,7 @@
 						<span>월적립액</span>
 						<input type="number" v-model="money"/>
 					</label>
+					<p class="money-korean" v-show="money > 0">{{ moneyText }} 원</p>
 				</div>
 				<div class="row">
 					<label class="column">
@@ -218,6 +219,7 @@
 					<dd class="clear"></dd>
 					<dt>세후 수령액</dt>
 					<dd><span>{{ numberFormat(result.amount.normal) }}</span></dd>
+					<dd class="amount-text">{{ result.amount.normalText }}</dd>
 				</dl>
 			</div>
 			<div class="notice">
@@ -454,6 +456,6 @@
 </footer>
 
 
-<script src="/res/js/min/4743e62824b01b071cd38bb4a1b8de15.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/ab9122a748949af5528bf5caa29ec858.js" async="true" type="text/javascript"></script>
 </body>
 </html>
