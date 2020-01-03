@@ -128,14 +128,14 @@
 			<section class="calculator">
 	<div class="form-box" v-cloak>
 		<form class="calc" v-on:submit.prevent="calc">
-			<fieldset class="container">
+			<fieldset class="container percents">
 				<h3>전체값에서 일정 비율에 해당하는 값을 계산합니다.</h3>
 				<div class="row">
 					<label class="column">
-						<input type="number" v-model="num_a_1" placeholder="전체값 100"/><span>의</span>
+						<input type="number" step="any" v-model="num_a_1" placeholder="전체값 100"/><span>의</span>
 					</label>
 					<label class="column">
-						<input type="text" v-model="num_a_2" placeholder="비율값 20"/><span>% 는</span>
+						<input type="number" step="any" v-model="num_a_2" placeholder="비율값 20"/><span>% 는</span>
 					</label>
 					<label class="column result">
 						<input type="text" v-model="result_a" placeholder="일부값 20" readonly/><span>입니다.</span>
@@ -145,10 +145,10 @@
 				<h3>전체값의 일정 값에 해당하는 비율을 계산합니다.</h3>
 				<div class="row">
 					<label class="column">
-						<input type="number" v-model="num_b_1" placeholder="전체값 100"/><span>에서</span>
+						<input type="number" step="any" v-model="num_b_1" placeholder="전체값 100"/><span>에서</span>
 					</label>
 					<label class="column">
-						<input type="text" v-model="num_b_2" placeholder="일부값 20"/><span>은(는)</span>
+						<input type="number" step="any" v-model="num_b_2" placeholder="일부값 20"/><span>은(는)</span>
 					</label>
 					<label class="column result">
 						<input type="text" v-model="result_b" placeholder="비율값 20" readonly/><span>% 입니다.</span>
@@ -158,10 +158,10 @@
 				<h3>기준값이 변경값으로 변화시 얼만큼 증가/감소했는지 계산합니다.</h3>
 				<div class="row">
 					<label class="column">
-						<input type="number" v-model="num_c_1" placeholder="기준값 100"/><span>이(가)</span>
+						<input type="number" step="any" v-model="num_c_1" placeholder="기준값 100"/><span>이(가)</span>
 					</label>
 					<label class="column">
-						<input type="text" v-model="num_c_2" placeholder="변경값 150"/><span>로 바뀌면</span>
+						<input type="number" step="any" v-model="num_c_2" placeholder="변경값 150"/><span>로 바뀌면</span>
 					</label>
 					<label class="column result">
 						<input type="text" v-model="result_c" placeholder="증가값 50" readonly/><span>% <i v-text="result_c_t"></i>입니다.</span>
@@ -171,10 +171,10 @@
 				<h3>기준값에서 일정 비율로 증가/감소한 결과를 계산합니다.</h3>
 				<div class="row">
 					<label class="column">
-						<input type="number" v-model="num_d_1" placeholder="기준값 100"/><span>이(가)</span>
+						<input type="number" step="any" v-model="num_d_1" placeholder="기준값 100"/><span>이(가)</span>
 					</label>
 					<label class="column">
-						<input type="text" v-model="num_d_2" placeholder="비율값 20"/>
+						<input type="number" step="any" v-model="num_d_2" placeholder="비율값 20"/>
 						<span>%</span>
 						<select v-model="num_d_3">
 							<option value="1">증가</option>
