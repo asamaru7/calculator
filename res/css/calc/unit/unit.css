@@ -1,1 +1,1 @@
-section.converter #units li{list-style:none}section.converter #units li dl{margin-left:0}section.converter #units li dl dt{font-weight:700}section.converter #units li dl dt:before{content:"\B7   "}
+@charset "UTF-8";section.converter #units li{list-style:none}section.converter #units li dl{margin-left:0}section.converter #units li dl dt{font-weight:700}section.converter #units li dl dt:before{content:"· "}
