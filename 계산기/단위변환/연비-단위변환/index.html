@@ -128,7 +128,7 @@
 		<div class="entry-content">
 			<section class="converter">
 	<div class="form-box">
-		<unit-converter :data="data" @update:value="updateValue"></unit-converter>
+		<unit-converter :data="data" :calc="calcFuel" @update:value="updateValue"></unit-converter>
 	</div>
 	<ul id="units">
 		<li data-exp="1" title="킬로미터/리터" data-unit="km/l" data-pos="from">
@@ -149,7 +149,7 @@
 				</dd>
 			</dl>
 		</li>
-		<li data-exp="null" title="리터/100킬로미터" data-unit="l/100km" data-pos="to">
+		<li data-exp="100" title="리터/100킬로미터" data-unit="l/100km" data-pos="to">
 			<dl>
 				<dt id="unit-l-100km">l/100km (리터/100킬로미터 : liter/100kilometer)</dt>
 				<dd>
@@ -319,6 +319,6 @@
 </footer>
 
 
-<script src="/res/js/min/cc0b29d0c2462d20f4187cee17bfe9b7.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/1df0ffd5c5ffe1fff18eef52a8e7f2b5.js" async="true" type="text/javascript"></script>
 </body>
 </html>
