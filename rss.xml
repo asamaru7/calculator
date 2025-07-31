@@ -11,7 +11,7 @@
 			<description>당신의 일상생활을 편하게 해줄 다양한 온라인 계산기들을 제공합니다.</description>
 		</image>
 		<managingEditor>아사마루 (asamaru@asamaru.net)</managingEditor>
-		<pubDate>Thu, 27 Feb 2025 16:46:41 +0900</pubDate>
+		<pubDate>Thu, 31 Jul 2025 10:28:40 +0900</pubDate>
 		<item>
 			<title>도량형</title>
 			<pubDate>Fri, 26 Oct 2018 13:53:53 +0900</pubDate>
@@ -19,7 +19,10 @@
 			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%EB%8F%84%EB%9F%89%ED%98%95/</guid>
 			<author>아사마루 (asamaru@asamaru.net)</author>
 			<category>단위</category>
-			<description><![CDATA[ <p>도량형(度量衡)은 길이, 부피(들이), 무게 등을 재는 방법 및 그것을 재는 기구(器具)를 일컫는다.
+			<description><![CDATA[ <h2 class="visually-hidden">도량형 용어해설</h2>
+
+	
+	<p>도량형(度量衡)은 길이, 부피(들이), 무게 등을 재는 방법 및 그것을 재는 기구(器具)를 일컫는다.
 		한자 의미로는 도(度)는 길이를 재는 자, 양(量)은 부피를 재는 되, 형(衡)은 무게를 재는 저울을 뜻하는데, 측정 기구로서의 도량형을 명확하게 하는 용어로서 도량형기가 있다.
 		도량형을 표준화하여 적용할 목적으로 제작된 기준이 되는 도구를 도량형 원기(原器)라고 부른다.
 		측정 방법으로서의 도량형에는 중국에서 시작된 척간법(또는 척관법)과 유럽에서 시작된 <a href="#units-yard">야드파운드법</a>, 그리고 1875년 프랑스에서 조약으로 체결된 <a href="#units-meter">미터법</a> 등이 있다.</p>
@@ -227,7 +230,10 @@
 			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%ED%82%AC%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9B%90%EA%B8%B0/</guid>
 			<author>아사마루 (asamaru@asamaru.net)</author>
 			<category>단위</category>
-			<description><![CDATA[ <p>국제킬로그램원기(國際kilogram原器, 영어: International Prototype of the Kilogram, 프랑스어: Prototype international du kilogramme)는
+			<description><![CDATA[ <h2 class="visually-hidden">국제킬로그램원기 용어해설</h2>
+
+	
+	<p>국제킬로그램원기(國際kilogram原器, 영어: International Prototype of the Kilogram, 프랑스어: Prototype international du kilogramme)는
 		질량의 크기를 결정하는 표준물체로 국제도량형총회에서 지정된 원통 모양의 분동으로 백금 90%와 이리듐 10%의 합금(질량 기준)으로 구성되며 밀도가 약 21.5 g/cm<sup>3</sup>,
 		직경과 높이가 각각 39.17mm이다.</p>
 	<p>킬로그램원기 원본과 6개의 복사본은 <a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EB%8F%84%EB%9F%89%ED%98%95%EA%B5%AD" rel="nofollow" target="_blank">국제도량형국</a>에 보관되어 있으며,
@@ -255,7 +261,11 @@
 			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98-bmi/</guid>
 			<author>아사마루 (asamaru@asamaru.net)</author>
 			<category>건강</category>
-			<description><![CDATA[ <h3>체질량지수(體質量指數, Body Mass Index, BMI, 카우프지수)</h3>
+			<description><![CDATA[ <h2 class="visually-hidden">체질량지수(BMI) 용어해설</h2>
+
+	
+
+	<h3>체질량지수(體質量指數, Body Mass Index, BMI, 카우프지수)</h3>
 	<p>체질량지수는 인간의 비만도를 나타내는 지수 중 하나로 체중과 키의 관계로 지방의 양을 추정한 것으로 체지방률 및 건강 위험도를 간접적으로 나타낸다.
 		이 체질량지수는 1895년 미국 메트로폴리탄(현 메트라이프)이라는 보험업체가 고객의 키, 나이, 체중 등을 작성한 신장체중표에서 유래되었다.
 		비만 판정의 올바른 지표는 체중이 아니라 체지방량이므로 몸의 지방량을 직접 측정하는 것이 이상적이나 이것은 기술적인 어려움이 있기 때문에 일반적으로
@@ -338,7 +348,11 @@
 			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/2017%EB%85%84-%EC%86%8C%EC%95%84%EC%B2%AD%EC%86%8C%EB%85%84-%EC%84%B1%EC%9E%A5%EB%8F%84%ED%91%9C-%EC%97%B0%EB%A0%B9%EB%B3%84-%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98/</guid>
 			<author>아사마루 (asamaru@asamaru.net)</author>
 			<category>건강</category>
-			<description><![CDATA[ <h3>소아청소년 성장도표</h3>
+			<description><![CDATA[ <h2 class="visually-hidden">소아청소년 연령별 체질량지수</h2>
+
+	
+
+	<h3>소아청소년 성장도표</h3>
 	<p>
 		성장도표는 소아청소년의 신장, 체중 등 신체계측치의 분포가 제시된 곡선(또는 표)으로 저신장, 저체중, 비만 등 소아청소년의 성장상태를 평가하는 기준으로 활용되고 있다.
 		보건복지부 질병관리본부와 대한소아과학회는 공동으로 1967년부터 약 10년마다 성장도표를 제정·발표하고 있으며, 2017년 12월 「2017 소아청소년 성장도표」를 제정하였다.

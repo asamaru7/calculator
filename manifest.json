@@ -1,6 +1,11 @@
 {
-	"name": "일상생활에 필요한 다양한 계산기",
+	"name": "계산기",
 	"short_name": "각종계산기",
+	"description": "당신의 일상생활을 편하게 해줄 다양한 온라인 계산기들을 제공합니다.",
+	"start_url": "/",
+	"display": "minimal-ui",
+	"background_color": "#ffffff",
+	"orientation": "portrait",
 	"icons": [
 		{
 			"src": "/img/icon/180.png",
@@ -29,8 +34,7 @@
 			"purpose": "any maskable"
 		}
 	],
-	"start_url": "/",
-	"display": "minimal-ui",
-	"background_color": "#ffffff",
+	"lang": "ko-KR",
+	"prefer_related_applications": false,
 	"theme_color": "#ee152b"
 }
