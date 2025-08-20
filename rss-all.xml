@@ -11,7 +11,7 @@
 			<description>당신의 일상생활을 편하게 해줄 다양한 온라인 계산기들을 제공합니다.</description>
 		</image>
 		<managingEditor>아사마루 (asamaru@asamaru.net)</managingEditor>
-		<pubDate>Thu, 31 Jul 2025 10:28:40 +0900</pubDate>
+		<pubDate>Wed, 20 Aug 2025 16:08:14 +0900</pubDate>
 		<item>
 			<title>도량형</title>
 			<pubDate>Fri, 26 Oct 2018 13:53:53 +0900</pubDate>
@@ -19,7 +19,7 @@
 			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%EB%8F%84%EB%9F%89%ED%98%95/</guid>
 			<author>아사마루 (asamaru@asamaru.net)</author>
 			<category>단위</category>
-			<description><![CDATA[ <h2 class="visually-hidden">도량형 용어해설</h2>
+			<description><![CDATA[ <h2 class="sr-only">도량형 용어해설</h2>
 
 	
 	<p>도량형(度量衡)은 길이, 부피(들이), 무게 등을 재는 방법 및 그것을 재는 기구(器具)를 일컫는다.
@@ -37,6 +37,7 @@
 		조립 단위 또는 도출 단위라고 부르기도 한다.</p>
 	<h4>SI 기본 단위로부터 유도된 단위</h4>
 	<table>
+		<caption class="sr-only">SI 유도 단위</caption>
 		<thead>
 		<tr>
 			<th>이름</th>
@@ -230,7 +231,7 @@
 			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%ED%82%AC%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9B%90%EA%B8%B0/</guid>
 			<author>아사마루 (asamaru@asamaru.net)</author>
 			<category>단위</category>
-			<description><![CDATA[ <h2 class="visually-hidden">국제킬로그램원기 용어해설</h2>
+			<description><![CDATA[ <h2 class="sr-only">국제킬로그램원기 용어해설</h2>
 
 	
 	<p>국제킬로그램원기(國際kilogram原器, 영어: International Prototype of the Kilogram, 프랑스어: Prototype international du kilogramme)는
@@ -261,7 +262,7 @@
 			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98-bmi/</guid>
 			<author>아사마루 (asamaru@asamaru.net)</author>
 			<category>건강</category>
-			<description><![CDATA[ <h2 class="visually-hidden">체질량지수(BMI) 용어해설</h2>
+			<description><![CDATA[ <h2 class="sr-only">체질량지수(BMI) 용어해설</h2>
 
 	
 
@@ -348,7 +349,7 @@
 			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/2017%EB%85%84-%EC%86%8C%EC%95%84%EC%B2%AD%EC%86%8C%EB%85%84-%EC%84%B1%EC%9E%A5%EB%8F%84%ED%91%9C-%EC%97%B0%EB%A0%B9%EB%B3%84-%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98/</guid>
 			<author>아사마루 (asamaru@asamaru.net)</author>
 			<category>건강</category>
-			<description><![CDATA[ <h2 class="visually-hidden">소아청소년 연령별 체질량지수</h2>
+			<description><![CDATA[ <h2 class="sr-only">소아청소년 연령별 체질량지수</h2>
 
 	
 
