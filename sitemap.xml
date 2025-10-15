@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url><loc>https://calculator.asamaru.net/about-us/</loc><lastmod>2025-10-15T12:58:29+09:00</lastmod></url>
 	<url><loc>https://calculator.asamaru.net/</loc><lastmod>2025-07-31T10:28:40+09:00</lastmod></url>
 	<url><loc>https://calculator.asamaru.net/%EA%B3%84%EC%82%B0%EA%B8%B0/%EB%B6%84%EC%95%BC/%EA%B0%80%EC%83%81%ED%99%94%ED%8F%90/</loc><lastmod>2025-08-20T16:08:14+09:00</lastmod></url>
 	<url><loc>https://calculator.asamaru.net/%EA%B3%84%EC%82%B0%EA%B8%B0/%EB%B6%84%EC%95%BC/%EA%B1%B4%EA%B0%95/</loc><lastmod>2025-08-20T16:08:14+09:00</lastmod></url>
@@ -34,5 +33,6 @@
 	<url><loc>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/%EC%B2%B4%EC%A7%88%EB%9F%89%EC%A7%80%EC%88%98-bmi/</loc><lastmod>2025-08-20T16:08:14+09:00</lastmod></url>
 	<url><loc>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%EB%8F%84%EB%9F%89%ED%98%95/</loc><lastmod>2025-08-20T16:08:14+09:00</lastmod></url>
 	<url><loc>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%8B%A8%EC%9C%84/%ED%82%AC%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9B%90%EA%B8%B0/</loc><lastmod>2025-08-20T16:08:14+09:00</lastmod></url>
+	<url><loc>https://calculator.asamaru.net/about-us/</loc><lastmod>2025-10-15T12:58:29+09:00</lastmod></url>
 	<url><loc>https://calculator.asamaru.net/archives/</loc><lastmod>2025-08-20T16:08:14+09:00</lastmod></url>
 </urlset>
