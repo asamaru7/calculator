@@ -11,7 +11,918 @@
 			<description>당신의 일상생활을 편하게 해줄 다양한 온라인 계산기들을 제공합니다.</description>
 		</image>
 		<managingEditor>아사마루 (asamaru@asamaru.net)</managingEditor>
-		<pubDate>Wed, 20 Aug 2025 16:08:14 +0900</pubDate>
+		<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+		<item>
+			<title>기초대사량(BMR)과 활동대사량(TDEE)</title>
+			<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+			<link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/%EA%B8%B0%EC%B4%88%EB%8C%80%EC%82%AC%EB%9F%89%EA%B3%BC-%ED%99%9C%EB%8F%99%EB%8C%80%EC%82%AC%EB%9F%89/</link>
+			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B1%B4%EA%B0%95/%EA%B8%B0%EC%B4%88%EB%8C%80%EC%82%AC%EB%9F%89%EA%B3%BC-%ED%99%9C%EB%8F%99%EB%8C%80%EC%82%AC%EB%9F%89/</guid>
+			<author>아사마루 (asamaru@asamaru.net)</author>
+			<category>건강</category>
+			<description><![CDATA[ <h2 class="sr-only">기초대사량과 활동대사량 (BMR · TDEE) 용어해설</h2>
+
+	
+
+	<p>체중은 결국 <strong>먹은 열량과 쓴 열량의 차이</strong>로 움직인다.
+		그중 "쓴 열량"이 얼마인지 추정하는 것이 기초대사량(BMR)과 활동대사량(TDEE)이다.
+		식단을 짜기 전에 자기 기준선을 아는 것이 먼저다.</p>
+
+	<hr>
+	<h3>기초대사량 (BMR, Basal Metabolic Rate)</h3>
+	<p>아무 활동도 하지 않고 <strong>생명을 유지하는 데만</strong> 필요한 최소 에너지다.
+		심장이 뛰고, 체온을 유지하고, 뇌가 작동하는 데 쓰이는 열량이다.
+		하루 총 소비 열량의 <strong>60~70%</strong>를 차지한다.</p>
+
+	<h4>추정식</h4>
+	<p>정확히 측정하려면 전문 장비가 필요하므로 보통 공식으로 추정한다.
+		현재 가장 널리 쓰이는 것은 <strong>Mifflin-St Jeor</strong> 공식이다.</p>
+	<blockquote>
+		<p>남성 : 10 × 체중(kg) + 6.25 × 신장(cm) − 5 × 나이 + 5</p>
+		<p>여성 : 10 × 체중(kg) + 6.25 × 신장(cm) − 5 × 나이 − 161</p>
+	</blockquote>
+	<p>1919년에 만들어진 Harris-Benedict 공식도 오래 쓰였지만,
+		현대인의 체형에서는 실제보다 약간 높게 나오는 경향이 있어 1990년에 제안된 Mifflin-St Jeor가 더 정확하다고 평가된다.</p>
+	<p>체지방률을 알고 있다면 <strong>Katch-McArdle</strong> 공식(제지방량 기준)이 더 정확하다.
+		근육량이 많거나 적은 사람에게 특히 그렇다.</p>
+
+	<hr>
+	
+
+	<h3>활동대사량 (TDEE, Total Daily Energy Expenditure)</h3>
+	<p>기초대사량에 일상 활동과 운동, 소화에 쓰이는 열량까지 더한 <strong>하루 총 소비 열량</strong>이다.
+		기초대사량에 활동계수를 곱해 구한다.</p>
+	<blockquote>
+		<p>TDEE = BMR × 활동계수</p>
+	</blockquote>
+	<ul>
+		<li>1.2 — 거의 운동하지 않음 (앉아서 일함)</li>
+		<li>1.375 — 가벼운 운동 (주 1~3회)</li>
+		<li>1.55 — 보통 운동 (주 3~5회)</li>
+		<li>1.725 — 활발한 운동 (주 6~7회)</li>
+		<li>1.9 — 매우 활발함 (육체노동 또는 하루 2회 운동)</li>
+	</ul>
+	<p>활동계수는 스스로 높게 잡기 쉬운 항목이다.
+		주 3회 헬스장에 가더라도 나머지 시간을 앉아서 보낸다면 1.375가 현실에 가깝다.</p>
+
+	<hr>
+	<h3>감량과 증량의 기준</h3>
+	<p>지방 1kg은 약 7,700kcal에 해당한다. 하루 500kcal를 덜 먹으면
+		일주일에 3,500kcal, 대략 <strong>0.5kg</strong>이 줄어드는 계산이다.</p>
+	<ul>
+		<li>감량 : TDEE − 500kcal</li>
+		<li>유지 : TDEE</li>
+		<li>증량 : TDEE + 500kcal</li>
+	</ul>
+	<p>다만 <strong>기초대사량보다 적게 먹는 것은 권하지 않는다.</strong>
+		극단적으로 열량을 줄이면 근육이 함께 빠지고, 몸이 에너지 소비를 줄이는
+		<strong>대사적응</strong>이 일어나 같은 식단으로도 더는 체중이 줄지 않는 구간이 온다.</p>
+
+	<hr>
+	
+
+	<h3>기초대사량을 좌우하는 것</h3>
+	<ul>
+		<li><strong>제지방량(근육)</strong> — 가장 큰 요인이다. 근육은 가만히 있어도 열량을 쓴다.
+			근력운동이 감량에 도움이 되는 이유가 여기에 있다.
+		</li>
+		<li><strong>체격</strong> — 키가 크고 체중이 많이 나갈수록 기초대사량이 높다.</li>
+		<li><strong>나이</strong> — 나이가 들면서 근육량이 줄어 함께 낮아진다.</li>
+		<li><strong>성별</strong> — 같은 체격이면 남성이 근육량이 많아 대체로 높다.</li>
+	</ul>
+	<p>공식으로 얻은 값은 어디까지나 <strong>추정치</strong>다.
+		같은 키·체중이라도 체성분과 건강 상태에 따라 실제 값은 ±10% 이상 차이날 수 있다.
+		2~3주 동안 체중 변화를 기록하면서 자기 몸에 맞게 조정하는 편이 정확하다.</p>
+
+	<hr>
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/건강/기초대사량-BMR-TDEE-계산기/">기초대사량(BMR) · 활동대사량(TDEE) 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/건강/체질량지수-bmi-비만도/">체질량지수 - BMI(비만도) 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/건강/표준체중/">표준체중 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/건강/최대심박수-심박수-구간/">최대심박수 · 심박수 구간 계산기</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/건강/체질량지수-bmi/">체질량지수 - BMI</a></li>
+	</ul>
+
+	<p class="text-base-content/60">* 이 문서는 일반적인 건강 정보이며 의학적 조언이 아니다.
+		질환이 있거나 약을 복용 중이라면 식단을 조절하기 전에 의사와 상의한다.</p>
+	
+ ]]></description>
+		</item>
+		<item>
+			<title>평균임금과 통상임금</title>
+			<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+			<link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B8%89%EC%97%AC/%ED%8F%89%EA%B7%A0%EC%9E%84%EA%B8%88%EA%B3%BC-%ED%86%B5%EC%83%81%EC%9E%84%EA%B8%88/</link>
+			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B8%89%EC%97%AC/%ED%8F%89%EA%B7%A0%EC%9E%84%EA%B8%88%EA%B3%BC-%ED%86%B5%EC%83%81%EC%9E%84%EA%B8%88/</guid>
+			<author>아사마루 (asamaru@asamaru.net)</author>
+			<category>급여</category>
+			<description><![CDATA[ <h2 class="sr-only">평균임금과 통상임금 용어해설</h2>
+
+	
+
+	<p>근로기준법은 수당을 계산할 때 쓰는 임금 기준을 <strong>평균임금</strong>과 <strong>통상임금</strong> 두 가지로 나눠 정의한다.
+		이름이 비슷해 혼동하기 쉽지만 산정 방식도 다르고 쓰이는 곳도 다르다.
+		퇴직금이 생각보다 적게 나왔다거나 야근수당이 이상하다고 느낄 때, 대개 이 둘 중 어느 것을 기준으로 삼았는지가 원인이다.</p>
+
+	<hr>
+	<h3>통상임금</h3>
+	<p>소정근로에 대해 <strong>정기적·일률적으로 지급하기로 정한</strong> 임금이다.
+		"일을 하면 당연히 받기로 되어 있는 돈"이라고 이해하면 쉽다.
+		실제로 몇 시간을 더 일했는지와 무관하게 미리 정해져 있다는 점이 핵심이다.</p>
+
+	<h4>통상시급 구하기</h4>
+	<blockquote>
+		<p>통상시급 = 월 통상임금 ÷ 209시간</p>
+		<p>1일 통상임금 = 통상시급 × 8시간</p>
+	</blockquote>
+	<p>209라는 숫자는 주 40시간(주 5일 × 8시간) 근무자의 월평균 근로시간이다.
+		주휴수당에 해당하는 8시간을 더한 뒤 한 달 평균 주수로 환산해 나온다.</p>
+	<blockquote>
+		<p>(40시간 + 8시간) ÷ 7일 × 365일 ÷ 12개월 ≈ 208.57 → 209시간</p>
+	</blockquote>
+
+	<h4>무엇이 통상임금에 들어가나</h4>
+	<ul>
+		<li>포함 : 기본급, 직책수당·기술수당처럼 매달 같은 금액이 나오는 수당, 정기상여금</li>
+		<li>제외 : 실적에 따라 달라지는 성과급, 연장·야간·휴일근로수당, 명절 격려금처럼 지급 여부가 불확실한 금품</li>
+	</ul>
+	<p>어디까지 포함되는지는 오랫동안 다툼이 많았던 영역이다.
+		2013년 대법원 전원합의체는 <strong>정기상여금도 통상임금에 포함된다</strong>고 판단했고,
+		2024년 12월 전원합의체는 여기서 더 나아가 <strong>재직 조건이 붙은 상여금도 통상임금으로 인정</strong>했다.
+		오래된 급여명세서 양식을 그대로 쓰고 있다면 통상임금 범위가 실제보다 좁게 잡혀 있을 수 있다.</p>
+
+	<hr>
+	
+
+	<h3>평균임금</h3>
+	<p>산정사유가 발생한 날 이전 <strong>3개월 동안 지급된 임금총액을 그 기간의 총일수로 나눈</strong> 금액이다.
+		실제로 받은 돈을 기준으로 하므로 연장근로가 많았던 기간이 포함되면 평균임금이 올라간다.</p>
+	<blockquote>
+		<p>1일 평균임금 = 3개월간 임금총액 ÷ 3개월간 총일수</p>
+	</blockquote>
+
+	<h4>총일수는 근무일수가 아니다</h4>
+	<p>여기서 말하는 총일수는 달력상의 날수다. 주말과 공휴일도 모두 포함하므로
+		어느 달이 걸리느냐에 따라 <strong>89일에서 92일 사이</strong>로 달라진다.
+		2월이 포함된 기간의 평균임금이 조금 더 높게 나오는 이유가 이것이다.</p>
+
+	<h4>상여금과 연차수당은 3/12만</h4>
+	<p>1년 단위로 지급되는 금액은 3개월치에 해당하는 만큼만 산입한다.
+		연간 상여금이 1,200만원이면 300만원을, 전년도 연차수당이 120만원이면 30만원을 임금총액에 더한다.</p>
+
+	<h4>산정에서 빼는 기간</h4>
+	<p>수습기간, 사용자 귀책사유로 휴업한 기간, 업무상 부상·질병으로 요양한 기간, 육아휴직 기간 등은
+		그 기간과 그 기간에 받은 임금을 모두 빼고 계산한다.
+		일을 못 해 임금이 적었던 시기가 평균임금을 끌어내리지 않도록 하기 위한 장치다.</p>
+
+	<hr>
+	<h3>어느 것이 어디에 쓰이나</h3>
+	<ul>
+		<li><strong>평균임금 기준</strong> : 퇴직금, 휴업수당, 재해보상금, 감급 제재의 한도</li>
+		<li><strong>통상임금 기준</strong> : 연장·야간·휴일근로수당, 연차수당, 해고예고수당, 출산전후휴가급여</li>
+	</ul>
+
+	<h4>평균임금이 통상임금보다 적으면</h4>
+	<p>근로기준법 제2조 제2항은 이 경우 <strong>통상임금을 평균임금으로 본다</strong>고 정한다.
+		결근이나 무급휴직이 많았던 기간이 산정 대상에 걸려 평균임금이 낮게 나오더라도
+		퇴직금이 그만큼 깎이지는 않는다는 뜻이다.</p>
+
+	<hr>
+	
+
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/급여/평균임금-통상임금-계산/">평균임금 · 통상임금 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/금융/퇴직금-계산/">퇴직금 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/급여/연장-야간-휴일근로수당-계산/">연장 · 야간 · 휴일근로수당 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/급여/연차-발생일수-연차수당-계산/">연차 발생일수 · 연차수당 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/급여/급여-단위-변환/">급여 단위 변환 계산기</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/급여/연차유급휴가/">연차유급휴가</a></li>
+	</ul>
+
+	<hr>
+	<h3>참고</h3>
+	<ul>
+		<li><a href="https://www.law.go.kr/법령/근로기준법" rel="nofollow" target="_blank">근로기준법</a> 제2조(정의), 제56조(연장·야간 및 휴일 근로)</li>
+		<li><a href="https://www.moel.go.kr/" rel="nofollow" target="_blank">고용노동부</a> - 통상임금 산정지침</li>
+	</ul>
+	<p class="text-base-content/60">* 이 문서는 이해를 돕기 위한 일반적인 설명이며 법률 자문이 아니다.
+		실제 분쟁이 있다면 고용노동부 상담(☎1350)이나 공인노무사의 도움을 받는 것이 안전하다.</p>
+	
+ ]]></description>
+		</item>
+		<item>
+			<title>연차유급휴가</title>
+			<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+			<link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B8%89%EC%97%AC/%EC%97%B0%EC%B0%A8%EC%9C%A0%EA%B8%89%ED%9C%B4%EA%B0%80/</link>
+			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B8%89%EC%97%AC/%EC%97%B0%EC%B0%A8%EC%9C%A0%EA%B8%89%ED%9C%B4%EA%B0%80/</guid>
+			<author>아사마루 (asamaru@asamaru.net)</author>
+			<category>급여</category>
+			<description><![CDATA[ <h2 class="sr-only">연차유급휴가 용어해설</h2>
+
+	
+
+	<p><strong>연차유급휴가</strong>는 일정 기간 성실하게 근무한 근로자에게 임금을 그대로 지급하면서 주는 휴가다.
+		흔히 "연차"라고 줄여 부른다. 근로기준법 제60조에 근거하며,
+		며칠이 생기는지는 <strong>계속근로기간</strong>과 <strong>출근율</strong>로 정해진다.</p>
+
+	<hr>
+	<h3>며칠이 생기나</h3>
+
+	<h4>1년 이상 근무했다면</h4>
+	<p>1년간 80% 이상 출근한 근로자에게 <strong>15일</strong>의 유급휴가가 발생한다.
+		출근율이 80%에 못 미치면 1개월 개근할 때마다 1일씩만 생긴다.</p>
+
+	<h4>1년 미만이라면</h4>
+	<p>입사 후 1년이 되지 않았다면 <strong>1개월 개근할 때마다 1일씩, 최대 11일</strong>이 발생한다.
+		매달 하나씩 쌓이는 방식이라 입사 6개월 차에는 6일을 쓸 수 있다.</p>
+
+	<h4>3년 이상이면 가산연차</h4>
+	<p>계속근로 3년째부터는 <strong>2년마다 1일씩</strong> 더해진다.
+		최초 1년을 초과하는 계속근로연수 2년마다 1일이 붙는 구조이며,
+		가산분을 포함한 총 휴가일수는 <strong>25일이 한도</strong>다.</p>
+	<ul>
+		<li>1~2년차 : 15일</li>
+		<li>3~4년차 : 16일</li>
+		<li>5~6년차 : 17일</li>
+		<li>21년차 이상 : 25일 (한도)</li>
+	</ul>
+
+	<hr>
+	
+
+	<h3>1년 일하고 퇴사하면 몇 일일까</h3>
+	<p>자주 다투어지는 지점이다. 2021년 대법원은 <strong>정확히 365일만 근무하고 퇴직한 경우
+			15일의 연차는 발생하지 않는다</strong>고 판단했다.
+		15일은 "1년간 근무를 마친 다음 날에도 근로관계가 유지될 것"을 전제로 하기 때문이다.</p>
+	<p>즉 1년 계약직으로 일하고 만료된 경우 1년 미만 구간에서 쌓인 <strong>11일</strong>만 인정된다.
+		366일째까지 근무해야 11일 + 15일 = 26일이 된다.</p>
+
+	<hr>
+	<h3>입사일 기준과 회계연도 기준</h3>
+	<p>법이 정한 원칙은 <strong>입사일 기준</strong>이다. 다만 직원이 많은 회사는 관리 편의상
+		모든 직원의 연차를 회계연도(보통 1월 1일)에 맞춰 일괄 부여하기도 한다.</p>
+	<p>회계연도 기준을 쓰더라도 <strong>퇴직 시점에 입사일 기준으로 다시 계산해
+			근로자에게 불리하지 않아야</strong> 한다. 회계연도 방식이 더 적게 나온다면 차액을 정산해야 한다.</p>
+
+	<hr>
+	<h3>연차수당과 사용촉진제도</h3>
+	<p>발생한 연차를 쓰지 못한 채 사용기간이 끝나면 미사용 일수만큼 <strong>연차수당</strong>을 지급한다.
+		금액은 1일 통상임금을 기준으로 한다.</p>
+	<blockquote>
+		<p>연차수당 = 미사용 연차일수 × 1일 통상임금</p>
+	</blockquote>
+	<p>다만 회사가 근로기준법 제61조의 <strong>연차사용촉진제도</strong>를 절차대로 시행했다면
+		미사용 연차수당 지급 의무가 없어질 수 있다. 사용촉진이 인정되려면
+		사용기간이 끝나기 6개월 전에 서면으로 사용을 촉구하고, 근로자가 시기를 정하지 않으면
+		회사가 시기를 지정해 다시 서면 통보하는 절차를 모두 밟아야 한다.
+		구두 통보나 사내 공지만으로는 인정되지 않는다.</p>
+
+	<hr>
+	
+
+	<h3>적용 범위</h3>
+	<p>연차유급휴가 규정은 <strong>상시 근로자 5인 이상</strong> 사업장에 적용된다.
+		5인 미만 사업장에는 연차 규정이 적용되지 않으며, 연장·야간·휴일근로 가산수당도 마찬가지다.</p>
+	<p>주 15시간 미만으로 일하는 초단시간 근로자에게도 연차 규정이 적용되지 않는다.</p>
+
+	<hr>
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/급여/연차-발생일수-연차수당-계산/">연차 발생일수 · 연차수당 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/급여/평균임금-통상임금-계산/">평균임금 · 통상임금 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/급여/근무시간-휴게시간-계산/">근무시간 · 휴게시간 계산기</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/급여/평균임금과-통상임금/">평균임금과 통상임금</a></li>
+	</ul>
+
+	<hr>
+	<h3>참고</h3>
+	<ul>
+		<li><a href="https://www.law.go.kr/법령/근로기준법" rel="nofollow" target="_blank">근로기준법</a> 제60조(연차 유급휴가), 제61조(연차 유급휴가의 사용 촉진)</li>
+		<li>대법원 2021. 10. 14. 선고 2021다227100 판결 (1년 계약직의 연차일수)</li>
+	</ul>
+	<p class="text-base-content/60">* 이 문서는 이해를 돕기 위한 일반적인 설명이며 법률 자문이 아니다.
+		실제 분쟁이 있다면 고용노동부 상담(☎1350)이나 공인노무사의 도움을 받는 것이 안전하다.</p>
+	
+ ]]></description>
+		</item>
+		<item>
+			<title>단리와 복리</title>
+			<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+			<link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B8%88%EC%9C%B5/%EB%8B%A8%EB%A6%AC%EC%99%80-%EB%B3%B5%EB%A6%AC/</link>
+			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B8%88%EC%9C%B5/%EB%8B%A8%EB%A6%AC%EC%99%80-%EB%B3%B5%EB%A6%AC/</guid>
+			<author>아사마루 (asamaru@asamaru.net)</author>
+			<category>금융</category>
+			<description><![CDATA[ <h2 class="sr-only">단리와 복리 용어해설</h2>
+
+	
+
+	<p>이자를 계산하는 방식은 크게 <strong>단리</strong>와 <strong>복리</strong> 두 가지다.
+		차이는 한 문장으로 정리된다. <strong>이미 붙은 이자에 다시 이자가 붙느냐</strong>다.
+		짧은 기간에는 차이가 미미하지만 기간이 길어질수록 격차가 급격히 벌어진다.</p>
+
+	<hr>
+	<h3>단리</h3>
+	<p>처음 맡긴 원금에만 이자가 붙는다. 매년 같은 금액의 이자가 나온다.</p>
+	<blockquote>
+		<p>만기금액 = 원금 × (1 + 연이율 × 기간)</p>
+	</blockquote>
+	<p>1,000만원을 연 5% 단리로 10년 예치하면 이자는 매년 50만원씩, 총 500만원이다.</p>
+
+	<h3>복리</h3>
+	<p>발생한 이자를 원금에 더한 뒤 그 합계에 다시 이자를 매긴다.
+		시간이 지날수록 이자를 낳는 원금 자체가 커진다.</p>
+	<blockquote>
+		<p>만기금액 = 원금 × (1 + 연이율)<sup>기간</sup></p>
+	</blockquote>
+	<p>같은 조건(1,000만원, 연 5%, 10년)이라면 복리로는 약 1,629만원이 되어 이자가 629만원이다.
+		단리보다 129만원이 더 붙는다. 30년으로 늘리면 단리 2,500만원 대 복리 4,322만원으로 차이가 훨씬 커진다.</p>
+
+	<h4>복리 주기</h4>
+	<p>같은 연이율이라도 이자를 얼마나 자주 원금에 더하느냐에 따라 결과가 달라진다.
+		월복리는 연 12회, 일복리는 연 365회 이자를 원금에 편입한다.
+		주기가 짧을수록 유리하지만, 실제 상품에서 차이는 크지 않다.</p>
+
+	<hr>
+	
+
+	<h3>72의 법칙</h3>
+	<p>복리로 원금이 두 배가 되는 데 걸리는 기간을 암산으로 어림하는 방법이다.</p>
+	<blockquote>
+		<p>두 배가 되는 햇수 ≈ 72 ÷ 연이율(%)</p>
+	</blockquote>
+	<p>연 6%면 약 12년, 연 8%면 약 9년이 걸린다. 정확한 값은 아니지만
+		금리 수준을 감각적으로 비교할 때 유용하다.</p>
+
+	<hr>
+	<h3>적금은 왜 이자가 적게 느껴질까</h3>
+	<p>연 3% 적금에 매달 100만원씩 1년을 넣으면 총 1,200만원을 납입한다.
+		여기에 3%면 36만원일 것 같지만 실제 이자는 <strong>19만 5천원</strong> 정도다.</p>
+	<p>목돈을 한 번에 맡기는 예금과 달리 적금은 매달 나눠 넣기 때문이다.
+		첫 회차는 12개월치 이자가 붙지만 마지막 회차는 <strong>한 달치 이자만</strong> 붙는다.
+		회차별 예치기간을 모두 더하면 평균적으로 절반 남짓이라,
+		같은 금리의 예금과 비교하면 이자가 대략 절반 수준이 된다.</p>
+	<blockquote>
+		<p>적금 단리 이자 = 월적립액 × (연이율 ÷ 12) × 개월수 × (개월수 + 1) ÷ 2</p>
+	</blockquote>
+
+	<hr>
+	<h3>CAGR — 기간이 다른 투자를 비교할 때</h3>
+	<p><strong>연평균 복리수익률(CAGR, Compound Annual Growth Rate)</strong>은
+		투자 기간 전체의 성과를 매년 같은 비율로 복리 성장한 것으로 환산한 값이다.</p>
+	<blockquote>
+		<p>CAGR = (평가금액 ÷ 원금)<sup>1/년</sup> − 1</p>
+	</blockquote>
+	<p>총 수익률만으로는 기간이 다른 투자를 비교할 수 없다.
+		3년에 100%와 10년에 100%는 총 수익률이 같지만 CAGR은 각각 약 26%와 7.2%로 전혀 다르다.</p>
+
+	<hr>
+	
+
+	<h3>세금을 빼야 실제 수령액이다</h3>
+	<p>이자에는 <strong>이자소득세 15.4%</strong>(소득세 14% + 지방소득세 1.4%)가 원천징수된다.
+		세전 이자가 100만원이면 실제로 받는 돈은 84만 6천원이다.
+		상품을 비교할 때는 세후 기준으로 따져야 한다.</p>
+
+	<hr>
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/금융/예금-이자-계산/">예금 이자 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/금융/적금-이자-계산/">적금 이자 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/금융/목표-저축-계산/">목표 저축 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/금융/투자수익률-cagr-계산/">투자수익률 · CAGR 계산기</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/금융/주식-가치지표-per-pbr-roe/">주식 가치지표 (PER · PBR · ROE)</a></li>
+	</ul>
+	
+ ]]></description>
+		</item>
+		<item>
+			<title>주식 가치지표 (PER · PBR · ROE)</title>
+			<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+			<link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B8%88%EC%9C%B5/%EC%A3%BC%EC%8B%9D-%EA%B0%80%EC%B9%98%EC%A7%80%ED%91%9C-per-pbr-roe/</link>
+			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EA%B8%88%EC%9C%B5/%EC%A3%BC%EC%8B%9D-%EA%B0%80%EC%B9%98%EC%A7%80%ED%91%9C-per-pbr-roe/</guid>
+			<author>아사마루 (asamaru@asamaru.net)</author>
+			<category>금융</category>
+			<description><![CDATA[ <h2 class="sr-only">주식 가치지표 (PER · PBR · ROE) 용어해설</h2>
+
+	
+
+	<p>주가가 비싼지 싼지는 숫자만 봐서는 알 수 없다. 5만원짜리 주식이 10만원짜리보다 싸다고 말할 수 없기 때문이다.
+		그래서 <strong>회사가 벌어들이는 이익이나 보유한 자산에 견주어</strong> 주가를 평가하는 지표를 쓴다.
+		가장 널리 쓰이는 것이 PER, PBR, ROE 세 가지다.</p>
+
+	<hr>
+	<h3>먼저 1주당 값으로 환산한다</h3>
+	<p>회사 전체의 이익과 자본을 발행주식수로 나눠 1주 기준으로 바꾸는 것이 출발점이다.</p>
+
+	<h4>EPS (주당순이익, Earnings Per Share)</h4>
+	<blockquote>
+		<p>EPS = 당기순이익 ÷ 발행주식수</p>
+	</blockquote>
+	<p>주식 1주가 1년 동안 벌어들인 이익이다. EPS가 꾸준히 늘어나는 회사가 좋은 회사다.</p>
+
+	<h4>BPS (주당순자산, Book-value Per Share)</h4>
+	<blockquote>
+		<p>BPS = 자본총계 ÷ 발행주식수</p>
+	</blockquote>
+	<p>회사를 지금 청산해 빚을 다 갚고 남은 돈을 나눈다면 1주가 받을 몫이다.</p>
+
+	<hr>
+	
+
+	<h3>PER — 이익 대비 주가</h3>
+	<blockquote>
+		<p>PER = 주가 ÷ EPS</p>
+	</blockquote>
+	<p>지금의 이익이 그대로 유지된다고 볼 때 <strong>투자금을 회수하는 데 걸리는 햇수</strong>로 읽을 수 있다.
+		PER 10배는 10년이면 투자한 돈만큼 이익이 쌓인다는 뜻이다. 낮을수록 이익에 비해 주가가 싸다고 본다.</p>
+	<p>다만 낮다고 무조건 좋은 것은 아니다. 시장이 그 회사의 미래 이익이 줄어들 것으로 보고 있어서
+		주가가 낮은 경우도 많다. 반대로 성장이 빠른 기업은 앞으로 벌 이익을 미리 반영해 PER이 높게 형성된다.</p>
+
+	<h3>PBR — 자산 대비 주가</h3>
+	<blockquote>
+		<p>PBR = 주가 ÷ BPS</p>
+	</blockquote>
+	<p>1보다 작으면 주가가 장부상 순자산에도 못 미친다는 뜻이다.
+		이론적으로는 회사를 청산해 나눠 갖는 편이 나은 상태지만,
+		실제로는 자산의 수익성이 낮거나 업황이 나쁠 때 흔히 나타나는 모습이다.</p>
+
+	<h3>ROE — 자본의 효율</h3>
+	<blockquote>
+		<p>ROE = 당기순이익 ÷ 자본총계 × 100</p>
+	</blockquote>
+	<p>주주가 맡긴 자본으로 얼마나 이익을 냈는지 보여준다.
+		ROE 20%는 자본 100원으로 20원을 벌었다는 뜻이다.
+		세 지표는 서로 연결되어 있다.</p>
+	<blockquote>
+		<p>PBR = PER × ROE</p>
+	</blockquote>
+	<p>그래서 <strong>ROE가 높으면서 PER·PBR이 낮은 기업</strong>을 저평가 우량주로 보는 관점이 일반적이다.</p>
+
+	<hr>
+	
+
+	<h3>해석할 때 주의할 점</h3>
+	<ul>
+		<li><strong>업종 안에서 비교한다.</strong> 성장주와 금융주는 평균 PER 수준 자체가 다르다.
+			다른 업종끼리 PER을 비교하는 것은 의미가 거의 없다.
+		</li>
+		<li><strong>일회성 이익을 걸러낸다.</strong> 부동산 매각처럼 한 번뿐인 이익이 섞이면
+			그 해 EPS가 부풀려져 PER이 실제보다 낮아 보인다.
+		</li>
+		<li><strong>적자 기업의 PER은 의미가 없다.</strong> EPS가 음수면 계산 자체가 성립하지 않는다.</li>
+		<li><strong>과거 실적이라는 점을 기억한다.</strong> 재무제표는 이미 지나간 기간의 기록이다.
+			증권사가 제시하는 예상 실적 기준 PER(포워드 PER)과는 값이 다르다.
+		</li>
+		<li><strong>부채는 보이지 않는다.</strong> ROE는 빚을 많이 써도 높아질 수 있으므로
+			부채비율을 함께 봐야 한다.
+		</li>
+	</ul>
+
+	<hr>
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/금융/주식-per-pbr-roe-계산/">주식 가치지표 계산기 (PER · PBR · ROE)</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/금융/주식-평단가-계산/">주식 평단가 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/금융/투자수익률-cagr-계산/">투자수익률 · CAGR 계산기</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/금융/단리와-복리/">단리와 복리</a></li>
+	</ul>
+
+	<p class="text-base-content/60">* 이 문서는 지표의 뜻을 설명하는 일반적인 자료이며 특정 종목에 대한 투자 권유가 아니다.
+		투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있다.</p>
+	
+ ]]></description>
+		</item>
+		<item>
+			<title>부동산 면적 (전용면적 · 공급면적 · 전용률)</title>
+			<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+			<link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%B6%80%EB%8F%99%EC%82%B0/%EB%B6%80%EB%8F%99%EC%82%B0-%EB%A9%B4%EC%A0%81-%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%81-%EA%B3%B5%EA%B8%89%EB%A9%B4%EC%A0%81/</link>
+			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%B6%80%EB%8F%99%EC%82%B0/%EB%B6%80%EB%8F%99%EC%82%B0-%EB%A9%B4%EC%A0%81-%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%81-%EA%B3%B5%EA%B8%89%EB%A9%B4%EC%A0%81/</guid>
+			<author>아사마루 (asamaru@asamaru.net)</author>
+			<category>부동산</category>
+			<description><![CDATA[ <h2 class="sr-only">부동산 면적 용어 (전용면적 · 공급면적 · 전용률) 용어해설</h2>
+
+	
+
+	<p>같은 "34평"이라도 실제로 쓰는 공간은 집마다 다르다.
+		분양 광고와 등기부, 중개 사이트가 저마다 다른 면적을 말하고 있기 때문이다.
+		부동산 면적 용어는 <strong>어디까지를 세느냐</strong>의 차이일 뿐이므로 한 번 정리해 두면 헷갈리지 않는다.</p>
+
+	<hr>
+	<h3>면적의 종류</h3>
+
+	<h4>전용면적</h4>
+	<p>현관문 안쪽, 우리 세대만 쓰는 공간이다. 방·거실·주방·욕실이 여기에 들어간다.
+		등기부에 기재되고 재산세·취득세의 기준이 되는 것도 이 면적이다.
+		<strong>실제 거주 경험을 좌우하는 가장 중요한 숫자</strong>다.</p>
+
+	<h4>주거공용면적</h4>
+	<p>같은 건물 주민과 함께 쓰는 공간 중 주거와 직접 관련된 부분이다.
+		계단, 복도, 엘리베이터, 현관 로비가 해당한다.</p>
+
+	<h4>기타공용면적</h4>
+	<p>단지 전체가 함께 쓰는 부대시설이다. 지하주차장, 관리사무소, 경로당, 커뮤니티센터 등이다.</p>
+
+	<h4>서비스면적</h4>
+	<p>발코니처럼 <strong>어느 면적에도 포함되지 않고 덤으로 주어지는</strong> 공간이다.
+		확장형 아파트가 같은 전용면적인데도 넓게 느껴지는 이유가 이것이다.
+		분양가에는 반영되지 않지만 실사용 면적은 늘어난다.</p>
+
+	<hr>
+	<h3>합치면 이렇게 된다</h3>
+	<blockquote>
+		<p>공급면적(분양면적) = 전용면적 + 주거공용면적</p>
+		<p>계약면적 = 공급면적 + 기타공용면적</p>
+	</blockquote>
+	<p>흔히 말하는 "<strong>34평형</strong>"은 공급면적을 평으로 환산한 값이다.
+		아파트 분양가는 보통 공급면적 기준으로 매겨진다.
+		오피스텔은 관행적으로 계약면적을 기준으로 하는 경우가 많아,
+		같은 "30평"이라도 아파트보다 실사용 공간이 훨씬 좁다.</p>
+
+	<hr>
+	
+
+	<h3>전용률</h3>
+	<blockquote>
+		<p>전용률 = 전용면적 ÷ 공급면적 × 100</p>
+	</blockquote>
+	<p>같은 평형이라도 전용률이 높으면 실제로 쓰는 공간이 넓다.
+		대략적인 수준은 다음과 같다.</p>
+	<ul>
+		<li>아파트 : 70~80%</li>
+		<li>주상복합 : 60~70%</li>
+		<li>오피스텔 : 50% 안팎 (계약면적 기준이면 더 낮게 보인다)</li>
+	</ul>
+	<p>복도식보다 계단식 아파트의 전용률이 높고, 타워형보다 판상형이 높은 편이다.</p>
+
+	<hr>
+	<h3>평과 제곱미터</h3>
+	<p>평은 법정 계량단위가 아니다. 2007년부터 거래·광고에는 제곱미터(㎡) 표기가 의무화되었지만
+		일상에서는 여전히 평을 쓴다.</p>
+	<blockquote>
+		<p>1평 = 400 ÷ 121 ≈ 3.3058㎡</p>
+		<p>1㎡ ≈ 0.3025평</p>
+	</blockquote>
+	<p>암산으로는 <strong>㎡에 0.3을 곱하면 평</strong>이라고 기억하면 충분하다.
+		84㎡는 약 25.4평(전용), 공급면적으로는 보통 33~34평형으로 표기된다.</p>
+
+	<h4>자주 보는 면적</h4>
+	<ul>
+		<li>전용 59㎡ ≈ 17.8평 → 24평형 안팎</li>
+		<li>전용 84㎡ ≈ 25.4평 → 33~34평형</li>
+		<li>전용 114㎡ ≈ 34.5평 → 45평형 안팎</li>
+	</ul>
+
+	<hr>
+	
+
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/부동산/전용면적-공급면적-전용률/">전용면적 · 공급면적 · 전용률 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/부동산/평당-가격-계산/">평당 가격 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/단위변환/넓이-단위변환/">넓이(면적) 단위변환</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/단위/도량형/">도량형</a></li>
+		<li><a href="https://calculator.asamaru.net/용어해설/부동산/전세가율과-깡통전세/">전세가율과 깡통전세</a></li>
+	</ul>
+	
+ ]]></description>
+		</item>
+		<item>
+			<title>전세가율과 깡통전세</title>
+			<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+			<link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%B6%80%EB%8F%99%EC%82%B0/%EC%A0%84%EC%84%B8%EA%B0%80%EC%9C%A8%EA%B3%BC-%EA%B9%A1%ED%86%B5%EC%A0%84%EC%84%B8/</link>
+			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EB%B6%80%EB%8F%99%EC%82%B0/%EC%A0%84%EC%84%B8%EA%B0%80%EC%9C%A8%EA%B3%BC-%EA%B9%A1%ED%86%B5%EC%A0%84%EC%84%B8/</guid>
+			<author>아사마루 (asamaru@asamaru.net)</author>
+			<category>부동산</category>
+			<description><![CDATA[ <h2 class="sr-only">전세가율과 깡통전세 용어해설</h2>
+
+	
+
+	<p><strong>전세가율</strong>은 매매가 대비 전세보증금의 비율이다.
+		숫자 하나지만 그 안에 전세 수요, 매매 심리, 그리고 무엇보다
+		<strong>내 보증금을 돌려받을 수 있는가</strong>라는 문제가 들어 있다.</p>
+
+	<blockquote>
+		<p>전세가율 = 전세보증금 ÷ 매매가 × 100</p>
+	</blockquote>
+
+	<hr>
+	<h3>전세가율이 높다는 것의 의미</h3>
+	<p>전세가율이 높다는 것은 매매가와 보증금의 차이가 작다는 뜻이다.
+		집값이 조금만 떨어져도 매매가가 보증금 아래로 내려갈 수 있다.</p>
+	<p>시장 전체로 보면 전세가율 상승은 "집을 사기보다 빌려 살려는 사람이 많다"는 신호로 읽히기도 한다.
+		매매 수요가 약하고 전세 수요가 강할 때 나타나는 모습이다.</p>
+
+	<h4>대략의 구간</h4>
+	<ul>
+		<li>60% 미만 — 매매가 대비 보증금 비중이 낮아 비교적 안전하다</li>
+		<li>60~70% — 일반적인 수준이다</li>
+		<li>70~80% — 주의가 필요하다. 하락장에서 위험해질 수 있다</li>
+		<li>80% 이상 — 이른바 깡통전세 구간이다</li>
+	</ul>
+	<p>절대적인 기준은 아니다. 지방 중소도시는 원래 전세가율이 높게 형성되는 경우가 많고,
+		신축 빌라는 매매 시세 자체를 확인하기 어려워 비율만으로 판단하기 곤란하다.</p>
+
+	<hr>
+	
+
+	<h3>깡통전세</h3>
+	<p>집을 팔아도 보증금을 다 돌려주지 못하는 상태를 말한다.
+		집이 경매로 넘어가면 낙찰가는 시세보다 낮게 형성되므로,
+		<strong>전세가율이 80%만 되어도 실제로는 보증금 전액 회수가 어려울 수 있다.</strong></p>
+	<p>특히 위험한 경우는 이렇다.</p>
+	<ul>
+		<li>집주인에게 <strong>선순위 근저당</strong>이 잡혀 있는데 전세가율까지 높은 경우</li>
+		<li>시세 확인이 어려운 <strong>신축 빌라·다세대</strong>로, 분양가가 부풀려졌을 가능성이 있는 경우</li>
+		<li>집주인이 다수의 주택을 보유해 한 채가 무너지면 연쇄로 문제가 되는 경우</li>
+	</ul>
+
+	<h4>계약 전에 확인할 것</h4>
+	<ul>
+		<li><strong>등기부등본</strong>의 을구를 확인해 근저당권 설정액을 본다.
+			근저당 채권최고액과 내 보증금의 합이 시세의 70~80%를 넘으면 위험하다.
+		</li>
+		<li>국토교통부 실거래가 공개시스템에서 <strong>같은 단지·유사 면적의 실제 거래가</strong>를 확인한다.</li>
+		<li>집주인의 국세·지방세 <strong>미납 여부</strong>를 확인한다. 세금은 보증금보다 우선 변제될 수 있다.</li>
+	</ul>
+
+	<hr>
+	<h3>보증금을 지키는 장치</h3>
+
+	<h4>대항력과 우선변제권</h4>
+	<p><strong>전입신고 + 실제 거주</strong>로 대항력이 생기고,
+		여기에 <strong>확정일자</strong>를 받으면 우선변제권이 생긴다.
+		경매에서 후순위 채권자보다 먼저 보증금을 받을 수 있는 권리다.</p>
+	<p>대항력은 전입신고 <strong>다음 날 0시</strong>부터 발생한다.
+		집주인이 잔금일에 근저당을 설정하면 그 근저당이 앞설 수 있으므로,
+		계약서에 잔금일 다음 날까지 담보권을 설정하지 않는다는 특약을 넣는 것이 안전하다.</p>
+
+	<h4>전세보증금 반환보증</h4>
+	<p>집주인이 보증금을 돌려주지 못할 때 보증기관이 대신 지급하는 상품이다.
+		주택도시보증공사(HUG), 한국주택금융공사(HF), SGI서울보증에서 가입할 수 있다.
+		가입 요건에 <strong>전세가율 상한</strong>이 있어, 이 기준을 넘으면 가입이 거절될 수 있다.
+		가입 조건과 한도는 정책에 따라 바뀌므로 계약 전에 각 기관에서 확인한다.</p>
+
+	<hr>
+	
+
+	<h3>갭투자</h3>
+	<p>매매가와 전세보증금의 차액(갭)만 투입해 주택을 사는 방식이다.
+		전세가율이 높을수록 적은 돈으로 집을 살 수 있어 상승장에서 널리 쓰였다.</p>
+	<p>문제는 하락장이다. 집값이 떨어지고 전세 시세도 함께 내리면
+		다음 세입자에게 받는 보증금으로 기존 보증금을 돌려주지 못하는 상황(역전세)이 생긴다.
+		세입자 입장에서는 <strong>집주인이 갭투자자인지</strong>도 위험 요인으로 볼 필요가 있다.</p>
+
+	<hr>
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/부동산/전세가율-계산/">전세가율 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/부동산/임대수익률-계산/">임대수익률 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/부동산/평당-가격-계산/">평당 가격 계산기</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/부동산/부동산-면적-전용면적-공급면적/">부동산 면적 (전용면적 · 공급면적)</a></li>
+	</ul>
+
+	<hr>
+	<h3>참고</h3>
+	<ul>
+		<li><a href="https://rt.molit.go.kr/" rel="nofollow" target="_blank">국토교통부 실거래가 공개시스템</a></li>
+		<li><a href="https://www.khug.or.kr/" rel="nofollow" target="_blank">주택도시보증공사(HUG)</a> - 전세보증금반환보증</li>
+	</ul>
+	<p class="text-base-content/60">* 이 문서는 일반적인 설명이며 법률·투자 자문이 아니다.
+		보증 상품의 가입 요건과 한도는 수시로 바뀌므로 계약 전에 반드시 해당 기관에서 확인한다.</p>
+	
+ ]]></description>
+		</item>
+		<item>
+			<title>만 나이 · 연 나이 · 세는나이</title>
+			<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+			<link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EC%9D%BC%EB%B0%98/%EB%A7%8C-%EB%82%98%EC%9D%B4%EC%99%80-%EC%84%B8%EB%8A%94%EB%82%98%EC%9D%B4/</link>
+			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EC%9D%BC%EB%B0%98/%EB%A7%8C-%EB%82%98%EC%9D%B4%EC%99%80-%EC%84%B8%EB%8A%94%EB%82%98%EC%9D%B4/</guid>
+			<author>아사마루 (asamaru@asamaru.net)</author>
+			<category>일반</category>
+			<description><![CDATA[ <h2 class="sr-only">만 나이 · 연 나이 · 세는나이 용어해설</h2>
+
+	
+
+	<p>한국에는 나이를 세는 방식이 세 가지 있었다.
+		2023년 6월 <strong>만 나이 통일법</strong>이 시행되면서 법적·행정적으로는 만 나이가 기준이 되었지만,
+		일부 법률은 여전히 다른 방식을 쓰기 때문에 구분해 둘 필요가 있다.</p>
+
+	<hr>
+	<h3>세 가지 나이</h3>
+
+	<h4>만 나이</h4>
+	<p>태어난 날을 0살로 보고 <strong>생일이 지날 때마다 한 살</strong>씩 더하는 방식이다.
+		국제적으로 통용되는 계산법이며 현재 한국의 법적 기준이다.</p>
+	<blockquote>
+		<p>만 나이 = 올해 − 태어난 해 (생일이 지났으면) </p>
+		<p>만 나이 = 올해 − 태어난 해 − 1 (생일이 지나지 않았으면)</p>
+	</blockquote>
+
+	<h4>연 나이</h4>
+	<p>생일과 무관하게 <strong>현재 연도에서 태어난 연도를 뺀</strong> 값이다.
+		같은 해에 태어났으면 모두 같은 나이가 된다.
+		행정 편의를 위해 일부 법률에서 계속 쓰인다.</p>
+
+	<h4>세는나이 (한국식 나이)</h4>
+	<p>태어나면 1살로 시작해 <strong>해가 바뀔 때마다</strong> 한 살씩 더하는 관습적 방식이다.
+		12월 31일에 태어난 아기가 다음 날 두 살이 되는 계산이라
+		만 나이와 최대 두 살까지 차이가 난다. 법적 효력은 없지만 일상 대화에서는 여전히 쓰인다.</p>
+
+	<h4>예시 — 2000년 5월 10일생, 오늘이 2026년 3월 1일이라면</h4>
+	<ul>
+		<li>만 나이 : 25세 (아직 생일이 지나지 않음)</li>
+		<li>연 나이 : 26세</li>
+		<li>세는나이 : 27세</li>
+	</ul>
+
+	<hr>
+	
+
+	<h3>만 나이 통일법</h3>
+	<p>2022년 12월 국회를 통과한 <strong>행정기본법·민법 개정안</strong>이
+		<strong>2023년 6월 28일</strong>부터 시행되었다.
+		법령·계약·공문서에서 나이를 표시할 때 별도 규정이 없으면 만 나이로 해석한다는 내용이다.</p>
+	<p>사실 민법은 원래부터 만 나이를 원칙으로 하고 있었다.
+		이 법의 실질적인 의미는 <strong>관행적으로 혼용되던 나이 표기를 정리했다</strong>는 데 있다.</p>
+
+	<hr>
+	<h3>여전히 연 나이를 쓰는 곳</h3>
+	<p>모든 것이 만 나이로 바뀐 것은 아니다. 아래 분야는 개별 법률에서
+		연 나이를 명시하고 있어 그대로 유지된다.</p>
+	<ul>
+		<li><strong>병역법</strong> — 병역판정검사는 그 해에 19세가 되는 사람이 대상이다.</li>
+		<li><strong>청소년보호법</strong> — 술·담배 구매 가능 여부는 연 나이 기준이다.
+			그 해에 19세가 되는 사람은 생일과 관계없이 1월 1일부터 구매할 수 있다.
+		</li>
+		<li><strong>초·중등교육법</strong> — 취학 연령은 연 나이로 정해진다.</li>
+	</ul>
+	<p>반대로 <strong>선거권</strong>은 만 18세, <strong>운전면허</strong> 취득은 만 18세처럼
+		만 나이를 쓰는 항목도 많다. 헷갈릴 때는 해당 제도가 근거로 삼는 법률을 확인하는 것이 확실하다.</p>
+
+	<hr>
+	
+
+	<h3>자주 묻는 것</h3>
+	<h4>연금·정년은 어느 쪽인가</h4>
+	<p>국민연금 수급 개시 연령과 정년(60세)은 <strong>만 나이</strong> 기준이다.</p>
+
+	<h4>초등학교 입학 나이가 바뀌었나</h4>
+	<p>바뀌지 않았다. 취학 연령은 연 나이 기준이므로 같은 해에 태어난 아이들이 함께 입학한다.</p>
+
+	<h4>보험 나이는 또 다르다</h4>
+	<p>보험업계에서 쓰는 "보험나이"는 만 나이를 기준으로 하되
+		<strong>6개월이 지나면 반올림</strong>하는 방식이라 만 나이와 한 살 차이가 날 수 있다.</p>
+
+	<hr>
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/일반/나이-계산/">나이 계산기</a> — 만 나이 · 연 나이 · 세는나이와 띠 · 별자리</li>
+		<li><a href="https://calculator.asamaru.net/계산기/일반/디데이-날짜-계산/">디데이 · 날짜 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/임신/아기-나이-교정연령-계산/">아기 나이 · 교정연령 계산기</a></li>
+	</ul>
+
+	<hr>
+	<h3>참고</h3>
+	<ul>
+		<li><a href="https://www.law.go.kr/법령/행정기본법" rel="nofollow" target="_blank">행정기본법</a> 제7조의2(행정에 관한 나이의 계산 및 표시)</li>
+		<li><a href="https://www.law.go.kr/법령/민법" rel="nofollow" target="_blank">민법</a> 제158조(나이의 계산과 표시)</li>
+	</ul>
+	
+ ]]></description>
+		</item>
+		<item>
+			<title>부가가치세(VAT)</title>
+			<pubDate>Sat, 08 Aug 2026 12:00:00 +0900</pubDate>
+			<link>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EC%9D%BC%EB%B0%98/%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8/</link>
+			<guid>https://calculator.asamaru.net/%EC%9A%A9%EC%96%B4%ED%95%B4%EC%84%A4/%EC%9D%BC%EB%B0%98/%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8/</guid>
+			<author>아사마루 (asamaru@asamaru.net)</author>
+			<category>일반</category>
+			<description><![CDATA[ <h2 class="sr-only">부가가치세(VAT) 용어해설</h2>
+
+	
+
+	<p><strong>부가가치세(VAT, Value Added Tax)</strong>는 상품이나 서비스가 생산·유통되는 과정에서
+		새로 만들어진 가치에 매기는 세금이다.
+		물건을 살 때 이미 값에 포함되어 있어 소비자가 직접 신고할 일은 없지만,
+		사업을 한다면 가장 자주 마주치는 세금이다.</p>
+
+	<hr>
+	<h3>세율은 10%</h3>
+	<p>부가가치세법 제30조에 따라 세율은 <strong>10%</strong>다.
+		1977년 도입 이후 한 번도 바뀌지 않았다.</p>
+	<blockquote>
+		<p>세액 = 공급가액 × 10%</p>
+		<p>합계금액 = 공급가액 × 1.1</p>
+	</blockquote>
+	<p>합계금액에서 거꾸로 공급가액을 구할 때는 1.1로 나눈다.
+		11,000원짜리 물건의 공급가액은 10,000원, 세액은 1,000원이다.
+		흔히 하는 실수가 합계금액에 10%를 곱해 세액을 구하는 것인데,
+		이렇게 하면 1,100원이 되어 틀린다.</p>
+
+	<h4>영세율과 면세</h4>
+	<ul>
+		<li><strong>영세율</strong> — 세율이 0%다. 수출품이 대표적이다.
+			세금을 매기지 않으면서 매입세액은 돌려받을 수 있어 실질적으로 부가세 부담이 사라진다.
+		</li>
+		<li><strong>면세</strong> — 아예 과세 대상이 아니다.
+			기초생활필수품(미가공 식료품), 의료·교육 서비스, 도서·신문 등이 해당한다.
+			면세사업자는 매입세액을 공제받지 못한다는 점에서 영세율과 다르다.
+		</li>
+	</ul>
+
+	<hr>
+	
+
+	<h3>사업자는 얼마를 내나</h3>
+	<p>부가가치세는 <strong>내가 받은 세금에서 내가 낸 세금을 뺀 차액</strong>을 납부하는 구조다.</p>
+	<blockquote>
+		<p>납부세액 = 매출세액 − 매입세액</p>
+	</blockquote>
+	<p>1,100만원어치를 팔고(매출세액 100만원) 550만원어치를 사들였다면(매입세액 50만원)
+		실제로 내는 세금은 50만원이다.
+		매입세액이 더 크면 차액을 환급받는다.</p>
+	<p>이 구조 때문에 사업자에게 <strong>세금계산서를 챙기는 일이 곧 절세</strong>가 된다.
+		매입 증빙이 없으면 공제받을 수 없어 그만큼 세금을 더 내게 된다.</p>
+
+	<h4>"부가세 별도"와 "부가세 포함"</h4>
+	<p>견적서나 계약서에서 자주 다투는 지점이다.</p>
+	<ul>
+		<li><strong>부가세 별도</strong> — 적힌 금액이 공급가액이다. 결제할 때 10%가 더 붙는다.</li>
+		<li><strong>부가세 포함</strong> — 적힌 금액이 최종 결제액이다. 그 안에 세금이 들어 있다.</li>
+	</ul>
+	<p>표기가 없으면 분쟁이 생기기 쉬우므로 계약서에 명시하는 것이 좋다.</p>
+
+	<hr>
+	<h3>과세기간과 신고</h3>
+	<p>1년을 두 기간으로 나눈다.</p>
+	<ul>
+		<li>제1기 : 1월 1일 ~ 6월 30일 → 7월 25일까지 확정신고</li>
+		<li>제2기 : 7월 1일 ~ 12월 31일 → 다음 해 1월 25일까지 확정신고</li>
+	</ul>
+	<p>법인사업자는 각 기간을 다시 둘로 나눠 <strong>분기마다</strong>(4월·7월·10월·1월) 신고한다.
+		개인 일반과세자는 확정신고 두 번을 하고, 중간에는 직전 실적을 기준으로 산정된 예정고지세액을 납부한다.</p>
+
+	<h4>일반과세자와 간이과세자</h4>
+	<p>연 매출이 일정 금액에 미치지 않는 개인사업자는 <strong>간이과세자</strong>로 분류되어
+		업종별 부가가치율을 적용한 낮은 세율로 계산하고 신고도 연 1회만 한다.
+		대신 세금계산서 발급이 제한되고 매입세액 공제도 일부만 받는다.</p>
+	<p class="text-base-content/60">* 간이과세 적용 기준 금액과 세금계산서 발급 의무는 세법 개정으로 자주 바뀐다.
+		실제 판단이 필요하면 <a href="https://www.nts.go.kr/" rel="nofollow" target="_blank">국세청</a> 또는 세무대리인에게 확인한다.</p>
+
+	<hr>
+	
+
+	<h3>소비자가 알아두면 좋은 것</h3>
+	<p>영수증에 찍힌 금액에는 이미 부가세가 들어 있다.
+		음식값 22,000원이면 공급가액 20,000원 + 부가세 2,000원이다.
+		부가가치세는 소득에 관계없이 같은 세율이 적용되므로,
+		소득이 적을수록 부담 비중이 커지는 <strong>역진적</strong> 성격을 가진다.
+		기초생활필수품에 면세를 두는 이유가 이 부담을 덜기 위해서다.</p>
+
+	<hr>
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/일반/부가세-계산/">부가세 계산기</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/일반/퍼센트-계산/">퍼센트 계산기</a></li>
+	</ul>
+
+	<hr>
+	<h3>참고</h3>
+	<ul>
+		<li><a href="https://www.law.go.kr/법령/부가가치세법" rel="nofollow" target="_blank">부가가치세법</a> 제30조(세율), 제37조(납부세액)</li>
+		<li><a href="https://www.nts.go.kr/" rel="nofollow" target="_blank">국세청</a> - 부가가치세 안내</li>
+	</ul>
+	
+ ]]></description>
+		</item>
 		<item>
 			<title>도량형</title>
 			<pubDate>Fri, 26 Oct 2018 13:53:53 +0900</pubDate>
@@ -36,174 +947,176 @@
 	<p>SI 유도 단위(derived unit)는 <a href="#units-si">국제단위계</a>의 일곱 개 기본 단위를 조합해 만들어진 단위이다.
 		조립 단위 또는 도출 단위라고 부르기도 한다.</p>
 	<h4>SI 기본 단위로부터 유도된 단위</h4>
-	<table>
-		<caption class="sr-only">SI 유도 단위</caption>
-		<thead>
-		<tr>
-			<th>이름</th>
-			<th>기호</th>
-			<th>물리량</th>
-			<th>다른 단위로 표시</th>
-			<th>SI 기본 단위로 표시</th>
-		</tr>
-		</thead>
-		<tbody>
-		<tr>
-			<td>헤르츠</td>
-			<td>Hz</td>
-			<td>진동수</td>
-			<td>1/s</td>
-			<td>s<sup>-1</sup></td>
-		</tr>
-		<tr>
-			<td>라디안</td>
-			<td>rad</td>
-			<td>평면각</td>
-			<td>m•m<sup>-1</sup></td>
-			<td>무차원</td>
-		</tr>
-		<tr>
-			<td>스테라디안</td>
-			<td>sr</td>
-			<td>입체각</td>
-			<td>m<sup>2</sup>•m<sup>-2</sup></td>
-			<td>무차원</td>
-		</tr>
-		<tr>
-			<td>뉴턴</td>
-			<td>N</td>
-			<td>힘,무게</td>
-			<td>kg•m/s<sup>2</sup></td>
-			<td>kg•m•s<sup>-2</sup></td>
-		</tr>
-		<tr>
-			<td>파스칼</td>
-			<td>Pa</td>
-			<td>압력,응력</td>
-			<td>N/m<sup>2</sup></td>
-			<td>m<sup>-1</sup>•kg•s<sup>-2</sup></td>
-		</tr>
-		<tr>
-			<td>줄</td>
-			<td>J</td>
-			<td>에너지,일,열량</td>
-			<td>N•m = C•V = W•s = VA•s</td>
-			<td>m<sup>2</sup>•kg•s<sup>-2</sup></td>
-		</tr>
-		<tr>
-			<td>와트</td>
-			<td>W</td>
-			<td>일률,전력,방사속</td>
-			<td>J/s = V•A</td>
-			<td>m<sup>2</sup>•kg•s<sup>-3</sup></td>
-		</tr>
-		<tr>
-			<td>쿨롱</td>
-			<td>C</td>
-			<td>전하 또는 전하량</td>
-			<td>A•s</td>
-			<td>A•s</td>
-		</tr>
-		<tr>
-			<td>볼트</td>
-			<td>V</td>
-			<td>전압,전위,기전력</td>
-			<td>W/A = J/C</td>
-			<td>m<sup>2</sup>•kg•s<sup>-3</sup>•A<sup>-1</sup></td>
-		</tr>
-		<tr>
-			<td>패럿</td>
-			<td>F</td>
-			<td>전기 용량</td>
-			<td>C/V</td>
-			<td>m<sup>-2</sup>•kg<sup>-1</sup>•s<sup>4</sup>•A<sup>2</sup></td>
-		</tr>
-		<tr>
-			<td>옴</td>
-			<td>Ω</td>
-			<td>전기 저항,임피던스,리액턴스</td>
-			<td>V/A</td>
-			<td>m<sup>2</sup>•kg•s<sup>-3</sup>•A<sup>-2</sup></td>
-		</tr>
-		<tr>
-			<td>지멘스</td>
-			<td>S</td>
-			<td>전도율</td>
-			<td>1/Ω = Ω<sup>-1</sup></td>
-			<td>m<sup>-2</sup>•kg<sup>-1</sup>•s<sup>3</sup>•A<sup>2</sup></td>
-		</tr>
-		<tr>
-			<td>웨버</td>
-			<td>Wb</td>
-			<td>자기 선속 (자기력 선속)</td>
-			<td>J/A = J•A<sup>-1</sup> = V•s = N•m•A<sup>-1</sup></td>
-			<td>m<sup>2</sup>•kg•s<sup>-2</sup>•A<sup>-1</sup></td>
-		</tr>
-		<tr>
-			<td>테슬라</td>
-			<td>T</td>
-			<td>자기장세기,자기력선속밀도</td>
-			<td>V•s/m<sup>2</sup> = Wb/m<sup>2</sup> = N/(A•m)</td>
-			<td>kg•s<sup>-2</sup>•A<sup>-1</sup></td>
-		</tr>
-		<tr>
-			<td>헨리</td>
-			<td>H</td>
-			<td>인덕턴스</td>
-			<td>V•s/A = Wb/A</td>
-			<td>m<sup>2</sup>•kg•s<sup>-2</sup>•A<sup>-2</sup></td>
-		</tr>
-		<tr>
-			<td>섭씨</td>
-			<td>°C</td>
-			<td>섭씨 온도</td>
-			<td>K - 273.15</td>
-			<td>K - 273.15</td>
-		</tr>
-		<tr>
-			<td>루멘</td>
-			<td>lm</td>
-			<td>광선속</td>
-			<td>lx•m<sup>2</sup></td>
-			<td>cd•sr</td>
-		</tr>
-		<tr>
-			<td>럭스</td>
-			<td>lx</td>
-			<td>조도</td>
-			<td>lm/m<sup>2</sup></td>
-			<td>m<sup>-2</sup>•cd•sr</td>
-		</tr>
-		<tr>
-			<td>베크렐</td>
-			<td>Bq</td>
-			<td>방사능</td>
-			<td>1/s</td>
-			<td>s<sup>-1</sup></td>
-		</tr>
-		<tr>
-			<td>그레이</td>
-			<td>Gy</td>
-			<td>흡수선량</td>
-			<td>J/kg</td>
-			<td>m<sup>2</sup>•s<sup>-2</sup></td>
-		</tr>
-		<tr>
-			<td>시버트</td>
-			<td>Sv</td>
-			<td>등가선량</td>
-			<td>J/kg</td>
-			<td>m<sup>2</sup>•s<sup>-2</sup></td>
-		</tr>
-		<tr>
-			<td>캐탈</td>
-			<td>kat</td>
-			<td>촉매 활성도</td>
-			<td>mol/s</td>
-			<td>s<sup>-1</sup>•mol</td>
-		</tr>
-		</tbody>
-	</table>
+	<div class="overflow-x-auto">
+		<table>
+			<caption class="sr-only">SI 유도 단위</caption>
+			<thead>
+			<tr>
+				<th>이름</th>
+				<th>기호</th>
+				<th>물리량</th>
+				<th>다른 단위로 표시</th>
+				<th>SI 기본 단위로 표시</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>헤르츠</td>
+				<td>Hz</td>
+				<td>진동수</td>
+				<td>1/s</td>
+				<td>s<sup>-1</sup></td>
+			</tr>
+			<tr>
+				<td>라디안</td>
+				<td>rad</td>
+				<td>평면각</td>
+				<td>m•m<sup>-1</sup></td>
+				<td>무차원</td>
+			</tr>
+			<tr>
+				<td>스테라디안</td>
+				<td>sr</td>
+				<td>입체각</td>
+				<td>m<sup>2</sup>•m<sup>-2</sup></td>
+				<td>무차원</td>
+			</tr>
+			<tr>
+				<td>뉴턴</td>
+				<td>N</td>
+				<td>힘,무게</td>
+				<td>kg•m/s<sup>2</sup></td>
+				<td>kg•m•s<sup>-2</sup></td>
+			</tr>
+			<tr>
+				<td>파스칼</td>
+				<td>Pa</td>
+				<td>압력,응력</td>
+				<td>N/m<sup>2</sup></td>
+				<td>m<sup>-1</sup>•kg•s<sup>-2</sup></td>
+			</tr>
+			<tr>
+				<td>줄</td>
+				<td>J</td>
+				<td>에너지,일,열량</td>
+				<td>N•m = C•V = W•s = VA•s</td>
+				<td>m<sup>2</sup>•kg•s<sup>-2</sup></td>
+			</tr>
+			<tr>
+				<td>와트</td>
+				<td>W</td>
+				<td>일률,전력,방사속</td>
+				<td>J/s = V•A</td>
+				<td>m<sup>2</sup>•kg•s<sup>-3</sup></td>
+			</tr>
+			<tr>
+				<td>쿨롱</td>
+				<td>C</td>
+				<td>전하 또는 전하량</td>
+				<td>A•s</td>
+				<td>A•s</td>
+			</tr>
+			<tr>
+				<td>볼트</td>
+				<td>V</td>
+				<td>전압,전위,기전력</td>
+				<td>W/A = J/C</td>
+				<td>m<sup>2</sup>•kg•s<sup>-3</sup>•A<sup>-1</sup></td>
+			</tr>
+			<tr>
+				<td>패럿</td>
+				<td>F</td>
+				<td>전기 용량</td>
+				<td>C/V</td>
+				<td>m<sup>-2</sup>•kg<sup>-1</sup>•s<sup>4</sup>•A<sup>2</sup></td>
+			</tr>
+			<tr>
+				<td>옴</td>
+				<td>Ω</td>
+				<td>전기 저항,임피던스,리액턴스</td>
+				<td>V/A</td>
+				<td>m<sup>2</sup>•kg•s<sup>-3</sup>•A<sup>-2</sup></td>
+			</tr>
+			<tr>
+				<td>지멘스</td>
+				<td>S</td>
+				<td>전도율</td>
+				<td>1/Ω = Ω<sup>-1</sup></td>
+				<td>m<sup>-2</sup>•kg<sup>-1</sup>•s<sup>3</sup>•A<sup>2</sup></td>
+			</tr>
+			<tr>
+				<td>웨버</td>
+				<td>Wb</td>
+				<td>자기 선속 (자기력 선속)</td>
+				<td>J/A = J•A<sup>-1</sup> = V•s = N•m•A<sup>-1</sup></td>
+				<td>m<sup>2</sup>•kg•s<sup>-2</sup>•A<sup>-1</sup></td>
+			</tr>
+			<tr>
+				<td>테슬라</td>
+				<td>T</td>
+				<td>자기장세기,자기력선속밀도</td>
+				<td>V•s/m<sup>2</sup> = Wb/m<sup>2</sup> = N/(A•m)</td>
+				<td>kg•s<sup>-2</sup>•A<sup>-1</sup></td>
+			</tr>
+			<tr>
+				<td>헨리</td>
+				<td>H</td>
+				<td>인덕턴스</td>
+				<td>V•s/A = Wb/A</td>
+				<td>m<sup>2</sup>•kg•s<sup>-2</sup>•A<sup>-2</sup></td>
+			</tr>
+			<tr>
+				<td>섭씨</td>
+				<td>°C</td>
+				<td>섭씨 온도</td>
+				<td>K - 273.15</td>
+				<td>K - 273.15</td>
+			</tr>
+			<tr>
+				<td>루멘</td>
+				<td>lm</td>
+				<td>광선속</td>
+				<td>lx•m<sup>2</sup></td>
+				<td>cd•sr</td>
+			</tr>
+			<tr>
+				<td>럭스</td>
+				<td>lx</td>
+				<td>조도</td>
+				<td>lm/m<sup>2</sup></td>
+				<td>m<sup>-2</sup>•cd•sr</td>
+			</tr>
+			<tr>
+				<td>베크렐</td>
+				<td>Bq</td>
+				<td>방사능</td>
+				<td>1/s</td>
+				<td>s<sup>-1</sup></td>
+			</tr>
+			<tr>
+				<td>그레이</td>
+				<td>Gy</td>
+				<td>흡수선량</td>
+				<td>J/kg</td>
+				<td>m<sup>2</sup>•s<sup>-2</sup></td>
+			</tr>
+			<tr>
+				<td>시버트</td>
+				<td>Sv</td>
+				<td>등가선량</td>
+				<td>J/kg</td>
+				<td>m<sup>2</sup>•s<sup>-2</sup></td>
+			</tr>
+			<tr>
+				<td>캐탈</td>
+				<td>kat</td>
+				<td>촉매 활성도</td>
+				<td>mol/s</td>
+				<td>s<sup>-1</sup>•mol</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
 	
 	<h3 id="units-cgs">CGS 단위계</h3>
 	<p>CGS 단위계는 센티미터(cm), 그램(g), 초(s)를 기본 단위로 삼는 단위계로, 1832년 독일의 수학자 카를 프리드리히 가우스가 제안하였고, 1874년 제임스 클러크 맥스웰이 확장하였다.
@@ -221,6 +1134,22 @@
 	<h3 id="units-chuk">척근법</h3>
 	<p>척근법(尺斤法)은 고대 중국에서 시작되어 동아시아권역에서 널리 사용된 도량형 단위계이다. 척근법의 척(尺)은 길이를 나타내는 단위 중 하나이며 근(斤)은 무게를 나타내는 단위 중 하나로서, 길이와 무게 그리고 길이로부터 유도될 수 있는 넓이와 부피 등을 재는 방법을 의미한다. 척간법(尺間法) 또는 척관법(尺貫法)으로도 불린다.</p>
 	<p>길이 단위로 모(毛)와 리(厘), 푼(分), 치(寸), 자, 장(丈), 척(尺), 간(間), 정(町), 리(里)가 있으며, 넓이 단위로는 평(坪)와 보(步), 정(町)이 있다. 부피 단위로는 홉(합, 合), 되(승, 升, 또는 되승), 말(두, 斗), 섬(석, 石), 곡(斛)이 있으며, 무게 단위로는 돈, 냥(兩), 근(斤), 관(貫) 등이 있다. 척근법의 단위는 지역과 시대에 상관없이 널리 사용되고 있으나 그 기준은 지역과 시대에 따라 차이가 있다.</p>
+
+	<hr>
+	
+
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/단위변환/길이-단위변환/">길이 단위변환</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/단위변환/넓이-단위변환/">넓이(면적) 단위변환</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/단위변환/질량-무게-단위변환/">질량 · 무게 단위변환</a></li>
+		<li><a href="https://calculator.asamaru.net/계산기/단위변환/부피-단위변환/">부피 단위변환</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/단위/킬로그램원기/">킬로그램원기</a></li>
+	</ul>
 	
  ]]></description>
 		</item>
@@ -252,6 +1181,19 @@
 		1889년 제1차 <a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C%EB%8F%84%EB%9F%89%ED%98%95%EC%B4%9D%ED%9A%8C" rel="nofollow" target="_blank">국제도량형총회</a>에서 지정된 후
 		<a href="https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EB%8F%84%EB%9F%89%ED%98%95%EA%B5%AD" rel="nofollow" target="_blank">국제도량형국</a>에 보관되어 있다.
 	</p>
+
+	<hr>
+	
+
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/단위변환/질량-무게-단위변환/">질량 · 무게 단위변환</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/단위/도량형/">도량형</a></li>
+	</ul>
 	
  ]]></description>
 		</item>
@@ -361,49 +1303,50 @@
 		3-18세는 「2007 소아청소년 표준성장도표」의 제한점을 보완하여 재산출하였다. 2017 소아청소년 성장도표 개발 방법 및 결과에 대한 자세한 내용은 해설집에 기술되어있다.
 	</p>
 
-	<hr/>
+	<div class="divider"></div>
 	<h3>연령별 체질량지수</h3>
 	<p>아래의 도표는 성장도표 중 성별/연령별 체질량지수만 발췌한 것이다.</p>
 
 	
 
-	<table>
-		<caption>연령별 체질량지수, 남자</caption>
-		<thead>
-		<tr>
-			<th rowspan="2">만나이(세)</th>
-			<th rowspan="2">만나이(개월)</th>
-			<th rowspan="2">L</th>
-			<th rowspan="2">M</th>
-			<th rowspan="2">S</th>
-			<th colspan="13">체질량지수(kg/m2) 백분위수</th>
-			<th colspan="7">체질량지수(kg/m2) 표준점수</th>
-		</tr>
-		<tr>
-			<th>1st</th>
-			<th>3rd</th>
-			<th>5th</th>
-			<th>10th</th>
-			<th>15th</th>
-			<th>25th</th>
-			<th>50th</th>
-			<th>75th</th>
-			<th>85th</th>
-			<th>90th</th>
-			<th>95th</th>
-			<th>97th</th>
-			<th>99th</th>
-			<th>-3SD</th>
-			<th>-2SD</th>
-			<th>-1SD</th>
-			<th>0</th>
-			<th>+1SD</th>
-			<th>+2SD</th>
-			<th>+3SD</th>
-		</tr>
-		</thead>
-		<tbody>
-		
+	<div class="overflow-x-auto">
+		<table>
+			<caption>연령별 체질량지수, 남자</caption>
+			<thead>
+			<tr>
+				<th rowspan="2">만나이(세)</th>
+				<th rowspan="2">만나이(개월)</th>
+				<th rowspan="2">L</th>
+				<th rowspan="2">M</th>
+				<th rowspan="2">S</th>
+				<th colspan="13">체질량지수(kg/m2) 백분위수</th>
+				<th colspan="7">체질량지수(kg/m2) 표준점수</th>
+			</tr>
+			<tr>
+				<th>1st</th>
+				<th>3rd</th>
+				<th>5th</th>
+				<th>10th</th>
+				<th>15th</th>
+				<th>25th</th>
+				<th>50th</th>
+				<th>75th</th>
+				<th>85th</th>
+				<th>90th</th>
+				<th>95th</th>
+				<th>97th</th>
+				<th>99th</th>
+				<th>-3SD</th>
+				<th>-2SD</th>
+				<th>-1SD</th>
+				<th>0</th>
+				<th>+1SD</th>
+				<th>+2SD</th>
+				<th>+3SD</th>
+			</tr>
+			</thead>
+			<tbody>
+			
 		<tr><td rowspan="12">2</td><td>24</td><td>-0.6187</td><td>16.0189</td><td>0.0779</td><td>13.5</td><td>13.9</td><td>14.2</td><td>14.5</td><td>14.8</td><td>15.2</td><td>16.0</td><td>16.9</td><td>17.4</td><td>17.8</td><td>18.3</td><td>18.7</td><td>19.4</td><td>12.9</td><td>13.8</td><td>14.8</td><td>16.0</td><td>17.3</td><td>18.9</td><td>20.6</td></tr>
 		<tr><td>25</td><td>-0.5840</td><td>15.9800</td><td>0.0779</td><td>13.5</td><td>13.9</td><td>14.1</td><td>14.5</td><td>14.8</td><td>15.2</td><td>16.0</td><td>16.9</td><td>17.4</td><td>17.7</td><td>18.3</td><td>18.6</td><td>19.4</td><td>12.8</td><td>13.8</td><td>14.8</td><td>16.0</td><td>17.3</td><td>18.8</td><td>20.5</td></tr>
 		<tr><td>26</td><td>-0.5497</td><td>15.9414</td><td>0.0780</td><td>13.4</td><td>13.8</td><td>14.1</td><td>14.5</td><td>14.7</td><td>15.1</td><td>15.9</td><td>16.8</td><td>17.3</td><td>17.7</td><td>18.2</td><td>18.6</td><td>19.3</td><td>12.8</td><td>13.7</td><td>14.8</td><td>15.9</td><td>17.3</td><td>18.8</td><td>20.5</td></tr>
@@ -625,48 +1568,50 @@
 		<tr><td>226</td><td>0.5107</td><td>22.5914</td><td>0.1142</td><td>17.0</td><td>18.0</td><td>18.5</td><td>19.4</td><td>20.0</td><td>20.9</td><td>22.6</td><td>24.4</td><td>25.3</td><td>26.0</td><td>27.0</td><td>27.7</td><td>29.0</td><td>15.5</td><td>17.7</td><td>20.1</td><td>22.6</td><td>25.2</td><td>28.0</td><td>31.0</td></tr>
 		<tr><td>227</td><td>0.5245</td><td>22.6206</td><td>0.1139</td><td>17.0</td><td>18.0</td><td>18.6</td><td>19.4</td><td>20.0</td><td>20.9</td><td>22.6</td><td>24.4</td><td>25.4</td><td>26.0</td><td>27.0</td><td>27.7</td><td>29.0</td><td>15.5</td><td>17.7</td><td>20.1</td><td>22.6</td><td>25.3</td><td>28.1</td><td>31.0</td></tr>
 		
-		</tbody>
-	</table>
+			</tbody>
+		</table>
+	</div>
 
 	
 
-	<table>
-		<caption>연령별 체질량지수, 여자</caption>
-		<thead>
-		<tr>
-			<th rowspan="2">만나이(세)</th>
-			<th rowspan="2">만나이(개월)</th>
-			<th rowspan="2">L</th>
-			<th rowspan="2">M</th>
-			<th rowspan="2">S</th>
-			<th colspan="13">체질량지수(kg/m2) 백분위수</th>
-			<th colspan="7">체질량지수(kg/m2) 표준점수</th>
-		</tr>
-		<tr>
-			<th>1st</th>
-			<th>3rd</th>
-			<th>5th</th>
-			<th>10th</th>
-			<th>15th</th>
-			<th>25th</th>
-			<th>50th</th>
-			<th>75th</th>
-			<th>85th</th>
-			<th>90th</th>
-			<th>95th</th>
-			<th>97th</th>
-			<th>99th</th>
-			<th>-3SD</th>
-			<th>-2SD</th>
-			<th>-1SD</th>
-			<th>0</th>
-			<th>+1SD</th>
-			<th>+2SD</th>
-			<th>+3SD</th>
-		</tr>
-		</thead>
-		<tbody>
-		
+	<div class="overflow-x-auto">
+		<table>
+			<caption>연령별 체질량지수, 여자</caption>
+			<thead>
+			<tr>
+				<th rowspan="2">만나이(세)</th>
+				<th rowspan="2">만나이(개월)</th>
+				<th rowspan="2">L</th>
+				<th rowspan="2">M</th>
+				<th rowspan="2">S</th>
+				<th colspan="13">체질량지수(kg/m2) 백분위수</th>
+				<th colspan="7">체질량지수(kg/m2) 표준점수</th>
+			</tr>
+			<tr>
+				<th>1st</th>
+				<th>3rd</th>
+				<th>5th</th>
+				<th>10th</th>
+				<th>15th</th>
+				<th>25th</th>
+				<th>50th</th>
+				<th>75th</th>
+				<th>85th</th>
+				<th>90th</th>
+				<th>95th</th>
+				<th>97th</th>
+				<th>99th</th>
+				<th>-3SD</th>
+				<th>-2SD</th>
+				<th>-1SD</th>
+				<th>0</th>
+				<th>+1SD</th>
+				<th>+2SD</th>
+				<th>+3SD</th>
+			</tr>
+			</thead>
+			<tbody>
+			
 		<tr><td rowspan="12">2</td><td>24</td><td>-0.5684</td><td>15.6881</td><td>0.0845</td><td>13.0</td><td>13.5</td><td>13.7</td><td>14.1</td><td>14.4</td><td>14.8</td><td>15.7</td><td>16.6</td><td>17.2</td><td>17.5</td><td>18.1</td><td>18.5</td><td>19.3</td><td>12.4</td><td>13.3</td><td>14.4</td><td>15.7</td><td>17.1</td><td>18.7</td><td>20.6</td></tr>
 		<tr><td>25</td><td>-0.5684</td><td>15.6590</td><td>0.0845</td><td>13.0</td><td>13.4</td><td>13.7</td><td>14.1</td><td>14.4</td><td>14.8</td><td>15.7</td><td>16.6</td><td>17.1</td><td>17.5</td><td>18.1</td><td>18.5</td><td>19.3</td><td>12.4</td><td>13.3</td><td>14.4</td><td>15.7</td><td>17.1</td><td>18.7</td><td>20.6</td></tr>
 		<tr><td>26</td><td>-0.5684</td><td>15.6308</td><td>0.0845</td><td>13.0</td><td>13.4</td><td>13.7</td><td>14.1</td><td>14.4</td><td>14.8</td><td>15.6</td><td>16.6</td><td>17.1</td><td>17.5</td><td>18.1</td><td>18.5</td><td>19.3</td><td>12.3</td><td>13.3</td><td>14.4</td><td>15.6</td><td>17.0</td><td>18.7</td><td>20.6</td></tr>
@@ -888,10 +1833,23 @@
 		<tr><td>226</td><td>-0.5927</td><td>20.9803</td><td>0.1107</td><td>16.5</td><td>17.2</td><td>17.6</td><td>18.3</td><td>18.8</td><td>19.5</td><td>21.0</td><td>22.6</td><td>23.6</td><td>24.3</td><td>25.4</td><td>26.2</td><td>27.7</td><td>15.5</td><td>17.0</td><td>18.8</td><td>21.0</td><td>23.5</td><td>26.6</td><td>30.4</td></tr>
 		<tr><td>227</td><td>-0.6161</td><td>20.9747</td><td>0.1105</td><td>16.5</td><td>17.2</td><td>17.7</td><td>18.3</td><td>18.8</td><td>19.5</td><td>21.0</td><td>22.6</td><td>23.6</td><td>24.3</td><td>25.4</td><td>26.2</td><td>27.7</td><td>15.5</td><td>17.0</td><td>18.8</td><td>21.0</td><td>23.5</td><td>26.6</td><td>30.4</td></tr>
 		
-		</tbody>
-	</table>
+			</tbody>
+		</table>
+	</div>
 
-	<hr/>
+	<div class="divider"></div>
+
+	<h3>관련 계산기</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/계산기/건강/소아청소년-체질량지수-bmi-비만도/">소아청소년 체질량지수 - BMI(비만도) 계산기</a></li>
+	</ul>
+
+	<h3>관련 용어</h3>
+	<ul>
+		<li><a href="https://calculator.asamaru.net/용어해설/건강/체질량지수-bmi/">체질량지수 - BMI</a></li>
+	</ul>
+
+	<div class="divider"></div>
 
 	<h3>참고문헌</h3>
 	<ul>
