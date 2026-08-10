@@ -30,8 +30,8 @@
 		<meta property="og:description" content="결제 금액과 인원으로 1인당 낼 금액을 계산합니다. 팁 비율과 올림 단위를 지정할 수 있습니다." />
 		<meta property="og:url" content="https://calculator.asamaru.net/계산기/일반/더치페이-팁-계산/" />
 		<meta property="og:image" content="https://calculator.asamaru.net/img/icon/icon.png" />
-		<meta property="article:published_time" content="2026-08-08T11:00:00+09:00" />
-		<meta property="article:modified_time" content="2026-08-08T11:00:00+09:00" />
+		<meta property="article:published_time" content="2026-08-10T11:19:27+09:00" />
+		<meta property="article:modified_time" content="2026-08-10T11:19:27+09:00" />
 		<meta property="article:author" content="아사마루" />
 		<meta property="article:section" content="일반" />
 		<meta name="twitter:card" content="summary_large_image" />
@@ -51,8 +51,8 @@
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2026-08-08T11:00:00+09:00",
-				"dateModified": "2026-08-08T11:00:00+09:00",
+				"datePublished": "2026-08-10T11:19:27+09:00",
+				"dateModified": "2026-08-10T11:19:27+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://calculator.asamaru.net/img/icon/icon.696.png",
@@ -71,8 +71,8 @@
 				}
 			}
 		</script>
-		<link href="/css/min/566fc7e31ee6929d1611fead62182e4f.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/f2fa4acbd6a0116a683e39e00bfef8c2.js" async type="text/javascript"></script>
+		<link href="/css/min/5ad644fe292f338324f898e18822489d.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/740afc5476780da8f6652f537967e6a6.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LP1PXLNX3W"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -109,8 +109,8 @@
 						<h1 class="inline-block text-xl font-bold entry-title text-base-content">더치페이 · 팁 계산기</h1>
 						<a href="https://calculator.asamaru.net/계산기/분야/일반/" rel="tag" title="일반 목록보기" class="ml-2 text-base link">일반</a>
 					</div>
-					<time class="published !hidden" datetime="2026-08-08T11:00:00+09:00">2026.08.08. 11:00</time>
-					<time class="updated !hidden daum-wm-datetime" datetime="2026-08-08T11:00:00+09:00">2026.08.08. 11:00</time>
+					<time class="published !hidden" datetime="2026-08-10T11:19:27+09:00">2026.08.10. 11:19</time>
+					<time class="updated !hidden daum-wm-datetime" datetime="2026-08-10T11:19:27+09:00">2026.08.10. 11:19</time>
 					<span class="vcard author !hidden"><span class="fn">아사마루</span></span>
 					<div class="entry-content">
 						<div class="gad-box">
@@ -133,6 +133,7 @@
 												<span class="text-base text-base-content/50">원</span>
 											</label>
 										</div>
+										<p class="field-hint" v-show="totalAmount > 0">{{ Formats.moneySimpleKorean(Math.floor(+totalAmount), ' ') }}원</p>
 										<div class="field-row">
 											<label class="flex-1 input">
 												<span class="w-20 field-label">인원</span>
